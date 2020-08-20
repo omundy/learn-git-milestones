@@ -40,13 +40,25 @@ Mac:
 ### In Github Desktop
 
 - [ ] Connect your Github account
-- [ ] Clone your fork of this repository: File > Clone Repository... and choose it.
-- [ ] Edit the README file and add your *second* favorite emoji here:
+- [ ] Clone a repo and make edits
+  - [ ] Clone your fork of this repository: File > Clone Repository... and choose it.
+  - [ ] Open the repo in Atom: Repository > Open in Atom  
+  - [ ] Edit the README file and add your *second* favorite emoji here:
   - [ ] Commit changes to the README file directly to the master branch with the message "commit #2" 
-- [ ] Create a new branch by clicking on Branch > New Branch. Type `my-first-branch` and click Create Branch
-  - [ ] Open the repo in Atom: Repository > Open in Atom
-  - [ ] Create a new `.txt` file in Atom, add some text and save it.
-
+- [ ] Push your edits to remote and confirm them on Github.com  
+  - [ ] Click Push origin to push your changes back to remote repo  
+  - [ ] Choose Repository > View on Github to see the changes to the README file
+  - [ ] Click on the README file and then click on History to see the history of this file
+- [ ] Create a new branch, add a new file, and create a pull request
+  - [ ] Create a new branch by clicking on Branch > New Branch. Type `my-new-branch` and click Create Branch
+  - [ ] In Atom, create a new file in Atom called `hello.txt`, add some text, and save it.
+    - [ ] Click the small Git button at the bottom right to display the Git panel. 
+    - [ ] Click on your file in Unstaged changes and confirm your changes match what you see in Github Desktop.
+  - [ ] Back in Github Desktop, commit your changes to `my-new-branch` with the message "commit #3" 
+  - [ ] Choose Branch > Create Pull Request. This will open Github.com. Confirm the edits you made.
+    - [ ] Click Create Pull Request
+    - [ ] On the next page click Merge Pull Request
+  - [ ] Back in Github Desktop pull the changes. You master branch should now show the edits from `my-new-branch` 
 
 
 ### On the command line
