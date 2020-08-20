@@ -13,15 +13,37 @@ Below is a list of tasks. By mid-semester, everyone should...
 1. Complete and check off each of the tasks below
 1. 🙌  celebrate Git proficiency!
 
+**NOTE**: Sometimes I give the command and sometimes you have to read the documentation.
 
-### Basics
 
-- [ ] Create a Github account
-- [ ] Fork [this repository](https://github.com/omundy/learn-git-milestones)
-- [ ] Edit this README and add your favorite emoji here:
-- [ ] Install Git and Github Desktop per these [slides](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.g9165d0d9fd_0_120)
-  - [ ] Connect your Github account in Github Desktop 
-  - [ ] Do the intro tutorial inside Github Desktop
+### Installation
+
+- [ ] Install Git on your machine
+
+Windows: Install [Git for Windows](https://gitforwindows.org/) (includes [Git BASH](https://www.atlassian.com/git/tutorials/git-bash), its own version of the bash shell)
+
+Mac: 
+1. Install the [homebrew package manager](https://brew.sh/)
+1. Install git using Homebrew `brew install git`
+1. Set your default shell to bash `chsh -s /bin/bash` - You'll be prompted to type a password. The command line doesn't give you feedback that you're typing. Just type your password and hit enter. Backspace a lot if you make a mistake.
+
+
+### On Github.com
+
+- [ ] [Create a Github account](https://github.com/join)
+- [ ] Fork [this repository](https://github.com/omundy/learn-git-milestones) by clicking the Fork button at the top right.
+- [ ] Edit the README file and add your favorite emoji here:
+- [ ] Commit changes to the README file directly to the master branch with the message "commit #1" 
+- [ ] [Install Github Desktop](https://desktop.github.com/)
+
+
+### In Github Desktop
+
+- [ ] Connect your Github account
+- [ ] Clone your fork of this repository: File > Clone Repository... and choose it.
+- [ ] Edit the README file and add your *second* favorite emoji here:
+- [ ] Commit changes to the README file directly to the master branch with the message "commit #2" 
+
 
 
 ### On the command line
