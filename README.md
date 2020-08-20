@@ -10,7 +10,7 @@ Below is a list of tasks. By mid-semester, everyone should...
 ### Instructions
 
 1. Fork this repository
-1. Complete and check off each of the tasks below
+1. Complete and check off each of the tasks below, adding content where prompted with: **??**
 1. Note: Sometimes I give the command you need and sometimes you have to read the documentation to find it.
 1. Celebrate your Git proficiency! 🙌  
 
@@ -23,8 +23,8 @@ Create a Git account and make your first commit on github.com
 
 - [ ] [Create a Github account](https://github.com/join)
 - [ ] Fork [this repository](https://github.com/omundy/learn-git-milestones) - click the Fork button at the top right.
-- [ ] Edit the README file and add your favorite emoji here:
-- [ ] Commit changes to the README file directly to the master branch with the message "commit #1" 
+- [ ] Edit the README file (click the pencil icon) and add your favorite emoji here: **??**
+- [ ] Commit changes to the README file directly to the master branch with the message `commit #1` 
 
 
 ### Installation
@@ -45,28 +45,32 @@ Mac:
 
 
 
+
+## Git Workflows
+
+
 ### In Github Desktop
 You should be able to perform a basic Git workflow...
 
-- [ ] In Github Desktop clone your repo
-  - [ ] Clone your fork of this repository: File > Clone Repository... and choose it.
+- [ ] In Github Desktop clone a repo
+  - [ ] Clone your fork of this repository: File > Clone Repository... and choose it from the list
   - [ ] Open the repo in Atom: Repository > Open in Atom  
-  - [ ] Edit the README file and add your *second* favorite emoji here:
-  - [ ] Commit changes to the README file directly to the master branch with the message "commit #2" 
+  - [ ] In Atom, edit the README file and add your *second* favorite emoji here: **??**
+  - [ ] Commit changes to the README file directly to the master branch with the message `commit #2` 
 - [ ] Push your edits to remote and confirm them on Github.com  
   - [ ] Click Push origin to push your changes back to remote repo  
   - [ ] Choose Repository > View on Github to see the changes to the README file were pushed
   - [ ] Click on the README file and then click on History to see the history of this file
 - [ ] Create a new branch, add a new file, and create a pull request
-  - [ ] Back in Github Desktop, create a new branch by clicking on Branch > New Branch. Type `my-new-branch` and click Create Branch
-  - [ ] In Atom, create a new file in Atom called `hello.txt`, add some text, and save it.
+  - [ ] In Github Desktop, create a new branch by clicking on Branch > New Branch. Type `my-new-branch` and click Create Branch
+  - [ ] In Atom, create a new file called `hello.txt`, add some text, and save it.
     - [ ] Click the small Git button at the bottom right to display the Git panel. 
     - [ ] Click on your file in Unstaged changes and confirm your changes match what you see in Github Desktop.
-  - [ ] Back in Github Desktop, commit your changes to `my-new-branch` with the message "commit #3" 
+  - [ ] In Github Desktop, commit your changes to `my-new-branch` with the message `commit #3` 
   - [ ] Choose Branch > Create Pull Request. This will open Github.com. Confirm the edits you made.
     - [ ] Click Create Pull Request
     - [ ] On the next page click Merge Pull Request
-  - [ ] Back in Github Desktop pull the changes. You master branch should now show the edits from `my-new-branch` 
+  - [ ] Back in Github Desktop pull the changes. Your master branch should now show the edits from `my-new-branch` 
 
 
 
@@ -75,42 +79,48 @@ You should be able to perform a basic Git workflow...
 ### Command line (CLI) basics
 Using only your favorite command line application...
 
-- [ ] Use Git on the CLI to pull, branch, edit, push
-  - [ ] `cd` to the directory with the tutorial repo above
+- [ ] Use the CLI to navigate directories
+  - [ ] In Github Desktop, with the repo you cloned above selected, click Repository > Open in Terminal
+  - [ ] Use `pwd` to see your current directory. Copy and paste that here: **??**
   - [ ] [Confirm](https://docs.github.com/en/github/using-git/setting-your-username-in-git) your name and email is correct in the Git config
-  - [ ] `ls` to show the current files
-  - [ ] `ls -la` to show the current files, including hidden files, to confirm the existence of the `.git` directory where versions are stored
-  - [ ] Check the status of your repo `git status` 
-  - [ ] Check the current branch `git branch`
+  - [ ] `ls` to list current files
+  - [ ] `ls -la` to list current files, including hidden, and confirm the existence of the `.git` directory (where Git versions and config are stored)
+- [ ] Use Git on the CLI to `branch`, `edit`
+  - [ ] View the status of your repo `git status` 
+  - [ ] View the current branch `git branch`
+  - [ ] Change back to the master branch `git checkout master`  
+- [ ] Use Git on the CLI to `add`, `push`  
   - [ ] Create a new file and add some text to it `echo "hello" >> hello.txt`
-  - [ ] `ls` to show the current files
-  - [ ] Check the status of your repo `git status`
+  - [ ] `ls` to list current files
+  - [ ] View the status of your repo `git status` to confirm the new file
   - [ ] Add the new file to the staging area `git add hello.txt`
-  - [ ] Check the status of your repo `git status`
+  - [ ] Check the status of your repo `git status` to confirm it has been added
+  - [ ] Commit your changes with the message `commit #4` 
+  - [ ] Use `git push` to [push those changes to your remote repo](https://docs.github.com/en/github/using-git/pushing-commits-to-a-remote-repository)
 
 
 
 
 
+## Git Fluency
 
 
 
-
-### Git Workflow
+### Turn in your first assignment
 Using your favorite tool(s) for Git...
 
 - [ ] Create a new repository for your first assignment
-  - [ ] Make a folder with your class name (e.g. `mkdir dig245`)
-  - [ ] `cd` into the above folder
-  - [ ] Make a folder with your class name followed by the assignment # (e.g. `mkdir dig245-a1`)
-  - [ ] You should have the following directory structure
+  - [ ] Make a new folder on your computer with your class name - `mkdir dig245`
+  - [ ] `cd` into this folder
+  - [ ] Make a new folder inside this folder with your class name followed by the assignment # - `mkdir dig245-a1`
+  - [ ] `cd` into this folder
+  - [ ] Use `pwd` to confirm you have the following directory structure. Copy and paste that here: **??**
   ```
   dig245
     |-- dig245-a1
   ```   
-  - [ ] `cd` into your first assignment folder
-  - [ ] Create an empty Git repository (e.g. `git init`)
-
+  - [ ] Create an empty Git repository in this folder - `git init`
+  - [ ] Add a README file - `touch README.md`
 
 
 TO ADD
