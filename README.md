@@ -113,5 +113,22 @@ Using your favorite tool(s) for Git...
 
 
 
+TO ADD
+
+
+Set up a Github page https://pages.github.com/
+
+Reference the [Github Cheatsheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) to do X
+
+
+
+
+
+## Further learning
+
+* Github Cheatsheet [HTML](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) and [PDF](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+* [Github Learning Lab](https://lab.github.com/) which contains tutorials like [Introduction to Github](https://lab.github.com/githubtraining/introduction-to-github) and others
+
+
 
 
