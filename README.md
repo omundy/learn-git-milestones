@@ -11,24 +11,23 @@ Below is a list of tasks. By mid-semester, everyone should...
 
 1. Fork this repository
 1. Complete and check off each of the tasks below
-1. Note:
-  1. Sometimes I give the command you need and sometimes you have to read the documentation to find it.
+1. Note: Sometimes I give the command you need and sometimes you have to read the documentation to find it.
 1. Celebrate your Git proficiency! 🙌  
 
 
+## Git Basics
 
 
-### On Github.com
+### Your first commit
 Create a Git account and make your first commit on github.com
 
 - [ ] [Create a Github account](https://github.com/join)
-- [ ] Fork [this repository](https://github.com/omundy/learn-git-milestones) by clicking the Fork button at the top right.
+- [ ] Fork [this repository](https://github.com/omundy/learn-git-milestones) - click the Fork button at the top right.
 - [ ] Edit the README file and add your favorite emoji here:
 - [ ] Commit changes to the README file directly to the master branch with the message "commit #1" 
 
 
-
-### On your machine
+### Installation
 Install your development environment
 
 - [ ] Install Git on your machine
@@ -40,26 +39,26 @@ Mac:
 1. Install git using Homebrew `brew install git`
 1. Set your default shell to bash `chsh -s /bin/bash` - You'll be prompted to type a password. The command line doesn't give you feedback that you're typing. Just type your password and hit enter. Backspace a lot if you make a mistake.
 
+- [ ] On the command line, confirm Git is installed by typing `git` at the prompt and hitting enter
 - [ ] [Install Github Desktop](https://desktop.github.com/)
 - [ ] Connect your Github account in Githhub Desktop
 
 
 
-
 ### In Github Desktop
+You should be able to perform a basic Git workflow...
 
-
-- [ ] Clone a repo and make edits
+- [ ] In Github Desktop clone your repo
   - [ ] Clone your fork of this repository: File > Clone Repository... and choose it.
   - [ ] Open the repo in Atom: Repository > Open in Atom  
   - [ ] Edit the README file and add your *second* favorite emoji here:
   - [ ] Commit changes to the README file directly to the master branch with the message "commit #2" 
 - [ ] Push your edits to remote and confirm them on Github.com  
   - [ ] Click Push origin to push your changes back to remote repo  
-  - [ ] Choose Repository > View on Github to see the changes to the README file
+  - [ ] Choose Repository > View on Github to see the changes to the README file were pushed
   - [ ] Click on the README file and then click on History to see the history of this file
 - [ ] Create a new branch, add a new file, and create a pull request
-  - [ ] Create a new branch by clicking on Branch > New Branch. Type `my-new-branch` and click Create Branch
+  - [ ] Back in Github Desktop, create a new branch by clicking on Branch > New Branch. Type `my-new-branch` and click Create Branch
   - [ ] In Atom, create a new file in Atom called `hello.txt`, add some text, and save it.
     - [ ] Click the small Git button at the bottom right to display the Git panel. 
     - [ ] Click on your file in Unstaged changes and confirm your changes match what you see in Github Desktop.
@@ -70,7 +69,10 @@ Mac:
   - [ ] Back in Github Desktop pull the changes. You master branch should now show the edits from `my-new-branch` 
 
 
-### On the command line (CLI)
+
+
+
+### Command line (CLI) basics
 Using only your favorite command line application...
 
 - [ ] Use Git on the CLI to pull, branch, edit, push
@@ -78,7 +80,6 @@ Using only your favorite command line application...
   - [ ] [Confirm](https://docs.github.com/en/github/using-git/setting-your-username-in-git) your name and email is correct in the Git config
   - [ ] `ls` to show the current files
   - [ ] `ls -la` to show the current files, including hidden files, to confirm the existence of the `.git` directory where versions are stored
-
   - [ ] Check the status of your repo `git status` 
   - [ ] Check the current branch `git branch`
   - [ ] Create a new file and add some text to it `echo "hello" >> hello.txt`
@@ -86,6 +87,10 @@ Using only your favorite command line application...
   - [ ] Check the status of your repo `git status`
   - [ ] Add the new file to the staging area `git add hello.txt`
   - [ ] Check the status of your repo `git status`
+
+
+
+
 
 
 
