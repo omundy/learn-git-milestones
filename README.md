@@ -42,7 +42,10 @@ Mac:
 - [ ] Connect your Github account
 - [ ] Clone your fork of this repository: File > Clone Repository... and choose it.
 - [ ] Edit the README file and add your *second* favorite emoji here:
-- [ ] Commit changes to the README file directly to the master branch with the message "commit #2" 
+  - [ ] Commit changes to the README file directly to the master branch with the message "commit #2" 
+- [ ] Create a new branch by clicking on Branch > New Branch. Type `my-first-branch` and click Create Branch
+  - [ ] Open the repo in Atom: Repository > Open in Atom
+  - [ ] Create a new `.txt` file in Atom, add some text and save it.
 
 
 
