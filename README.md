@@ -18,8 +18,8 @@ Below is a list of tasks. By mid-semester, everyone should...
 ## Git Basics
 
 
-### Your first commit
-Create a Git account and make your first commit on github.com
+### Fork this repository
+Create a Github account and make your first commit
 
 - [ ] [Create a Github account](https://github.com/join)
 - [ ] Fork this repository [learn-git-milestones](https://github.com/omundy/learn-git-milestones) (click the Fork button, top right).
@@ -112,28 +112,29 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 You should be able to ...
 
 
-- [ ] In Github Desktop, click File > New Repository ...
+- [ ] In Github Desktop, create a new repository ...
   - [ ] Name: `dig245-a1`
   - [ ] Local Path: Click "Choose" and create a new folder `dig245-a1` inside the `critical-web-design` folder you made above
   - [ ] Click Create Repository
-  - [ ] This should be your class folder's directory structure. 
+  - [ ] This should now be your class folder's directory structure. 
   ```
   critical-web-design
     |-- dig245-a1
     |-- learn-git-milestones
   ```
 - [ ] Open your new repository in Atom (with Github Desktop or drag the `dig245-a1` project folder into Atom)
-  - [ ] Add a README file - `README.md`
+  - [ ] Add a README file: `README.md`
   - [ ] In the README write your name and the date
   - [ ] Use some [Markdown tags](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 - [ ] Complete Assignment 1
   - [ ] Create a file called `index.html` in your repo
   - [ ] See the instructions in [Assignment 1](https://docs.google.com/document/d/17U_zmzM_eML_qkG0PaOdDRcEk3YEmbiQ1TyNnbAM08k/edit)
-  - [ ] Commit the file
+  - [ ] Test your file in a web browser
+  - [ ] Commit and push the files to Github
 - [ ] Set up a [Github page](https://pages.github.com/) "project site" for your repo 
   - [ ] Choose "Project site"
-  - [ ] Do not use a theme; Start from scratch
-  - [ ] In your repository settings, scroll aaaaallllll the way down to the Github Pages section, select he master branch source and click save
+  - [ ] Do not use a theme. Start from scratch
+  - [ ] In your repository settings, scroll aaaaallllll the way down to the Github Pages section, select the master branch source and click save
   - [ ] Visit your project site at http://*username*.github.io/dig245-a1
   - [ ] Paste this link into the appropriate Moodle forum
 
@@ -149,8 +150,8 @@ Use Git to create branches, push and pull changes, and create pull requests
 You should be able to ...
 
 
-- [ ] In Atom, open the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) fork
-- [ ] Create a new branch by clicking on Master > New Branch
+- [ ] In Atom, open your original repo, the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) fork
+- [ ] Create a new branch by clicking on master > New Branch
 
 ![atom-new-branch](img/atom-new-branch.png)
 
@@ -160,11 +161,8 @@ You should be able to ...
 - [ ] Choose Branch > Create Pull Request. This will open Github.com. Confirm the edits you made.
   - [ ] Click Create Pull Request
   - [ ] On the next page click Merge Pull Request
-- [ ] Back in Github Desktop pull the changes. Your master branch should now show the edits from `my-new-branch` 
-
-
-
-
+- [ ] Back in Github Desktop pull the changes and switch to `master`. 
+- [ ] Confirm your master branch shows the commit from `my-new-branch` 
 
 
 
