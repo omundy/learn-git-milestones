@@ -28,7 +28,7 @@ Create a Git account and make your first commit on github.com
 - [ ] View the commit history and confirm your edits
 
 
-### Installation
+### Git Installation
 Install your development environment
 
 - [ ] Install Git on your machine
@@ -50,58 +50,60 @@ Mac:
 ## Basic Git Workflows
 
 - You should be able to perform a basic Git workflow using Github.com, the command line, Github Desktop, and Git in Atom
-- Doing the same things in four different interfaces will give you practice and help you understand Git better
+- Using four different interfaces will give you practice and help you understand Git better
 - You've already forked and made a commit on Github.com so let's move to Github Desktop:
 
 
 ### In Github Desktop
 
-- [ ] In Github Desktop clone a repo to your computer, edit files, commit, and confirm changes on Github.com
-  - [ ] Clone the fork of this repository (you created above): File > Clone Repository... and choose it from the list
-  - [ ] Open the repo in Atom: Repository > Open in Atom  
-  - [ ] In Atom, edit this README file and add your *second* favorite emoji here: **??**
-  - [ ] In Github Desktop, confirm the README file was saved and shows your new changes in the Changes tab 
-  - [ ] Commit your changes to the README file directly to the master branch with the message `commit #2 from Github Desktop` 
-  - [ ] Click Push origin to push your changes back to remote repo  
-  - [ ] Confirm the changes to the README file were pushed: Choose Repository > View on Github 
-  - [ ] Click on the README file and then click on History to see the history of this file
+- You should be able to clone a repo to your computer, edit files, commit, and confirm changes on Github.com
+
+- [ ] In Github Desktop, clone the fork of the repo (created above): File > Clone Repository > Github.com and select it only...
+- [ ] Local Path: Choose and add a new folder on your computer for this class called `critical-web-design` 
+- [ ] Open the repo in Atom: Repository > Open in Atom  
+- [ ] In Atom, edit this README file and add your *second* favorite emoji here: **??**
+- [ ] In Github Desktop, confirm the README file was saved and shows your new changes in the Changes tab 
+- [ ] Commit your changes to the README file directly to the master branch with the message `commit #2 from Github Desktop` 
+- [ ] Click Push origin to push your changes back to remote repo  
+- [ ] Confirm the changes to the README file were pushed: Choose Repository > View on Github 
+- [ ] Click on the README file and then click on History to see the history of this file
 
 
 ### Command line (CLI) 
-- Now that you've got Github Desktop down and the repo is on your computer, let's make some edits on the command line.
-- Some advanced Git operations can only be done on the CLI. In addition, some use the CLI for basic file edits; I'm not going to make you suffer when we have Atom installed
-- You've already used most of the commands you'll need below (e.g. `git status`, `git add`, `git commit`, `git push`) by initiating them with GUI
+
+- You should have a basic familiarity with the command line in case you need to do advanced Git commands.
+- Many folks use the CLI for file editing, though I'm not going to make you suffer when we have Atom installed.
+- You've used most commands already through a GUI (e.g. `git status`, `git add`, `git commit`, `git push`) 
 
 
 - [ ] Use the CLI to navigate directories
-  - [ ] In Github Desktop, with the repo you cloned above selected, click Repository > Open in Terminal (on Windows "Bash"?)
-  - [ ] Use `pwd` to see your current directory. Copy the full path
-  - [ ] Open the README file in Atom with and paste that path here: **??**
-  - [ ] `ls` to list current files
-  - [ ] `ls -la` to list current files, including hidden, and confirm the existence of the `.git` directory (where Git versions and config are stored)
+  - [ ] In Github Desktop, with the repo you cloned above selected, click Repository > Open in Terminal ("Bash" in Windows?)
+  - [ ] List files in this directory: `ls`
+  - [ ] List files in this directory, including hidden: `ls -la`  
+  - [ ] Confirm the existence of the `.git` directory (where Git versions and config are stored)
+  - [ ] View your current directory and copy the full path: `pwd`
+  - [ ] Open this README file in Atom and paste that path here: **??**
+  
 - [ ] Use Git on the CLI
   - [ ] [Confirm](https://docs.github.com/en/github/using-git/setting-your-username-in-git) your name and email is correct in the Git config
-  - [ ] View the status of your repo `git status` 
-  - [ ] Create a new file and add some text to it `echo "hello" >> hello.txt`
-  - [ ] `ls` to list current files
-  - [ ] View the status of your repo `git status` to confirm the new file exists
-  - [ ] Add the new file to the staging area `git add hello.txt` (pro tip: type the first three characters of a file and press tab to autocomplete!)
-  - [ ] Check the status of your repo `git status` to confirm it has been staged
+  - [ ] View the status of your repo: `git status` 
+  - [ ] Add all changed files to the staging area `git add .`
+  - [ ] View the status of your repo `git status` to confirm it has been staged
   - [ ] Commit your changes with the message `commit #3 from CLI` 
   - [ ] Use `git push` to [push those changes to your remote repo](https://docs.github.com/en/github/using-git/pushing-commits-to-a-remote-repository)
 
 
 ### Git in Atom 
-- Finally, on to a real development environment!
 
-- [ ] Use Git in Atom for basic Git workflow
-  - [ ] In Github Desktop, open the repo in Atom: Repository > Open in Atom  
-  - [ ] In Atom, edit this README file and add your *third* favorite emoji here: **??**
-  - [ ] Add some more text to `hello.txt` and save it.
-  - [ ] Click the small Git button at the bottom right to display the Git panel. 
-  - [ ] Click on your file(s) in Unstaged changes and confirm your changes match what you expect to see
-  - [ ] Double click on each file with changes to stage them  
-  - [ ] Commit your changes directly to the master branch with the message `commit #4 from Atom` 
+- You should be able to use Atom for a basic Git workflow
+
+- [ ] In Github Desktop, open the repo in Atom: Repository > Open in Atom  
+- [ ] In Atom, edit this README file and add your *third* favorite emoji here: **??**
+- [ ] Create a new file `hello.txt`, add some text and save it.
+- [ ] Click the small Git button at the bottom right to display the Git panel. 
+- [ ] Click on your file(s) in Unstaged changes and confirm your changes match what you expect to see
+- [ ] Double click on each file with changes to stage them  
+- [ ] Commit your changes directly to the master branch with the message `commit #4 from Atom` 
 
 
 
@@ -111,17 +113,24 @@ Mac:
 
 
 ### Turn in your first assignment
-Using your favorite tool(s) for Git...
 
-- [ ] Create a new repository for your first assignment
-  - [ ] Make a new folder on your computer with your class name - `mkdir dig245`
-  - [ ] `cd` into this folder
+- You should be able to create a new repository, add files, and push it to Github
+
+
+- [ ] In Github Desktop, click File > New Repository
+- [ ] Name: `a1`
+- [ ] Local Path: Click "Choose" and create a new folder `a1` inside the `critical-web-design` folder you made above
+
+
+- [ ] Create a new repository for your first assignment on [Github.com](https://github.com)
+
   - [ ] Make a new folder inside this folder with your class name followed by the assignment # - `mkdir dig245-a1`
   - [ ] `cd` into this folder
   - [ ] Use `pwd` to confirm you have the following directory structure. Copy and paste that here: **??**
   ```
-  dig245
-    |-- dig245-a1
+  critical-web-design
+    |-- a1
+    |-- learn-git-milestones
   ```   
   - [ ] Create an empty Git repository in this folder - `git init`
   - [ ] Add a README file - `touch README.md`
