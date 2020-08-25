@@ -54,9 +54,10 @@ You should be able to perform a basic Git workflow using Github.com, the command
 ### In Github Desktop
 You should be able to ...
 
-- [ ] In Github Desktop, clone the fork (you made above) of this repository [learn-git-milestones](https://github.com/omundy/learn-git-milestones): File > Clone Repository > Github.com and select it ...
-  - [ ] ... Local Path: Click "Choose" and add a new folder on your computer. This will be the base folder for your work in this class: `critical-web-design`
-  - [ ] ... Click "Clone" to make a local copy
+- [ ] In Github Desktop, clone the fork (you made above) [learn-git-milestones](https://github.com/omundy/learn-git-milestones) ... 
+  - [ ] File > Clone Repository > Github.com and select it ...
+  - [ ] Local Path: Click "Choose" and add a new folder on your computer. This will be the base folder for your work in this class: `critical-web-design`
+  - [ ] Click "Clone" to make a local copy
 - [ ] Open the repo in Atom: Repository > Open in Atom  
 - [ ] In Atom, edit this README file and add your *second* favorite emoji here: **??**
 - [ ] In Github Desktop, confirm the README file was saved and shows your new changes in the Changes tab 
@@ -70,14 +71,13 @@ You should be able to ...
 You should have a basic familiarity with the command line in case you need to do advanced Git commands. Many folks use the CLI for file editing, though I'm not going to make you suffer when we have Atom installed. You've used most of these already through a GUI (e.g. `git status`, `git add`, `git commit`, `git push`) ...
 
 
-- [ ] Use the CLI to navigate directories
-  - [ ] In Github Desktop, with the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repo you cloned above selected, click Repository > Open in Terminal ("Bash" in Windows?)
+- [ ] In Github Desktop, with the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repo you cloned above selected, click Repository > Open in Terminal ("Bash" in Windows?)
+- [ ] Use the CLI to navigate directories  
   - [ ] List files in this directory: `ls`
   - [ ] List files in this directory, including hidden: `ls -la`  
   - [ ] Confirm the existence of the `.git` directory (where Git versions and config are stored)
   - [ ] View your current directory and copy the full path: `pwd`
   - [ ] Open this README file in Atom and paste that path here: **??**
-  
 - [ ] Use Git on the CLI
   - [ ] [Confirm](https://docs.github.com/en/github/using-git/setting-your-username-in-git) your name and email is correct in the Git config
   - [ ] View the status of your repo: `git status` 
@@ -94,6 +94,7 @@ You should be able to ...
 - [ ] In Atom, edit this README file and add your *third* favorite emoji here: **??**
 - [ ] Create a new file `hello.txt`, add some text and save it.
 - [ ] Display the Git panel (click the small Git button at the bottom right). 
+![atom-git-menu](img/atom-git-menu.png)
 - [ ] Select on your file(s) in Unstaged changes and confirm your changes match what you expect to see
 - [ ] Double click on each file with changes to stage them  
 - [ ] Commit your changes directly to the master branch with the message `commit #4 from Atom` 
@@ -110,9 +111,9 @@ You should be able to ...
 
 
 - [ ] In Github Desktop, click File > New Repository ...
-  - [ ] ... Name: `dig245-a1`
-  - [ ] ... Local Path: Click "Choose" and create a new folder `dig245-a1` inside the `critical-web-design` folder you made above
-  - [ ] ... Click Create Repository
+  - [ ] Name: `dig245-a1`
+  - [ ] Local Path: Click "Choose" and create a new folder `dig245-a1` inside the `critical-web-design` folder you made above
+  - [ ] Click Create Repository
   - [ ] This should be your class folder's directory structure. 
   ```
   critical-web-design
@@ -120,58 +121,48 @@ You should be able to ...
     |-- learn-git-milestones
   ```
 - [ ] Open your new repository in Atom (with Github Desktop or drag the `dig245-a1` project folder into Atom)
-
   - [ ] Add a README file - `README.md`
-
-- [ ] Create an empty Git repository in this folder - `git init`
-
   - [ ] In the README write your name and the date
+  - [ ] Use some [Markdown tags](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 - [ ] Complete Assignment 1
   - [ ] Create a file called `index.html` in your repo
-  - [ ] Add some text to it like `<h1>Hello world!</h1>`
+  - [ ] See the instructions in [Assignment 1](https://docs.google.com/document/d/17U_zmzM_eML_qkG0PaOdDRcEk3YEmbiQ1TyNnbAM08k/edit)
   - [ ] Commit the file
 - [ ] Set up a [Github page](https://pages.github.com/) "project site" for your repo 
   - [ ] Choose "Project site"
   - [ ] Do not use a theme; Start from scratch
   - [ ] In your repository settings, scroll aaaaallllll the way down to the Github Pages section, select he master branch source and click save
   - [ ] Visit your project site at http://*username*.github.io/dig245-a1
+  - [ ] Paste this link into the appropriate Moodle forum
+
 
 
 
 ## Git Fluency
-- Use Git to create branches, push and pull changes, and create pull requests
+
+Use Git to create branches, push and pull changes, and create pull requests
 
 
+### Branches, Pull requests
+You should be able to ...
 
 
-- [ ] Create a new branch, add a new file, and create a pull request
-  - [ ] In Github Desktop, create a new branch by clicking on Branch > New Branch. Type `my-new-branch` and click Create Branch
-  - [ ] In Atom, create a new file called `hello.txt`, add some text, and save it.
-
-  - [ ] In Github Desktop, commit your changes to `my-new-branch` with the message `commit #3` 
-  - [ ] Choose Branch > Create Pull Request. This will open Github.com. Confirm the edits you made.
-    - [ ] Click Create Pull Request
-    - [ ] On the next page click Merge Pull Request
-  - [ ] Back in Github Desktop pull the changes. Your master branch should now show the edits from `my-new-branch` 
-
-
-
-
-- [ ] Use Git on the CLI to `branch`, `edit`
-  - [ ] View the current branch `git branch`
-  - [ ] Change back to the master branch `git checkout master`  
-
-
-
-
-
-TO ADD
+- [ ] In Atom, open the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) fork
+- [ ] Create a new branch by clicking on Master > New Branch
+![atom-new-branch](img/atom-new-branch.png)
+- [ ] Type `my-new-branch` and click Create Branch
+- [ ] In Atom, create a new file called `hello-new-branch.txt`, add some text, and save it.
+- [ ] In Github Desktop, commit your changes to `my-new-branch` with the message `commit #5 new-branch` 
+- [ ] Choose Branch > Create Pull Request. This will open Github.com. Confirm the edits you made.
+  - [ ] Click Create Pull Request
+  - [ ] On the next page click Merge Pull Request
+- [ ] Back in Github Desktop pull the changes. Your master branch should now show the edits from `my-new-branch` 
 
 
 
 
 
-- [ ] Reference the [Github Cheatsheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) to do X
+
 
 
 
