@@ -121,14 +121,26 @@ Using your favorite tool(s) for Git...
   ```   
   - [ ] Create an empty Git repository in this folder - `git init`
   - [ ] Add a README file - `touch README.md`
+  - [ ] In the README write your name and the date
+- [ ] Complete Assignment 1
+  - [ ] Create a file called `index.html` in your repo
+  - [ ] Add some text to it like `<h1>Hello world!</h1>`
+  - [ ] Commit the file
+- [ ] Set up a [Github page](https://pages.github.com/) "project site" for your repo 
+  - [ ] Choose "Project site"
+  - [ ] Do not use a theme; Start from scratch
+  - [ ] In your repository settings, scroll aaaaallllll the way down to the Github Pages section, select he master branch source and click save
+  - [ ] Visit your project site at http://*username*.github.io/dig245-a1
+
 
 
 TO ADD
 
 
-Set up a Github page https://pages.github.com/
 
-Reference the [Github Cheatsheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) to do X
+
+
+- [ ] Reference the [Github Cheatsheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) to do X
 
 
 
