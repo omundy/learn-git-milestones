@@ -22,7 +22,7 @@ Below is a list of tasks. By mid-semester, everyone should...
 Create a Git account and make your first commit on github.com
 
 - [ ] [Create a Github account](https://github.com/join)
-- [ ] Fork [this repository](https://github.com/omundy/learn-git-milestones) - click the Fork button at the top right.
+- [ ] Fork this repository [learn-git-milestones](https://github.com/omundy/learn-git-milestones) (click the Fork button, top right).
 - [ ] Edit the README file (click the pencil icon) and add your favorite emoji here: **??**
 - [ ] Commit changes to the README file directly to the master branch with the message `commit #1 from Github.com` 
 - [ ] View the commit history and confirm your edits
@@ -48,18 +48,15 @@ Mac:
 
 
 ## Basic Git Workflows
-
-- You should be able to perform a basic Git workflow using Github.com, the command line, Github Desktop, and Git in Atom
-- Using four different interfaces will give you practice and help you understand Git better
-- You've already forked and made a commit on Github.com so let's move to Github Desktop:
+You should be able to perform a basic Git workflow using Github.com, the command line, Github Desktop, and Git in Atom. Using four different interfaces will give you practice and help you understand Git better. You've already forked and made a commit on Github.com so let's move to Github Desktop ...
 
 
 ### In Github Desktop
+You should be able to ...
 
-- You should be able to clone a repo to your computer, edit files, commit, and confirm changes on Github.com
-
-- [ ] In Github Desktop, clone the fork of the repo (created above): File > Clone Repository > Github.com and select it only...
-- [ ] Local Path: Choose and add a new folder on your computer for this class called `critical-web-design` 
+- [ ] In Github Desktop, clone the fork (you made above) of this repository [learn-git-milestones](https://github.com/omundy/learn-git-milestones): File > Clone Repository > Github.com and select it ...
+  - [ ] ... Local Path: Click "Choose" and add a new folder on your computer. This will be the base folder for your work in this class: `critical-web-design`
+  - [ ] ... Click "Clone" to make a local copy
 - [ ] Open the repo in Atom: Repository > Open in Atom  
 - [ ] In Atom, edit this README file and add your *second* favorite emoji here: **??**
 - [ ] In Github Desktop, confirm the README file was saved and shows your new changes in the Changes tab 
@@ -70,14 +67,11 @@ Mac:
 
 
 ### Command line (CLI) 
-
-- You should have a basic familiarity with the command line in case you need to do advanced Git commands.
-- Many folks use the CLI for file editing, though I'm not going to make you suffer when we have Atom installed.
-- You've used most commands already through a GUI (e.g. `git status`, `git add`, `git commit`, `git push`) 
+You should have a basic familiarity with the command line in case you need to do advanced Git commands. Many folks use the CLI for file editing, though I'm not going to make you suffer when we have Atom installed. You've used most of these already through a GUI (e.g. `git status`, `git add`, `git commit`, `git push`) ...
 
 
 - [ ] Use the CLI to navigate directories
-  - [ ] In Github Desktop, with the repo you cloned above selected, click Repository > Open in Terminal ("Bash" in Windows?)
+  - [ ] In Github Desktop, with the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repo you cloned above selected, click Repository > Open in Terminal ("Bash" in Windows?)
   - [ ] List files in this directory: `ls`
   - [ ] List files in this directory, including hidden: `ls -la`  
   - [ ] Confirm the existence of the `.git` directory (where Git versions and config are stored)
@@ -94,14 +88,13 @@ Mac:
 
 
 ### Git in Atom 
+You should be able to ...
 
-- You should be able to use Atom for a basic Git workflow
-
-- [ ] In Github Desktop, open the repo in Atom: Repository > Open in Atom  
+- [ ] In Github Desktop, open this repo [learn-git-milestones](https://github.com/omundy/learn-git-milestones) in Atom: Repository > Open in Atom  
 - [ ] In Atom, edit this README file and add your *third* favorite emoji here: **??**
 - [ ] Create a new file `hello.txt`, add some text and save it.
-- [ ] Click the small Git button at the bottom right to display the Git panel. 
-- [ ] Click on your file(s) in Unstaged changes and confirm your changes match what you expect to see
+- [ ] Display the Git panel (click the small Git button at the bottom right). 
+- [ ] Select on your file(s) in Unstaged changes and confirm your changes match what you expect to see
 - [ ] Double click on each file with changes to stage them  
 - [ ] Commit your changes directly to the master branch with the message `commit #4 from Atom` 
 
@@ -109,31 +102,29 @@ Mac:
 
 
 ## Turn in Assignments
-- Use Git to create and turn in DIG 245 assignments
+Now that we have basic Git commands out of the way use Git to create and turn in your DIG 245 assignment ...
 
 
 ### Turn in your first assignment
-
-- You should be able to create a new repository, add files, and push it to Github
-
-
-- [ ] In Github Desktop, click File > New Repository
-- [ ] Name: `a1`
-- [ ] Local Path: Click "Choose" and create a new folder `a1` inside the `critical-web-design` folder you made above
+You should be able to ...
 
 
-- [ ] Create a new repository for your first assignment on [Github.com](https://github.com)
-
-  - [ ] Make a new folder inside this folder with your class name followed by the assignment # - `mkdir dig245-a1`
-  - [ ] `cd` into this folder
-  - [ ] Use `pwd` to confirm you have the following directory structure. Copy and paste that here: **??**
+- [ ] In Github Desktop, click File > New Repository ...
+  - [ ] ... Name: `dig245-a1`
+  - [ ] ... Local Path: Click "Choose" and create a new folder `dig245-a1` inside the `critical-web-design` folder you made above
+  - [ ] ... Click Create Repository
+  - [ ] This should be your class folder's directory structure. 
   ```
   critical-web-design
-    |-- a1
+    |-- dig245-a1
     |-- learn-git-milestones
-  ```   
-  - [ ] Create an empty Git repository in this folder - `git init`
-  - [ ] Add a README file - `touch README.md`
+  ```
+- [ ] Open your new repository in Atom (with Github Desktop or drag the `dig245-a1` project folder into Atom)
+
+  - [ ] Add a README file - `README.md`
+
+- [ ] Create an empty Git repository in this folder - `git init`
+
   - [ ] In the README write your name and the date
 - [ ] Complete Assignment 1
   - [ ] Create a file called `index.html` in your repo
@@ -186,7 +177,7 @@ TO ADD
 
 
 
-## Further learning
+## Resources
 
 * Github Cheatsheet [HTML](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) and [PDF](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 * [Github Learning Lab](https://lab.github.com/) which contains tutorials like [Introduction to Github](https://lab.github.com/githubtraining/introduction-to-github) and others
