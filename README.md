@@ -94,7 +94,9 @@ You should be able to ...
 - [ ] In Atom, edit this README file and add your *third* favorite emoji here: **??**
 - [ ] Create a new file `hello.txt`, add some text and save it.
 - [ ] Display the Git panel (click the small Git button at the bottom right). 
+
 ![atom-git-menu](img/atom-git-menu.png)
+
 - [ ] Select on your file(s) in Unstaged changes and confirm your changes match what you expect to see
 - [ ] Double click on each file with changes to stage them  
 - [ ] Commit your changes directly to the master branch with the message `commit #4 from Atom` 
@@ -149,7 +151,9 @@ You should be able to ...
 
 - [ ] In Atom, open the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) fork
 - [ ] Create a new branch by clicking on Master > New Branch
+
 ![atom-new-branch](img/atom-new-branch.png)
+
 - [ ] Type `my-new-branch` and click Create Branch
 - [ ] In Atom, create a new file called `hello-new-branch.txt`, add some text, and save it.
 - [ ] In Github Desktop, commit your changes to `my-new-branch` with the message `commit #5 new-branch` 
