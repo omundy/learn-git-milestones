@@ -105,33 +105,38 @@ You should be able to ...
 
 
 
-## Turn in Assignments
-Now that we have basic Git commands out of the way use Git to create and turn in your DIG 245 assignment ...
+## Create a repository
 
-
-- [ ] In Github Desktop, create a new repository ...
-  - [ ] Name: `dig245-a1`
-  - [ ] Local Path: Click "Choose" and create a new folder `dig245-a1` inside the `critical-web-design` folder you made above
+- [ ] Create a repository from scratch
+  - [ ] In Github Desktop, create a new repository ...
+  - [ ] Name: `my-awesome-website`
+  - [ ] Local Path: Click "Choose" and create a new folder `my-awesome-website` inside the `critical-web-design` folder you made above
   - [ ] Click Create Repository
   - [ ] This should now be your class folder's directory structure.
   ```
   critical-web-design
-    |-- dig245-a1
+    |-- my-awesome-website
     |-- learn-git-milestones
   ```
-- [ ] Open your new repository in Atom (with Github Desktop or drag the `dig245-a1` project folder into Atom)
+  - [ ] Open your new repository in Atom (with Github Desktop or drag the `my-awesome-website` project folder into Atom)
   - [ ] Add a README file: `README.md`
   - [ ] In the README write your name and the date
   - [ ] Use some [Markdown tags](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+  - [ ] Create a file called `index.html` in your repo and add some html
+
+
+## Turn in Assignments
+Now that we have basic Git commands out of the way use Git to create and turn in your DIG 245 assignment ...
+
+
 - [ ] Complete Assignment 1
-  - [ ] Create a file called `index.html` in your repo
-  - [ ] See the instructions in [Assignment 1](https://docs.google.com/document/d/17U_zmzM_eML_qkG0PaOdDRcEk3YEmbiQ1TyNnbAM08k/edit)
+  - [ ] Follow the instructions in [https://github.com/omundy/dig245-a1/](https://github.com/omundy/dig245-a1/)
   - [ ] Test your file in a web browser
   - [ ] Commit and push the files to Github
 - [ ] Set up a [Github page](https://pages.github.com/) "project site" for your repo
-  - [ ] Choose "Project site"
+  - [ ] Go to the settings page for your repo on Githu.com and scroll aaaaallllll the way down to the Github Pages section
+  - [ ] Select the master branch source and click save
   - [ ] Do not use a theme. Start from scratch
-  - [ ] In your repository settings, scroll aaaaallllll the way down to the Github Pages section, select the master branch source and click save
   - [ ] Visit your project site at http://*username*.github.io/dig245-a1
   - [ ] Paste this link into the appropriate Moodle forum
 
