@@ -138,7 +138,8 @@ Now that we have basic Git commands out of the way use Git to create and turn in
   - [ ] Go to the settings page for your repo on Githu.com and scroll aaaaallllll the way down to the Github Pages section
   - [ ] Select the master branch source and click save
   - [ ] Do not use a theme. Start from scratch
-  - [ ] Visit your project site at http://*username*.github.io/dig245-a1
+  - [ ] Visit your project site at http://*username*.github.io/dig245-a1 
+  - [ ] Update your project, push a new commit, and confirm your updates (note: [changes are not always instant](https://github.com/omundy/dig245-a1/deployments/activity_log?environment=github-pages))
   - [ ] Paste this link into the appropriate Moodle forum
 
 
