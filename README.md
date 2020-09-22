@@ -33,7 +33,7 @@ Below is a list of tasks. By mid-semester, everyone should...
 #### Notes...
 
 - **RTM** - Sometimes I give the command you need and sometimes you have to read the documentation to find it.
-- **Details** - Following the instructions, especially instructions with a ✏️
+- **Details** - Following the instructions, especially those with a ✏️
 
 
 
