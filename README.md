@@ -11,7 +11,7 @@ Below is a list of tasks. By mid-semester, everyone should...
 
 1. Fork this repository
 1. Complete and check off each of the tasks below, adding content where prompted with: **??**
-1. Note: Sometimes I give the instructions or command you need and sometimes you have to read the documentation to find it.
+1. Note: Sometimes I give the instructions or command you need and sometimes you have to read the documentation to find it. Also see the [git cheatsheets](git-cheatsheets/) in this repo
 1. After you finish, celebrate your Git proficiency! 🙌  
 
 
@@ -24,7 +24,7 @@ Create a Github account and make your first commit
 - [ ] [Create a Github account](https://github.com/join)
 - [ ] Fork this repository [learn-git-milestones](https://github.com/omundy/learn-git-milestones) (click the Fork button, top right).
 - [ ] Edit the README file (click the pencil icon) and add your favorite emoji here: **??**
-- [ ] Replace the space in the `[ ]` preceding each of the lines you complete with an x so they look like `[x]` 
+- [ ] Replace the space in the `[ ]` preceding each of the lines you complete with an x so they look like `[x]`
 - [ ] Commit changes to the README file directly to the master branch with the message `commit #1 from Github.com`
 - [ ] View the commit history and confirm your edits
 
@@ -138,7 +138,7 @@ Now that we have basic Git commands out of the way use Git to create and turn in
   - [ ] Go to the settings page for your repo on Githu.com and scroll aaaaallllll the way down to the Github Pages section
   - [ ] Select the master branch source and click save
   - [ ] Do not use a theme. Start from scratch
-  - [ ] Visit your project site at http://*username*.github.io/dig245-a1 
+  - [ ] Visit your project site at http://*username*.github.io/dig245-a1
   - [ ] Update your project, push a new commit, and confirm your updates (note: [changes are not always instant](https://github.com/omundy/dig245-a1/deployments/activity_log?environment=github-pages))
   - [ ] Paste this link into the appropriate Moodle forum
 
