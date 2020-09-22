@@ -7,12 +7,47 @@ Below is a list of tasks. By mid-semester, everyone should...
 1. Make it clear through your actions you understand what's happening
 
 
-### Instructions
+
+## Contents
+
+- [Instructions](#Instructions)
+- [Resources](#Resources)
+- [Git Basics](#Git-Basics)
+- [Basic Git workflows](#Basic-Git-Workflows)
+- [Create a new repository](#Create-a-new-repository)
+- [Turn in Assignments](#Turn-in-Assignments)
+- [Git Advanced](#Git-Advanced)
+- [Grading](#Grading)
+
+
+
+
+
+## Instructions
 
 1. Fork this repository
 1. Complete and check off each of the tasks below, creating files and adding content where prompted with ✏️ or  **??**
-1. Note: Sometimes I give the instructions or command you need and sometimes you have to read the documentation to find it. Also see the [git cheatsheets](git-cheatsheets/) in this repo
 1. After you finish, celebrate your Git proficiency! 🙌  
+
+
+#### Notes...
+
+- **RTM** - Sometimes I give the command you need and sometimes you have to read the documentation to find it.
+- **Details** - Following the instructions, especially instructions with a ✏️
+
+
+
+
+## Resources
+
+Here are some popular tutorials/guides. You should **still look for other ones that you might like better**!
+
+1. [Github Desktop Documentation](https://docs.github.com/en/desktop)
+1. Github Cheatsheet [HTML](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) and [PDF](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+1. [Github Learning Lab](https://lab.github.com/) which contains tutorials like [Introduction to Github](https://lab.github.com/githubtraining/introduction-to-github) and others
+
+
+
 
 
 ## Git Basics
@@ -48,7 +83,7 @@ Mac:
 
 
 
-## Basic Git Workflows
+## Basic Git workflows
 You should be able to perform a basic Git workflow using Github.com, the command line, Github Desktop, and Git in Atom. Using four different interfaces will give you practice and help you understand Git better. You've already forked and made a commit on Github.com so let's move to Github Desktop ...
 
 
@@ -106,7 +141,7 @@ You should be able to ...
 
 
 
-## Create a repository
+## Create a new repository
 
 - [ ] Create a repository from scratch
   - [ ] ✏️ In Github Desktop, create a new repository with the name: `my-awesome-website`
@@ -143,7 +178,7 @@ Now that we have basic Git commands out of the way use Git to create and turn in
   - [ ] Paste this link into the appropriate Moodle forum
 
 
-## Git Fluency
+## Git Advanced
 
 That is all that is required for DIG 245. See the `ADVANCED.md` file if you would like to continue learning Git.
 
@@ -166,10 +201,6 @@ That is all that is required for DIG 245. See the `ADVANCED.md` file if you woul
 		- [ ] `2` submit [A1](https://github.com/omundy/dig245-a1/)
 
 
+## Credits
 
-
-## Resources
-
-* [Github Desktop Documentation](https://docs.github.com/en/desktop)
-* Github Cheatsheet [HTML](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) and [PDF](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
-* [Github Learning Lab](https://lab.github.com/) which contains tutorials like [Introduction to Github](https://lab.github.com/githubtraining/introduction-to-github) and others
+Thanks to [Jesse Farmer](https://github.com/jfarmer) for inspiring this milestone assignment.
