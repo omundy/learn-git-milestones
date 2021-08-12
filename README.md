@@ -14,13 +14,13 @@ Below is a list of tasks. By mid-semester, everyone should...
 ## Contents
 
 1. [Instructions](#Instructions)
-1. [Resources](#Resources)
 1. [Git Basics](#Git-Basics)
 1. [Basic Git workflows](#Basic-Git-Workflows)
 1. [Create a new repository](#Create-a-new-repository)
 1. [Turn in Assignments](#Turn-in-Assignments)
 1. [Git Advanced](#Git-Advanced)
 1. [Grading](#Grading)
+1. [Resources](#Resources)
 
 
 
@@ -29,10 +29,8 @@ Below is a list of tasks. By mid-semester, everyone should...
 ## Instructions
 
 1. Review slides 1–37 of the [Git & Github lecture](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p)...
-1. Fork this repository
 1. Complete / check off each task below, creating files and adding content where prompted with ✏️ or  **??**
 1. After you finish, celebrate your Git proficiency! 🙌  
-
 
 #### Notes...
 
@@ -44,21 +42,10 @@ Below is a list of tasks. By mid-semester, everyone should...
 
 
 
-
-## Resources
-
-Here are some popular tutorials/guides. You should **still look for other ones that you might like better**!
-
-- The class [Git & Github lectures](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p)
-- [Github Desktop Documentation](https://docs.github.com/en/desktop)
-- Github Cheatsheet [HTML](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) and [PDF](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
-- [Github Learning Lab](https://lab.github.com/) which contains tutorials like [Introduction to Github](https://lab.github.com/githubtraining/introduction-to-github) and others
+## Git Basics
 
 
-
-
-## Markdown
-
+### Markdown
 Markdown is a lightweight markup language for creating formatted text using a plain-text editor.
 
 - It has a [simple syntax](https://www.markdownguide.org/cheat-sheet/) similar to [HTML](https://en.wikipedia.org/wiki/Markdown#Example)
@@ -79,66 +66,79 @@ Markdown | HTML | Rendered Output
 
 
 
-## Git Basics
-
-
 ### Fork this repository
 Create a Github account and make your first commit
 
 - [ ] [Create a Github account](https://github.com/join)
-- [ ] Fork this repository [learn-git-milestones](https://github.com/omundy/learn-git-milestones) (click the Fork button, top right).
+- [ ] Fork this [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repository (click the Fork button, top right).
 - [ ] ✏️ Edit the README file (click the pencil icon) and add your favorite emoji here: **??**
-- [ ] ✏️ Replace the space in the `[ ]` preceding each of the lines you complete with an x so they look like `[x]`
-- [ ] ✏️ Commit changes to the README file directly to the main branch with the message `commit #1 from Github.com`
+- [ ] ✏️ Edit the space between the square brackets `[ ]` preceding each line you complete to look like `[x]`
+- [ ] ✏️ Commit changes to README.md to the main branch with the message `commit #1 from Github.com`
 - [ ] View the commit history and confirm your edits
 
 
 ### Git Installation
 Install your development environment
 
-- [ ] Install Git on your machine
+- [ ] Complete the [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course)
+- [ ] Install Git on your machine ([via](https://gist.github.com/derhuerst/1b15ff4652a867391f03))
 
-**Windows** => Install [Git for Windows](https://gitforwindows.org/) (includes [Git BASH](https://www.atlassian.com/git/tutorials/git-bash), its own version of the bash shell)
+**Windows** Install [Git for Windows](https://gitforwindows.org/) (includes [Git BASH](https://www.atlassian.com/git/tutorials/git-bash), its own version of the bash shell)
 
 **Mac**
 1. Install the [homebrew package manager](https://brew.sh/) (confirm "yes" if asked to install *Command Line Developer Tools*)
-1. Install git using Homebrew `brew install git`
+1. Install git using Homebrew `brew install git` (unless you are [upgrading](https://ajahne.github.io/blog/tools/2018/06/11/how-to-upgrade-git-mac.html)?)
 <!-- 1. Set your default shell to bash `chsh -s /bin/bash` - You'll be prompted to type a password. The command line doesn't give you feedback that you're typing. Just type your password and hit enter. Backspace a lot if you make a mistake. -->
 
-### Confirm installation
+### Configure Git
 
 - [ ] On the command line, confirm Git is installed by typing `git` at the prompt and hitting enter
-- [ ] Install [Atom](https://atom.io/) on your machine
-- [ ] [Install Github Desktop](https://desktop.github.com/)
-- [ ] Connect your Github account in Github Desktop
-
+- [ ] ✏️ This displays a help file with a list of possible commands. What does `log` do? **??**
+- [ ] Add your name and email (replace with your information and press return after each line)
+```bash
+git config --global user.name "Jane Doe"
+git config --global user.email janedoe@example.com
+```
+- [ ] Set the default branch to [main](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main)
+```bash
+git config --global init.defaultBranch main
+```
+- [ ] Confirm your settings worked with either of these
+```bash
+cat ~/.gitconfig
+git config --list
+```
 
 
 
 ## Basic Git workflows
-You should be able to perform a basic Git workflow using Github.com, the command line, Github Desktop, and Git in a preferred text editor (e.g. Atom or Visual Studio). Using four different interfaces will give you practice and help you understand Git better. You've already forked and made a commit on Github.com so let's move to Github Desktop ...
+You should be able to perform a basic Git workflow using Github.com, the command line, Github Desktop, and Git in a preferred text editor (e.g. Atom or Visual Studio). These four different interfaces will give you practice and help you understand Git better. You've already forked and made a commit on Github.com so let's move to Github Desktop ...
 
 
 ### In Github Desktop
 You should be able to ...
 
-- [ ] In Github Desktop, clone the fork (you made above) [learn-git-milestones](https://github.com/omundy/learn-git-milestones) ...
-  - [ ] File > Clone Repository > Github.com and select it ...
-  - [ ] Local Path: Click "Choose" and add a new folder on your computer. This will be the base folder for your work in this class: `<your-class-name-here>`
-  - [ ] Click "Clone" to make a local copy
+- [ ] Install [Atom](https://atom.io/) on your machine
+	- [ ] Connect your Github account in Atom
+- [ ] Install [Github Desktop](https://desktop.github.com/)
+	- [ ] Connect your Github account in Github Desktop
+	- [ ] In Github Desktop, clone the fork (you made above) [learn-git-milestones](https://github.com/omundy/learn-git-milestones) ...
+	- [ ] File > Clone Repository > Github.com and select it ...
+	- [ ] Local Path: Click "Choose" and add a new folder on your computer. This will be the base folder for your work in this class: `<your-class-name-here>`
+	- [ ] Click "Clone" to make a local copy
 - [ ] Open the repo in Atom: Repository > Open in Atom  
 - [ ] ✏️ In Atom, edit this README file and add your *second* favorite emoji here: **??**
-- [ ] In Github Desktop, confirm the README file was saved and shows your new changes in the Changes tab
-- [ ] ✏️ Commit your changes to the README file directly to the main branch with the message `commit #2 from Github Desktop`
-- [ ] Click Push origin to push your changes back to remote repo  
+- [ ] In Github Desktop, view/confirm your edits to the README file on the Changes tab
+- [ ] ✏️ Commit your changes directly to the main branch with the message `commit #2 from Github Desktop`
+- [ ] Click Push origin to push your new commit to remote repo  
 - [ ] Confirm the changes to the README file were pushed: Choose Repository > View on Github
 - [ ] Click on the README file and then click on History to see the history of this file
 
 
-### Command line (CLI)
-You should have a basic familiarity with the command line in case you need to do advanced Git commands. Many folks use the CLI for file editing, though I'm not going to make you suffer when we have Atom installed. You've used most of these already through a GUI (e.g. `git status`, `git add`, `git commit`, `git push`) ...
+### Command line interface (CLI)
+You should have a basic familiarity with the command line to install Git. Some folks use the CLI as their default tool for editing and publishing source code, but Atom makes it much easier.
 
-
+- [ ] If you haven't yet, complete the [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course)
 - [ ] In Github Desktop, with the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repo you cloned above selected, click Repository > Open in Terminal ("Bash" in Windows?)
 - [ ] Use the CLI to navigate directories  
   - [ ] List files in this directory: `ls`
@@ -154,6 +154,12 @@ You should have a basic familiarity with the command line in case you need to do
   - [ ] View the status of your repo `git status` to confirm it has been staged
   - [ ] ✏️ Commit your changes with the message `commit #3 from CLI`
   - [ ] Use `git push` to [push those changes to your remote repo](https://docs.github.com/en/github/using-git/pushing-commits-to-a-remote-repository)
+
+
+
+You've used most of these already through a GUI (e.g. `git status`, `git add`, `git commit`, `git push`) ...
+
+
 
 
 ### Git in Atom
@@ -185,7 +191,7 @@ You should be able to ...
     |-- my-awesome-project
     |-- learn-git-milestones
   ```
-  - [ ] Open your new repository in Atom (with Github Desktop or drag the `my-awesome-project` project folder into Atom)
+  - [ ] Open your new repository in Atom (with Github Desktop or drag the `my-awesome-project` project folder onto the Atom icon in your dock)
   - [ ] ✏️ Add a README file: `README.md`
   - [ ] ✏️ In the README write your name and the date
   - [ ] ✏️ Use some [Markdown tags](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
@@ -270,6 +276,15 @@ That is all that is required for this milestone. See the `ADVANCED.md` file if y
 
 
 
+
+## Resources
+
+Here are some popular tutorials/guides. You should **still look for other ones that you might like better**!
+
+- The class [Git & Github lectures](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p)
+- [Github Desktop Documentation](https://docs.github.com/en/desktop)
+- Github Cheatsheet [HTML](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) and [PDF](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+- [Github Learning Lab](https://lab.github.com/) which contains tutorials like [Introduction to Github](https://lab.github.com/githubtraining/introduction-to-github) and others
 
 
 
