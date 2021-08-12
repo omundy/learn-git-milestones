@@ -13,7 +13,7 @@ Below is a list of tasks. By mid-semester, everyone should...
 
 ## Contents
 
-1. [Instructions](#Instructions)
+1. [Instructions](#instructions)
 1. [Git Basics](#Git-Basics)
 1. [Basic Git workflows](#Basic-Git-Workflows)
 1. [Create a new repository](#Create-a-new-repository)
