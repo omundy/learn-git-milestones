@@ -1,3 +1,6 @@
+
+<img width="400" src="assets/img/logo-git-github.png">
+
 # Git Milestones
 
 Below is a list of tasks. By mid-semester, everyone should...
@@ -25,8 +28,7 @@ Below is a list of tasks. By mid-semester, everyone should...
 
 ## Instructions
 
-After you've completed the [Git & Github lectures](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p)...
-
+1. Review slides 1–37 of the [Git & Github lecture](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p)...
 1. Fork this repository
 1. Complete / check off each task below, creating files and adding content where prompted with ✏️ or  **??**
 1. After you finish, celebrate your Git proficiency! 🙌  
@@ -35,8 +37,11 @@ After you've completed the [Git & Github lectures](https://docs.google.com/prese
 #### Notes...
 
 - **RTM** - Sometimes I give the command you need and sometimes you have to read the documentation to find it.
-- **Details** - Following the instructions, especially those with a ✏️
-- **Classes** - This milestone is made to use with multiple classes, insert your own class name where you see `<your-class-name-here>` (e.g. `dig245-critical-web-design`)
+- **Details** - Follow the instructions, especially those with a ✏️
+- **Classes** - This milestone is made to use with multiple classes; insert your own class name where you see `<your-class-name-here>` (e.g. `dig245-critical-web-design`)
+
+
+
 
 
 
@@ -49,6 +54,27 @@ Here are some popular tutorials/guides. You should **still look for other ones t
 - Github Cheatsheet [HTML](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) and [PDF](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 - [Github Learning Lab](https://lab.github.com/) which contains tutorials like [Introduction to Github](https://lab.github.com/githubtraining/introduction-to-github) and others
 
+
+
+
+## Markdown
+
+Markdown is a lightweight markup language for creating formatted text using a plain-text editor.
+
+- It has a [simple syntax](https://www.markdownguide.org/cheat-sheet/) similar to [HTML](https://en.wikipedia.org/wiki/Markdown#Example)
+- The standard language for formatting README files (what you are currently viewing!)
+- Markdown files use the `.md` extension and can be edited with a simple text editor.
+- Can be previewed using the [Markdown Viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk/related?hl=en) browser extension. (hint: allow `file://` origins)
+
+Markdown | HTML | Rendered Output
+--- | --- | ---
+`[link](https://davidson.edu)` | `<a href="https://davidson.edu">link</a>` | [link](https://davidson.edu)
+`**bold text**` | `<b>bold text</b>` | **bold text**
+`*italicized text*` | `<i>italicized text</i>` | *italicized text*
+<code>\`code`</code> | `<code>code</code>` | `code`
+`![text](assets/img/icon.png)` | `<img alt="text" src="assets/img/icon.png">` | ![text](assets/img/icon.png)
+
+**Now you know basic Markdown!** 🎉  The following instructions will help you learn Git, editing this `.md` file in the process. Feel free to check your syntax in the [github markdown cheatsheet](reference-sheets/github-markdown-cheatsheet.pdf).
 
 
 
@@ -70,19 +96,21 @@ Create a Github account and make your first commit
 ### Git Installation
 Install your development environment
 
-- [ ] Install [Atom](https://atom.io/) on your machine
 - [ ] Install Git on your machine
 
-Windows: Install [Git for Windows](https://gitforwindows.org/) (includes [Git BASH](https://www.atlassian.com/git/tutorials/git-bash), its own version of the bash shell)
+**Windows** => Install [Git for Windows](https://gitforwindows.org/) (includes [Git BASH](https://www.atlassian.com/git/tutorials/git-bash), its own version of the bash shell)
 
-Mac:
-1. Install the [homebrew package manager](https://brew.sh/)
+**Mac**
+1. Install the [homebrew package manager](https://brew.sh/) (confirm "yes" if asked to install *Command Line Developer Tools*)
 1. Install git using Homebrew `brew install git`
-1. Set your default shell to bash `chsh -s /bin/bash` - You'll be prompted to type a password. The command line doesn't give you feedback that you're typing. Just type your password and hit enter. Backspace a lot if you make a mistake.
+<!-- 1. Set your default shell to bash `chsh -s /bin/bash` - You'll be prompted to type a password. The command line doesn't give you feedback that you're typing. Just type your password and hit enter. Backspace a lot if you make a mistake. -->
+
+### Confirm installation
 
 - [ ] On the command line, confirm Git is installed by typing `git` at the prompt and hitting enter
+- [ ] Install [Atom](https://atom.io/) on your machine
 - [ ] [Install Github Desktop](https://desktop.github.com/)
-- [ ] Connect your Github account in Githhub Desktop
+- [ ] Connect your Github account in Github Desktop
 
 
 
@@ -136,7 +164,7 @@ You should be able to ...
 - [ ] ✏️ Create a new file `hello.txt`, add some text and save it.
 - [ ] Display the Git panel (click the small Git button at the bottom right).
 
-![atom-git-menu](img/atom-git-menu.png)
+![atom-git-menu](assets/img/atom-git-menu.png)
 
 - [ ] Select on your file(s) in Unstaged changes and confirm your changes match what you expect to see
 - [ ] Double click on each file with changes to stage them  
@@ -169,7 +197,8 @@ You should be able to ...
 Create a github.io site for your repository ...
 
 - [ ] ✏️ Create a file called `index.html` in your new repo and add the following html
-```
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -183,13 +212,14 @@ Create a github.io site for your repository ...
 </body>
 </html>
 ```
+
 - [ ] Set up a [Github page](https://pages.github.com/) "project site" for your repo
-  - [ ] Go to the settings page for your repo on Github.com and scroll aaaaallllll the way down to the Github Pages section
+  - [ ] On Github.com, go to your repo > Settings, and scroll down to the Github Pages section
   - [ ] Select the main branch source and click save
   - [ ] Do not use a theme. Start from scratch
   - [ ] Visit your project site at http://*username*.github.io/my-awesome-project
   - [ ] Update your project, push a new commit, and confirm your updates (note: [changes are not always instant](https://github.com/omundy/dig245-a1/deployments/activity_log?environment=github-pages))
-  - [ ] Paste this link here:
+  - [ ] ✏️ Paste this link here:
 
 
 
@@ -212,22 +242,34 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 That is all that is required for this milestone. See the `ADVANCED.md` file if you would like to continue learning Git.
 
 
+ <!-- open -->
+<details>
+<summary>Grading</summary>
 
-## Grading
-- [ ] Points: `20`
-	- [ ] Git Basics & Basic Git Workflows
-		- [ ] `2` forked repo correctly
-		- [ ] `2` linked to correct Github Pages site for repo
-		- [ ] `3` favorite emoji
-		- [ ] `1` mark steps as complete
-		- [ ] `2` commit names
-		- [ ] `1` path of local repo
-		- [ ] `2` `hello.text` with changes
-	- [ ] Create a repository and submit an assignment
-		- [ ] `1` create the new `my-awesome-project` repo from scratch
-		- [ ] `2` add `README.md` with markdown tags
-		- [ ] `2` add `index.html` with tags
-		- [ ] `2` turn in this Assignment
+<table>
+<tr><td>Points</td><td>Description</td></tr>
+
+<tr><td colspan="2">Git Basics & Basic Git Workflows</td></tr>
+<tr><td>2</td><td>Fork repo correctly</td></tr>
+<tr><td>2</td><td>Link to correct Github Pages site for repo</td></tr>
+<tr><td>3</td><td>Favorite emoji</td></tr>
+<tr><td>1</td><td>Mark steps as complete</td></tr>
+<tr><td>2</td><td>Commit names are correct</td></tr>
+<tr><td>1</td><td>Path of local repo</td></tr>
+<tr><td>2</td><td><a href="hello.text">hello.text</a> contains specified changes</td></tr>
+
+<tr><td colspan="2">Create a repository and submit an assignment</td></tr>
+<tr><td>1</td><td>create the new <i>my-awesome-project</i> repo from scratch</td></tr>
+<tr><td>2</td><td>Add <a href="README.md">README.md</a> with markdown tags</td></tr>
+<tr><td>2</td><td>Add <a href="index.html">index.html</a> with tags</td></tr>
+<tr><td>2</td><td>Turn in this assignment</td></tr>
+</table>
+
+</details>
+
+
+
+
 
 
 
