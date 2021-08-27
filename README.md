@@ -220,7 +220,7 @@ Create a github.io site for your repository ...
 ```
 
 - [ ] Set up a [Github page](https://pages.github.com/) "project site" for your repo
-  - [ ] On Github.com, go to your repo > Settings, and scroll down to the Github Pages section
+  - [ ] On Github.com, go to your repo > Settings > Pages
   - [ ] Select the main branch source and click save
   - [ ] Do not use a theme. Start from scratch
   - [ ] Visit your project site at http://*username*.github.io/my-awesome-project
