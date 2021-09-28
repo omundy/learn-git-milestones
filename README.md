@@ -7,7 +7,7 @@ Below is a list of tasks. By mid-semester, everyone should...
 
 - Understand what the task is asking
 - Be able to do the task
-- Make it clear through your actions you understand what's happening
+- Make it clear through your actions you understand each concept
 
 
 
@@ -29,7 +29,7 @@ Below is a list of tasks. By mid-semester, everyone should...
 ## Instructions
 
 1. Review slides 1–37 of the [Git & Github lecture](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p)...
-1. Complete / check off each task below, creating files and adding content where prompted with ✏️ or  **??**
+1. Complete and check off each task below, creating files and adding content inside the [Completions](#completions) table when prompted with this icon: ✏️
 1. After you finish, celebrate your Git proficiency! 🙌  
 
 #### Notes...
@@ -42,16 +42,16 @@ Below is a list of tasks. By mid-semester, everyone should...
 
 
 
-## Git Basics
+## Part 1 – Git Basics
 
 
 ### Markdown
 Markdown is a lightweight markup language for creating formatted text using a plain-text editor.
 
 - It has a [simple syntax](https://www.markdownguide.org/cheat-sheet/) similar to [HTML](https://en.wikipedia.org/wiki/Markdown#Example)
-- The standard language for formatting README files (what you are currently viewing!)
-- Markdown files use the `.md` extension and can be edited with a simple text editor.
-- Can be previewed using the [Markdown Viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk/related?hl=en) browser extension. (hint: allow `file://` origins)
+- It is standard language for formatting README files (what you are currently viewing!)
+- Markdown files use the `.md` extension and can be edited with any plain text editor (e.g. Atom).
+- Markdown can be previewed using the [Markdown Viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk/related?hl=en) browser extension. (hint: allow `file://` origins)
 
 Markdown | HTML | Rendered Output
 --- | --- | ---
@@ -66,24 +66,26 @@ Markdown | HTML | Rendered Output
 
 
 
-### Fork this repository
-Create a Github account and make your first commit
 
-- [ ] [Create a Github account](https://github.com/join)
-- [ ] Fork this [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repository (click the Fork button, top right).
-- [ ] ✏️ Edit the README file (click the pencil icon) and add your favorite emoji here: **??**
-- [ ] ✏️ Edit the space between the square brackets `[ ]` preceding each line you complete to look like `[x]`
-- [ ] ✏️ Commit changes to README.md to the main branch with the message `commit #1 from Github.com`
-- [ ] View the commit history and confirm your edits
+### Fork this repository
+Create a Github account and make your first commit on Github.com
+
+1. [Create a Github account](https://github.com/join)
+1. Fork this [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repository (click the Fork button, top right).
+1. ✏️ Edit this `README.md` file (click the pencil icon on the Github.com page) and add your favorite emoji to the [Completions](#completions) table, in the **Completed** column in [row 1a](#completions), below. Tables can be a little tricky in Markdown so make sure you review the docs on tables as well.
+1. ✏️ Commit changes to README.md to the `main` branch with the message `commit #1 from Github.com`.
+1. ✏️ Use [Markdown documentation](https://guides.github.com/features/mastering-markdown/) to add a link in [row 1b](#completions). The link text should be the same as the commit message, and the url should point to the Github.com page showing the above commit.
+1. View the commit history and confirm your edits
 
 
 ### Git Installation
 Install your development environment
 
-- [ ] Complete the [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course)
-- [ ] Install Git on your machine ([via](https://gist.github.com/derhuerst/1b15ff4652a867391f03))
+1. Complete the [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course)
+1. Install Git on your machine ([via](https://gist.github.com/derhuerst/1b15ff4652a867391f03))
 
-**Windows** Install [Git for Windows](https://gitforwindows.org/) (includes [Git BASH](https://www.atlassian.com/git/tutorials/git-bash), its own version of the bash shell)
+**Windows**
+1. Install [Git for Windows](https://gitforwindows.org/) (includes [Git BASH](https://www.atlassian.com/git/tutorials/git-bash), its own version of the bash shell)
 
 **Mac**
 1. Install the [homebrew package manager](https://brew.sh/) (confirm "yes" if asked to install *Command Line Developer Tools*)
@@ -92,18 +94,18 @@ Install your development environment
 
 ### Configure Git
 
-- [ ] On the command line, confirm Git is installed by typing `git` at the prompt and hitting enter
-- [ ] ✏️ This displays a help file with a list of possible commands. What does `log` do? **??**
-- [ ] Add your name and email (replace with your information and press return after each line)
+1. On the command line, confirm Git is installed by typing `git` at the prompt and hitting enter
+1. ✏️ This displays a help file with a list of possible commands. What does `log` do? Add your answer to [row 1c](#completions) below.
+1. Add your name and email (replace with your information and press return after each line)
 ```bash
 git config --global user.name "Jane Doe"
 git config --global user.email janedoe@example.com
 ```
-- [ ] Set the default branch to [main](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main)
+1. Set the default branch to [main](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main)
 ```bash
 git config --global init.defaultBranch main
 ```
-- [ ] Confirm your settings worked with either of these
+1. Confirm your settings worked with either of these
 ```bash
 cat ~/.gitconfig
 git config --list
@@ -111,49 +113,49 @@ git config --list
 
 
 
-## Basic Git workflows
+## Part 2 – Basic Git workflows
 You should be able to perform a basic Git workflow using Github.com, the command line, Github Desktop, and Git in a preferred text editor (e.g. Atom or Visual Studio). These four different interfaces will give you practice and help you understand Git better. You've already forked and made a commit on Github.com so let's move to Github Desktop ...
 
 
 ### In Github Desktop
 You should be able to ...
 
-- [ ] Install [Atom](https://atom.io/) on your machine
-	- [ ] Connect your Github account in Atom
-- [ ] Install [Github Desktop](https://desktop.github.com/)
-	- [ ] Connect your Github account in Github Desktop
-	- [ ] In Github Desktop, clone the fork (you made above) [learn-git-milestones](https://github.com/omundy/learn-git-milestones) ...
-	- [ ] File > Clone Repository > Github.com and select it ...
-	- [ ] Local Path: Click "Choose" and add a new folder on your computer. This will be the base folder for your work in this class: `<your-class-name-here>`
-	- [ ] Click "Clone" to make a local copy
-- [ ] Open the repo in Atom: Repository > Open in Atom  
-- [ ] ✏️ In Atom, edit this README file and add your *second* favorite emoji here: **??**
-- [ ] In Github Desktop, view/confirm your edits to the README file on the Changes tab
-- [ ] ✏️ Commit your changes directly to the main branch with the message `commit #2 from Github Desktop`
-- [ ] Click Push origin to push your new commit to remote repo  
-- [ ] Confirm the changes to the README file were pushed: Choose Repository > View on Github
-- [ ] Click on the README file and then click on History to see the history of this file
+1. Install [Atom](https://atom.io/) on your machine
+	1. Connect your Github account in Atom
+1. Install [Github Desktop](https://desktop.github.com/)
+	1. Connect your Github account in Github Desktop
+	1. In Github Desktop, clone the fork (you made above) [learn-git-milestones](https://github.com/omundy/learn-git-milestones) ...
+	1. File > Clone Repository > Github.com and select it ...
+	1. Local Path: Click "Choose" and add a new folder on your computer. This will be the base folder for your work in this class (e.g. `dig245-critical-web-design`, `dig250-game-development` )
+	1. Click "Clone" to make a local copy
+1. Open the repo in Atom: Repository > Open in Atom  
+1. ✏️ In Atom, edit this README file and add your *second* favorite emoji to [row 2a](#completions) below.
+1. In Github Desktop, view/confirm your edits to the README file on the Changes tab
+1. ✏️ Commit your changes directly to the main branch with the message `commit #2 from Github Desktop`. Using Atom, add a link to this commit on Github.com to [row 2b](#completions) below.
+1. Click Push origin to push your new commit to remote repo  
+1. Confirm the changes to the README file were pushed: Choose Repository > View on Github
+1. Click on the README file and then click on History to see the history of this file
 
 
 ### Command line interface (CLI)
 You should have a basic familiarity with the command line to install Git. Some folks use the CLI as their default tool for editing and publishing source code, but Atom makes it much easier.
 
-- [ ] If you haven't yet, complete the [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course)
-- [ ] In Github Desktop, with the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repo you cloned above selected, click Repository > Open in Terminal ("Bash" in Windows?)
-- [ ] Use the CLI to navigate directories  
-  - [ ] List files in this directory: `ls`
-  - [ ] List files in this directory, including hidden: `ls -la`  
-  - [ ] Confirm the existence of the `.git` directory (where Git versions and config are stored)
-  - [ ] View your current directory and copy the full path: `pwd`
-  - [ ] Open this README file in Atom and paste that path here: **??**
-- [ ] Use Git on the CLI
-  - [ ] [Confirm](https://docs.github.com/en/github/using-git/setting-your-username-in-git) your name and email is correct in the Git config
-  - [ ] View the status of your repo: `git status`
-  - [ ] View the changed files of your repo: `git diff`
-  - [ ] Add all changed files to the staging area `git add .`
-  - [ ] View the status of your repo `git status` to confirm it has been staged
-  - [ ] ✏️ Commit your changes with the message `commit #3 from CLI`
-  - [ ] Use `git push` to [push those changes to your remote repo](https://docs.github.com/en/github/using-git/pushing-commits-to-a-remote-repository)
+1. If you haven't yet, complete the [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course)
+1. In Github Desktop, with the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repo you cloned above selected, click Repository > Open in Terminal ("Bash" in Windows?)
+1. Use the CLI to navigate directories  
+  1. List files in this directory: `ls`
+  1. List files in this directory, including hidden: `ls -la`  
+  1. Confirm the existence of the `.git` directory (where Git versions and config are stored)
+  1. View your current directory and copy the full path: `pwd`
+  1. Open this README file in Atom and paste that path here in [row 2c](#completions) below.
+1. Use Git on the CLI
+  1. [Confirm](https://docs.github.com/en/github/using-git/setting-your-username-in-git) your name and email is correct in the Git config
+  1. View the status of your repo: `git status`
+  1. View the changed files of your repo: `git diff`
+  1. Add all changed files to the staging area `git add .`
+  1. View the status of your repo `git status` to confirm it has been staged
+  1. ✏️ Commit your changes with the message `commit #3 from CLI`. Add a link to this commit to [row 2d](#completions) below.
+  1. Use `git push` to [push those changes to your remote repo](https://docs.github.com/en/github/using-git/pushing-commits-to-a-remote-repository)
 
 
 
@@ -165,44 +167,45 @@ You've used most of these already through a GUI (e.g. `git status`, `git add`, `
 ### Git in Atom
 You should be able to ...
 
-- [ ] In Github Desktop, open this repo [learn-git-milestones](https://github.com/omundy/learn-git-milestones) in Atom: Repository > Open in Atom  
-- [ ] ✏️ In Atom, edit this README file and add your *third* favorite emoji here: **??**
-- [ ] ✏️ Create a new file `hello.txt`, add some text and save it.
-- [ ] Display the Git panel (click the small Git button at the bottom right).
+1. In Github Desktop, open this repo [learn-git-milestones](https://github.com/omundy/learn-git-milestones) in Atom: Repository > Open in Atom  
+1. ✏️ In Atom, edit this README file and add your *third* favorite emoji to [row 2e](#completions) below.
+1. ✏️ Create a new file `hello.txt`, add some text and save it.
+1. Display the Git panel (click the small Git button at the bottom right).
 
 ![atom-git-menu](assets/img/atom-git-menu.png)
 
-- [ ] Select on your file(s) in Unstaged changes and confirm your changes match what you expect to see
-- [ ] Double click on each file with changes to stage them  
-- [ ] ✏️ Commit your changes directly to the main branch with the message `commit #4 from Atom`
+1. Select on your file(s) in Unstaged changes and confirm your changes match what you expect to see
+1. Double click on each file with changes to stage them  
+1. ✏️ Commit your changes directly to the main branch with the message `commit #4 from Atom`. Add a link to this commit to [row 2f](#completions) below.
 
 
 
 
-## Create a new repository
+## Part 3 – Create a new repository
 
-- [ ] Create a repository from scratch
-  - [ ] ✏️ In Github Desktop, create a new repository with the name: `my-awesome-project`
-  - [ ] Local Path: Click "Choose" and create a new folder `my-awesome-project` inside the `<your-class-name-here>` folder you made above
-  - [ ] Click Create Repository
-  - [ ] This should now be your class folder's directory structure.
+1. Create a repository from scratch
+  1. ✏️ In Github Desktop, create a new repository with the name: `my-awesome-project`
+  1. Local Path: Click "Choose" and create a new folder `my-awesome-project` inside the `<your-class-name-here>` folder you made above
+  1. Click Create Repository
+  1. This should now be your class folder's directory structure.
   ```
   <your-class-name-here>
     |-- my-awesome-project
     |-- learn-git-milestones
   ```
-  - [ ] Open your new repository in Atom (with Github Desktop or drag the `my-awesome-project` project folder onto the Atom icon in your dock)
-  - [ ] ✏️ Add a README file: `README.md`
-  - [ ] ✏️ In the README write your name and the date
-  - [ ] ✏️ Use some [Markdown tags](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+  1. Open your new repository in Atom (with Github Desktop or drag the `my-awesome-project` project folder onto the Atom icon in your dock)
+  1. ✏️ Add a README file: `README.md`
+  1. ✏️ In the README write your name and the date
+  1. ✏️ Use some [Markdown tags](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+  1. ✏️ Commit your changes and add a link to this repo to [row 3a](#completions) below.
 
 
 
 
-## Create a Github.io page
+## Part 4 – Create a Github.io page
 Create a github.io site for your repository ...
 
-- [ ] ✏️ Create a file called `index.html` in your new repo and add the following html
+1. ✏️ Create a file called `index.html` in your new repo and add the following html
 
 ```html
 <!DOCTYPE html>
@@ -219,26 +222,26 @@ Create a github.io site for your repository ...
 </html>
 ```
 
-- [ ] Set up a [Github page](https://pages.github.com/) "project site" for your repo
-  - [ ] On Github.com, go to your repo > Settings > Pages
-  - [ ] Select the main branch source and click save
-  - [ ] Do not use a theme. Start from scratch
-  - [ ] Visit your project site at http://*username*.github.io/my-awesome-project
-  - [ ] Update your project, push a new commit, and confirm your updates (note: [changes are not always instant](https://github.com/omundy/dig245-a1/deployments/activity_log?environment=github-pages))
-  - [ ] ✏️ Paste this link here:
+1. Set up a [Github page](https://pages.github.com/) "project site" for your repo
+  1. On Github.com, go to your repo > Settings > Pages
+  1. Select the main branch source and click save
+  1. Do not use a theme. Start from scratch
+  1. Visit your project site at http://*username*.github.io/my-awesome-project
+  1. Update your project, push a new commit, and confirm your updates (note: [changes are not always instant](https://github.com/omundy/dig245-a1/deployments/activity_log?environment=github-pages))
+  1. ✏️ Paste this link to [row 4a](#completions) below.
 
 
 
 
 
 
-## Turn in this Assignment
+## Part 5 – Turn in this Assignment
 Now that we have basic Git commands out of the way use Git to create and turn in your assignment ...
 
-- [ ] Complete all of the items on this README
-- [ ] Test your file(s) in a web browser
-- [ ] Commit and push the files to Github
-- [ ] Paste the github.io link into the appropriate Moodle forum
+1. Complete all of the items on this README, making sure all the rows in the "Completed" column contain your information below.
+1. Test your file(s) in a web browser
+1. Commit and push the files to Github
+1. Paste the github.io link into the appropriate Moodle forum
 
 
 
@@ -248,30 +251,27 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 That is all that is required for this milestone. See the `ADVANCED.md` file if you would like to continue learning Git.
 
 
- <!-- open -->
-<details>
-<summary>Grading</summary>
 
-<table>
-<tr><td>Points</td><td>Description</td></tr>
 
-<tr><td colspan="2">Git Basics & Basic Git Workflows</td></tr>
-<tr><td>2</td><td>Fork repo correctly</td></tr>
-<tr><td>2</td><td>Link to correct Github Pages site for repo</td></tr>
-<tr><td>3</td><td>Favorite emoji</td></tr>
-<tr><td>1</td><td>Mark steps as complete</td></tr>
-<tr><td>2</td><td>Commit names are correct</td></tr>
-<tr><td>1</td><td>Path of local repo</td></tr>
-<tr><td>2</td><td><a href="hello.text">hello.text</a> contains specified changes</td></tr>
 
-<tr><td colspan="2">Create a repository and submit an assignment</td></tr>
-<tr><td>1</td><td>create the new <i>my-awesome-project</i> repo from scratch</td></tr>
-<tr><td>2</td><td>Add <a href="README.md">README.md</a> with markdown tags</td></tr>
-<tr><td>2</td><td>Add <a href="index.html">index.html</a> with tags</td></tr>
-<tr><td>2</td><td>Turn in this assignment</td></tr>
-</table>
+## Completions
 
-</details>
+#### Git Basics & Basic Git Workflows
+
+Item # | Points | Description | Completed
+--- | --- | --- | ---
+1a | 1 | 1st Favorite emoji | ***YOUR_COMPLETIONS***
+1b | 1 | Link to `commit #1 from Github.com` |
+1c | 1 | What does `log` do? |
+2a | 1 | 2nd Favorite emoji |
+2b | 1 | Link to `commit #2 from Github Desktop` |
+2c | 1 | Full path to your working directory |
+2d | 1 | Link to `commit #3 from CLI` |
+2e | 1 | 3rd Favorite emoji |
+2f | 1 | Link to `commit #4 from Atom` |
+3a | 1 | Link to `my-awesome-project` github.com repo page |
+4a | 1 | Link to `my-awesome-project` github.io "project site" |
+Grade | Total | `* .91 = /20` |
 
 
 
