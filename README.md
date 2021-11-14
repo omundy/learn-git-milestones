@@ -63,8 +63,10 @@ Markdown | HTML | Rendered Output
 
 **Now you know basic Markdown!** 🎉  The following instructions will help you learn Git, editing this `.md` file in the process. Feel free to check your syntax in the [github markdown cheatsheet](reference-sheets/github-markdown-cheatsheet.pdf).
 
+Other Markdown tools
 
-
+- [Paste (RTF or rendered HTML) to Markdown](https://euangoddard.github.io/clipboard2markdown/)
+- [HTML to Markdown](https://codebeautify.org/html-to-markdown)
 
 
 ### Fork this repository
