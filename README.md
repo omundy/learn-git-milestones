@@ -29,13 +29,13 @@ Below is a list of tasks. By mid-semester, everyone should...
 ## Instructions
 
 1. Review slides 1–37 of the [Git & Github lecture](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p)...
-1. Complete and check off each task below, creating files and adding content inside the [Completions](#completions) table when prompted with this icon: ✏️
-1. After you finish, celebrate your Git proficiency! 🙌  
+1. Complete each task below, creating files and adding content inside the [Completions](#completions) table when prompted: ✏️
+1. After you finish, celebrate your Git proficiency! 🙌
 
 #### Notes...
 
 - **RTM** - Sometimes I give the command you need and sometimes you have to read the documentation to find it.
-- **Details** - Follow the instructions, especially those with a ✏️
+- **Details** - Follow the instructions.
 - **Classes** - This milestone is made to use with multiple classes; insert your own class name where you see `<your-class-name-here>` (e.g. `dig245-critical-web-design`)
 
 
@@ -74,9 +74,10 @@ Create a Github account and make your first commit on Github.com
 
 1. [Create a Github account](https://github.com/join)
 1. Fork this [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repository (click the Fork button, top right).
-1. ✏️ Edit this `README.md` file (click the pencil icon on the Github.com page) and add your favorite emoji to the [Completions](#completions) table, in the **Completed** column in [row 1a](#completions), below. Tables can be a little tricky in Markdown so make sure you review the docs on tables as well.
-1. ✏️ Commit changes to README.md to the `main` branch with the message `commit #1 from Github.com`.
-1. ✏️ Use [Markdown documentation](https://guides.github.com/features/mastering-markdown/) to add a link in [row 1b](#completions). The link text should be the same as the commit message, and the url should point to the Github.com page showing the above commit.
+1. ✏️ Edit this `README.md` file (click the pencil icon on the Github.com page) and add your favorite emoji to the [Completions](#completions) table, in the **Completed** column in appropriate row in the [completions](#completions), below.
+1. Commit changes to README.md to the `main` branch with the message `commit #1 from Github.com`.
+1. ✏️ Use [Markdown documentation](https://guides.github.com/features/mastering-markdown/) to add a link in [completions](#completions). The link text should be the same as the commit message, and the url should point to the Github.com page showing the above commit.
+1. ✏️ Tables can be a little tricky in Markdown. Find a good link explaining how to use markdown tables. Paste the link in the [Completions](#completions) table.
 1. View the commit history and confirm your edits
 
 
@@ -96,8 +97,8 @@ Install your development environment
 
 ### Configure Git
 
-1. On the command line, confirm Git is installed by typing `git` at the prompt and hitting enter
-1. ✏️ This displays a help file with a list of possible commands. What does `log` do? Add your answer to [row 1c](#completions) below.
+1. On the command line, confirm Git is installed by typing `git` at the prompt and hitting enter. This displays a help file with a list of possible commands.
+1. ✏️ What does `log` do? Add your answer to [completions](#completions).
 1. Add your name and email (replace with your information and press return after each line)
 ```bash
 git config --global user.name "Jane Doe"
@@ -130,11 +131,11 @@ You should be able to ...
 	1. File > Clone Repository > Github.com and select it ...
 	1. Local Path: Click "Choose" and add a new folder on your computer. This will be the base folder for your work in this class (e.g. `dig245-critical-web-design`, `dig250-game-development` )
 	1. Click "Clone" to make a local copy
-1. Open the repo in Atom: Repository > Open in Atom  
-1. ✏️ In Atom, edit this README file and add your *second* favorite emoji to [row 2a](#completions) below.
+1. Open the repo in Atom: Repository > Open in Atom
+1. ✏️ In Atom, edit this README file and add your *second* favorite emoji to [completions](#completions).
 1. In Github Desktop, view/confirm your edits to the README file on the Changes tab
-1. ✏️ Commit your changes directly to the main branch with the message `commit #2 from Github Desktop`. Using Atom, add a link to this commit on Github.com to [row 2b](#completions) below.
-1. Click Push origin to push your new commit to remote repo  
+1. ✏️ Commit your changes directly to the main branch with the message `commit #2 from Github Desktop`. Using Atom, add a link to this commit on Github.com to [completions](#completions).
+1. Click Push origin to push your new commit to remote repo
 1. Confirm the changes to the README file were pushed: Choose Repository > View on Github
 1. Click on the README file and then click on History to see the history of this file
 
@@ -144,19 +145,19 @@ You should have a basic familiarity with the command line to install Git. Some f
 
 1. If you haven't yet, complete the [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course)
 1. In Github Desktop, with the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repo you cloned above selected, click Repository > Open in Terminal ("Bash" in Windows?)
-1. Use the CLI to navigate directories  
+1. Use the CLI to navigate directories
   1. List files in this directory: `ls`
-  1. List files in this directory, including hidden: `ls -la`  
+  1. List files in this directory, including hidden: `ls -la`
   1. Confirm the existence of the `.git` directory (where Git versions and config are stored)
   1. View your current directory and copy the full path: `pwd`
-  1. Open this README file in Atom and paste that path here in [row 2c](#completions) below.
+  1. Open this README file in Atom and paste that path in [completions](#completions).
 1. Use Git on the CLI
   1. [Confirm](https://docs.github.com/en/github/using-git/setting-your-username-in-git) your name and email is correct in the Git config
   1. View the status of your repo: `git status`
   1. View the changed files of your repo: `git diff`
   1. Add all changed files to the staging area `git add .`
   1. View the status of your repo `git status` to confirm it has been staged
-  1. ✏️ Commit your changes with the message `commit #3 from CLI`. Add a link to this commit to [row 2d](#completions) below.
+  1. ✏️ Commit your changes with the message `commit #3 from CLI`. Add a link to this commit to [completions](#completions).
   1. Use `git push` to [push those changes to your remote repo](https://docs.github.com/en/github/using-git/pushing-commits-to-a-remote-repository)
 
 
@@ -169,16 +170,16 @@ You've used most of these already through a GUI (e.g. `git status`, `git add`, `
 ### Git in Atom
 You should be able to ...
 
-1. In Github Desktop, open this repo [learn-git-milestones](https://github.com/omundy/learn-git-milestones) in Atom: Repository > Open in Atom  
-1. ✏️ In Atom, edit this README file and add your *third* favorite emoji to [row 2e](#completions) below.
+1. In Github Desktop, open this repo [learn-git-milestones](https://github.com/omundy/learn-git-milestones) in Atom: Repository > Open in Atom
+1. ✏️ In Atom, edit this README file and add your *third* favorite emoji to [completions](#completions).
 1. ✏️ Create a new file `hello.txt`, add some text and save it.
 1. Display the Git panel (click the small Git button at the bottom right).
 
 ![atom-git-menu](assets/img/atom-git-menu.png)
 
 1. Select on your file(s) in Unstaged changes and confirm your changes match what you expect to see
-1. Double click on each file with changes to stage them  
-1. ✏️ Commit your changes directly to the main branch with the message `commit #4 from Atom`. Add a link to this commit to [row 2f](#completions) below.
+1. Double click on each file with changes to stage them
+1. ✏️ Commit your changes directly to the main branch with the message `commit #4 from Atom`. Add a link to this commit to [completions](#completions).
 
 
 
@@ -199,7 +200,7 @@ You should be able to ...
   1. ✏️ Add a README file: `README.md`
   1. ✏️ In the README write your name and the date
   1. ✏️ Use some [Markdown tags](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-  1. ✏️ Commit your changes and add a link to this repo to [row 3a](#completions) below.
+  1. ✏️ Commit your changes and add a link to this repo to [completions](#completions).
 
 
 
@@ -230,7 +231,7 @@ Create a github.io site for your repository ...
   1. Do not use a theme. Start from scratch
   1. Visit your project site at http://*username*.github.io/my-awesome-project
   1. Update your project, push a new commit, and confirm your updates (note: [changes are not always instant](https://github.com/omundy/dig245-a1/deployments/activity_log?environment=github-pages))
-  1. ✏️ Paste this link to [row 4a](#completions) below.
+  1. ✏️ Paste this link to [completions](#completions).
 
 
 
@@ -258,13 +259,12 @@ That is all that is required for this milestone. See the `ADVANCED.md` file if y
 
 ## Completions
 
-#### Git Basics & Basic Git Workflows
-
 Item # | Points | Description | Completed
 --- | --- | --- | ---
 1a | 1 | 1st Favorite emoji | ***YOUR_COMPLETIONS***
 1b | 1 | Link to `commit #1 from Github.com` |
-1c | 1 | What does `log` do? |
+1c | 1 | Link to markdown tables docs |
+1d | 1 | What does `log` do? |
 2a | 1 | 2nd Favorite emoji |
 2b | 1 | Link to `commit #2 from Github Desktop` |
 2c | 1 | Full path to your working directory |
@@ -273,8 +273,7 @@ Item # | Points | Description | Completed
 2f | 1 | Link to `commit #4 from Atom` |
 3a | 1 | Link to `my-awesome-project` github.com repo page |
 4a | 1 | Link to `my-awesome-project` github.io "project site" |
-Grade | Total | `* .91 = /20` |
-
+Grade | `12` |  |
 
 
 
