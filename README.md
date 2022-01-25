@@ -273,7 +273,7 @@ Item # | Description | Completed
 2f | Link to `commit #4 from Atom` |
 3a | Link to `my-awesome-project` github.com repo page |
 4a | Link to `my-awesome-project` github.io "project site" |
- |  | Total: 0/12
+... | ... | Total: 0/12
 
 
 
