@@ -97,22 +97,31 @@ Install your development environment
 
 ### Configure Git
 
-1. On the command line, confirm Git is installed by typing `git` at the prompt and hitting enter. This displays a help file with a list of possible commands.
-1. ✏️ What does `log` do? Add your answer to [completions](#completions).
-1. Add your name and email (replace with your information and press return after each line)
+1. When you first install or start using Git, verify it is installed by typing `git` on the command line and hitting enter. This displays a help file with a list of possible commands.
+ 	- ✏️ What does `log` do? Add your answer to [completions](#completions).
+2. Then you should update the configuration. Add your name and email (replace with your information and press return after each line)
 ```bash
 git config --global user.name "Jane Doe"
 git config --global user.email janedoe@example.com
 ```
-1. Set the default branch to [main](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main)
+3. Set the [default branch to main](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main)
 ```bash
 git config --global init.defaultBranch main
 ```
-1. Confirm your settings worked with either of these
+4. Set pull to merge ([not rebase](https://stackoverflow.com/a/36587353/441878))
 ```bash
-cat ~/.gitconfig
-git config --list
+git config --global pull.rebase false
 ```
+5. Confirm your global settings worked with either of these [1](https://stackoverflow.com/a/46986031/441878)
+```bash
+# show contents of global config
+cat ~/.gitconfig
+# or show settings and location of each config file (system, global, local)
+git config --list --show-origin
+```
+
+
+
 
 
 
