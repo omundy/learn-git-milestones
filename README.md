@@ -270,7 +270,7 @@ That is all that is required for this milestone. See the `ADVANCED.md` file if y
 
 Item # | Description | Completed
 --- | --- | ---
-1a | 1st Favorite emoji | ADD_TEXT_HERE
+1a | 1st Favorite emoji | ADD_TEXT_TO_THIS_COLUMN
 1b | Link to `commit #1 from Github.com` |
 1c | Link to markdown tables docs |
 1d | What does `log` do? |
@@ -282,7 +282,7 @@ Item # | Description | Completed
 2f | Link to `commit #4 from Atom` |
 3a | Link to `my-awesome-project` github.com repo page |
 4a | Link to `my-awesome-project` github.io "project site" |
-... | ... | Total: 0/12
+
 
 
 
