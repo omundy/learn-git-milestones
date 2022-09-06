@@ -277,12 +277,11 @@ Item # | Description | Completed
 2a | 2nd Favorite emoji | :joy:
 2b | Link to `commit #2 from Github Desktop` | [`commit #2 from Github Desktop`](https://github.com/omundy/learn-git-milestones/commit/f782d3a5353d9e3c2964a126b362f3a36e32937c)
 2c | Full path to your working directory | /Users/bryce/Library/Mobile Documents/com~apple~CloudDocs/Documents/fall 2022/Critical Web Design /learn-git-milestones
-2d | Link to `commit #3 from CLI` | [`commit #3 from Github Desktop`](https://github.com/omundy/learn-git-milestones/commit/2aa6d75e07f05c61d3ffcbda14ae0a6533c1c7a3)
+2d | Link to `commit #3 from CLI` | [`commit #3 from ClI Desktop`](https://github.com/omundy/learn-git-milestones/commit/2aa6d75e07f05c61d3ffcbda14ae0a6533c1c7a3)
 2e | 3rd Favorite emoji | :blush:
-2f | Link to `commit #4 from Atom` |
+2f | Link to `commit #4 from Atom` | [`commit #4 from Atom`](https://github.com/omundy/learn-git-milestones/commit/8f4ad497b6914d5a1819deeaa1beae8343f8de0a)
 3a | Link to `my-awesome-project` github.com repo page |
 4a | Link to `my-awesome-project` github.io "project site" |
-
 
 
 
