@@ -280,8 +280,8 @@ Item # | Description | Completed
 2d | Link to `commit #3 from CLI` | [`commit #3 from ClI Desktop`](https://github.com/omundy/learn-git-milestones/commit/2aa6d75e07f05c61d3ffcbda14ae0a6533c1c7a3)
 2e | 3rd Favorite emoji | :blush:
 2f | Link to `commit #4 from Atom` | [`commit #4 from Atom`](https://github.com/omundy/learn-git-milestones/commit/8f4ad497b6914d5a1819deeaa1beae8343f8de0a)
-3a | Link to `my-awesome-project` github.com repo page |
-4a | Link to `my-awesome-project` github.io "project site" |
+3a | Link to `my-awesome-project` github.com repo page | [`my-awesome-project`](https://github.com/bryce-ka/my-aweome-project)
+4a | Link to `my-awesome-project` github.io "project site" | [I think theres a paywall](https://github.com/bryce-ka/my-aweome-project/settings/pages)
 
 
 
