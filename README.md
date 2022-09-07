@@ -200,11 +200,12 @@ You should be able to ...
   1. Local Path: Click "Choose" and create a new folder `my-awesome-project` inside the `<your-class-name-here>` folder you made above
   1. Click Create Repository
   1. This should now be your class folder's directory structure.
-  ```
+
+  '''
   <your-class-name-here>
     |-- my-awesome-project
     |-- learn-git-milestones
-  ```
+  '''
   1. Open your new repository in Atom (with Github Desktop or drag the `my-awesome-project` project folder onto the Atom icon in your dock)
   1. ✏️ Add a README file: `README.md`
   1. ✏️ In the README write your name and the date
