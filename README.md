@@ -270,9 +270,9 @@ That is all that is required for this milestone. See the `ADVANCED.md` file if y
 
 Item # | Description | Completed
 --- | --- | ---
-1a | 1st Favorite emoji |   :sweat_smile:
+1a | 1st Favorite emoji | 🏀
 1b | Link to `commit #1 from Github.com` | [`commit #1 from Github.com`](https://github.com/omundy/learn-git-milestones/commit/cffca574623a3240685ebf09896d07e4e36caa7b)
-1c | Link to markdown tables docs | [markdown docs](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
+1c | Link to markdown docs | [markdown docs](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
 1d | What does `log` do? | Show commit logs
 2a | 2nd Favorite emoji | :joy:
 2b | Link to `commit #2 from Github Desktop` | [`commit #2 from Github Desktop`](https://github.com/omundy/learn-git-milestones/commit/f782d3a5353d9e3c2964a126b362f3a36e32937c)
