@@ -100,19 +100,26 @@ Install your development environment
 1. When you first install or start using Git, verify it is installed by typing `git` on the command line and hitting enter. This displays a help file with a list of possible commands.
  	- ✏️ What does `log` do? Add your answer to [completions](#completions).
 2. Then you should update the configuration. Add your name and email (replace with your information and press return after each line)
+
 ```bash
 git config --global user.name "Jane Doe"
 git config --global user.email janedoe@example.com
 ```
+
 3. Set the [default branch to main](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main)
+
 ```bash
 git config --global init.defaultBranch main
 ```
+
 4. Set pull to merge ([not rebase](https://stackoverflow.com/a/36587353/441878))
+
 ```bash
 git config --global pull.rebase false
 ```
+
 5. Confirm your global settings worked with either of these [1](https://stackoverflow.com/a/46986031/441878)
+
 ```bash
 # show contents of global config
 cat ~/.gitconfig
@@ -200,11 +207,13 @@ You should be able to ...
   1. Local Path: Click "Choose" and create a new folder `my-awesome-project` inside the `<your-class-name-here>` folder you made above
   1. Click Create Repository
   1. This should now be your class folder's directory structure.
-  ```
+
+  ```html
   <your-class-name-here>
     |-- my-awesome-project
     |-- learn-git-milestones
   ```
+
   1. Open your new repository in Atom (with Github Desktop or drag the `my-awesome-project` project folder onto the Atom icon in your dock)
   1. ✏️ Add a README file: `README.md`
   1. ✏️ In the README write your name and the date
