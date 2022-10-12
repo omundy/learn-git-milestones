@@ -204,6 +204,7 @@ You should be able to ...
 
 1. Create a repository from scratch
   1. ✏️ In Github Desktop, create a new repository with the name: `my-awesome-project`
+  1. Make sure the repository is public *not private* 
   1. Local Path: Click "Choose" and create a new folder `my-awesome-project` inside the `<your-class-name-here>` folder you made above
   1. Click Create Repository
   1. This should now be your class folder's directory structure.
