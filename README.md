@@ -50,7 +50,7 @@ Markdown is a lightweight markup language for creating formatted text using a pl
 
 - It has a [simple syntax](https://www.markdownguide.org/cheat-sheet/) similar to [HTML](https://en.wikipedia.org/wiki/Markdown#Example)
 - It is standard language for formatting README files (what you are currently viewing!)
-- Markdown files use the `.md` extension and can be edited with any plain text editor (e.g. Atom).
+- Markdown files use the `.md` extension and can be edited with any (plain) text editor (e.g. VS Code).
 - Markdown can be previewed using the [Markdown Viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk/related?hl=en) browser extension. (hint: allow `file://` origins)
 
 Markdown | HTML | Rendered Output
@@ -133,31 +133,31 @@ git config --list --show-origin
 
 
 ## Part 2 – Basic Git workflows
-You should be able to perform a basic Git workflow using Github.com, the command line, Github Desktop, and Git in a preferred text editor (e.g. Atom or Visual Studio). These four different interfaces will give you practice and help you understand Git better. You've already forked and made a commit on Github.com so let's move to Github Desktop ...
+You should be able to perform a basic Git workflow using Github.com, the command line, Github Desktop, and Git in a preferred text editor (e.g. VS Code). These four different interfaces will give you practice and help you understand Git better. You've already forked and made a commit on Github.com so let's move to Github Desktop ...
 
 
 ### In Github Desktop
 You should be able to ...
 
-1. Install [Atom](https://atom.io/) on your machine
-	1. Connect your Github account in Atom
+1. Install a [source-code editor](https://en.wikipedia.org/wiki/Source-code_editor) (e.g. [VS Code](https://code.visualstudio.com/)) on your machine
+	1. In VS Code, connect your Github account
 1. Install [Github Desktop](https://desktop.github.com/)
 	1. Connect your Github account in Github Desktop
 	1. In Github Desktop, clone the fork (you made above) [learn-git-milestones](https://github.com/omundy/learn-git-milestones) ...
 	1. File > Clone Repository > Github.com and select it ...
 	1. Local Path: Click "Choose" and add a new folder on your computer. This will be the base folder for your work in this class (e.g. `dig245-critical-web-design`, `dig250-game-development` )
 	1. Click "Clone" to make a local copy
-1. Open the repo in Atom: Repository > Open in Atom
-1. ✏️ In Atom, edit this README file and add your *second* favorite emoji to [completions](#completions).
+1. Open the repo in VS Code: Repository > Open in VS Code (see preferences to change your editor)
+1. ✏️ In VS Code, edit this README file and add your *second* favorite emoji to [completions](#completions).
 1. In Github Desktop, view/confirm your edits to the README file on the Changes tab
-1. ✏️ Commit your changes directly to the main branch with the message `commit #2 from Github Desktop`. Using Atom, add a link to this commit on Github.com to [completions](#completions).
+1. ✏️ Commit your changes directly to the main branch with the message `commit #2 from Github Desktop`. Using VS Code, add a link to this commit on Github.com to [completions](#completions).
 1. Click Push origin to push your new commit to remote repo
 1. Confirm the changes to the README file were pushed: Choose Repository > View on Github
 1. Click on the README file and then click on History to see the history of this file
 
 
 ### Command line interface (CLI)
-You should have a basic familiarity with the command line to install Git. Some folks use the CLI as their default tool for editing and publishing source code, but Atom makes it much easier.
+You should have a basic familiarity with the command line to install Git. Some folks use the CLI as their default tool for editing and publishing source code, but VS Code makes it much easier.
 
 1. If you haven't yet, complete the [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course)
 1. In Github Desktop, with the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repo you cloned above selected, click Repository > Open in Terminal ("Bash" in Windows?)
@@ -166,7 +166,7 @@ You should have a basic familiarity with the command line to install Git. Some f
   1. List files in this directory, including hidden: `ls -la`
   1. Confirm the existence of the `.git` directory (where Git versions and config are stored)
   1. View your current directory and copy the full path: `pwd`
-  1. Open this README file in Atom and paste that path in [completions](#completions).
+  1. Open this README file in VS Code and paste that path in [completions](#completions).
 1. Use Git on the CLI
   1. [Confirm](https://docs.github.com/en/github/using-git/setting-your-username-in-git) your name and email is correct in the Git config
   1. View the status of your repo: `git status`
@@ -183,19 +183,19 @@ You've used most of these already through a GUI (e.g. `git status`, `git add`, `
 
 
 
-### Git in Atom
+### Git in VS Code
 You should be able to ...
 
-1. In Github Desktop, open this repo [learn-git-milestones](https://github.com/omundy/learn-git-milestones) in Atom: Repository > Open in Atom
-1. ✏️ In Atom, edit this README file and add your *third* favorite emoji to [completions](#completions).
+1. In Github Desktop, open this repo [learn-git-milestones](https://github.com/omundy/learn-git-milestones) in VS Code: Repository > Open in VS Code
+1. ✏️ In VS Code, edit this README file and add your *third* favorite emoji to [completions](#completions).
 1. ✏️ Create a new file `hello.txt`, add some text and save it.
 1. Display the Git panel (click the small Git button at the bottom right).
 
-![atom-git-menu](assets/img/atom-git-menu.png)
+![editor-git-menu-vs-code.png](assets/img/editor-git-menu-vs-code.png)
 
 1. Select on your file(s) in Unstaged changes and confirm your changes match what you expect to see
 1. Double click on each file with changes to stage them
-1. ✏️ Commit your changes directly to the main branch with the message `commit #4 from Atom`. Add a link to this commit to [completions](#completions).
+1. ✏️ Commit your changes directly to the main branch with the message `commit #4 from VS Code`. Add a link to this commit to [completions](#completions).
 
 
 
@@ -215,7 +215,7 @@ You should be able to ...
     |-- learn-git-milestones
   ```
 
-  1. Open your new repository in Atom (with Github Desktop or drag the `my-awesome-project` project folder onto the Atom icon in your dock)
+  1. Open your new repository in VS Code (with Github Desktop or drag the `my-awesome-project` project folder onto the VS Code icon in your dock)
   1. ✏️ Add a README file: `README.md`
   1. ✏️ In the README write your name and the date
   1. ✏️ Use some [Markdown tags](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
@@ -289,7 +289,7 @@ Item # | Description | Completed
 2c | Full path to your working directory |
 2d | Link to `commit #3 from CLI` |
 2e | 3rd Favorite emoji |
-2f | Link to `commit #4 from Atom` |
+2f | Link to `commit #4 from VS Code` |
 3a | Link to `my-awesome-project` github.com repo page |
 4a | Link to `my-awesome-project` github.io "project site" |
 
