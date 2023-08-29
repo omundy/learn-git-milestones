@@ -11,24 +11,11 @@ Below is a list of tasks. By mid-semester, everyone should...
 
 
 
-## Contents
-
-1. [Instructions](#instructions)
-1. [Git Basics](#Git-Basics)
-1. [Basic Git workflows](#Basic-Git-Workflows)
-1. [Create a new repository](#Create-a-new-repository)
-1. [Turn in Assignments](#Turn-in-Assignments)
-1. [Git Advanced](#Git-Advanced)
-1. [Grading](#Grading)
-1. [Resources](#Resources)
-
-
-
 
 
 ## Instructions
 
-1. Review the first four sections (Git Introduction, CLI Tutorial, Git Installation, and Git Tutorial) of [Git & Github lecture](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p)...
+1. Review sections 1-4 (Introduction, CLI Tutorial, Install, Git Tutorial) of [Git & Github lecture](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p)
 1. Complete each task below, creating files and adding content inside the [Completions](#completions) table when prompted: ✏️
 1. After you finish, celebrate your Git proficiency! 🙌
 
@@ -36,7 +23,7 @@ Below is a list of tasks. By mid-semester, everyone should...
 
 - **RTM** - Sometimes I give the command you need and sometimes you have to read the documentation to find it.
 - **Details** - Follow the instructions.
-- **Classes** - This milestone is made to use with multiple classes; insert your own class name where you see `<your-class-name-here>` (e.g. `dig245-critical-web-design`)
+- **Classes** - This milestone is made to use with multiple classes; insert your own class name where you see `<your-class-name-here>` (e.g. `critical-web-design`)
 
 
 
@@ -45,7 +32,8 @@ Below is a list of tasks. By mid-semester, everyone should...
 ## Part 1 – Git Basics
 
 
-### Markdown
+### 1-1 Markdown
+
 Markdown is a lightweight markup language for creating formatted text using a plain-text editor.
 
 - It has a [simple syntax](https://www.markdownguide.org/cheat-sheet/) similar to [HTML](https://en.wikipedia.org/wiki/Markdown#Example)
@@ -69,7 +57,9 @@ Other Markdown tools
 - [HTML to Markdown](https://codebeautify.org/html-to-markdown)
 
 
-### Fork this repository
+---
+
+### 1-2 Fork this repository
 Create a Github account and make your first commit on Github.com
 
 1. [Create a Github account](https://github.com/join)
@@ -81,7 +71,10 @@ Create a Github account and make your first commit on Github.com
 1. View the commit history and confirm your edits
 
 
-### Git Installation
+---
+
+### 1-3 Git Installation
+
 Install your development environment
 
 1. Complete the [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course)
@@ -95,7 +88,10 @@ Install your development environment
 1. Install git using Homebrew `brew install git` (unless you are [upgrading](https://ajahne.github.io/blog/tools/2018/06/11/how-to-upgrade-git-mac.html)?)
 <!-- 1. Set your default shell to bash `chsh -s /bin/bash` - You'll be prompted to type a password. The command line doesn't give you feedback that you're typing. Just type your password and hit enter. Backspace a lot if you make a mistake. -->
 
-### Configure Git
+
+---
+
+### 1-4 Configure Git
 
 1. When you first install or start using Git, verify it is installed by typing `git` on the command line and hitting enter. This displays a help file with a list of possible commands.
  	- ✏️ What does `log` do? Add your answer to [completions](#completions).
@@ -133,11 +129,13 @@ git config --list --show-origin
 
 
 ## Part 2 – Basic Git workflows
+
 You should be able to perform a basic Git workflow using Github.com, the command line, Github Desktop, and Git in a preferred text editor (e.g. VS Code). These four different interfaces will give you practice and help you understand Git better. You've already forked and made a commit on Github.com so let's move to Github Desktop ...
 
 
-### In Github Desktop
-You should be able to ...
+---
+
+### 2-1 In Github Desktop
 
 1. Install a [source-code editor](https://en.wikipedia.org/wiki/Source-code_editor) (e.g. [VS Code](https://code.visualstudio.com/)) on your machine
 	1. In VS Code, connect your Github account
@@ -145,7 +143,7 @@ You should be able to ...
 	1. Connect your Github account in Github Desktop
 	1. In Github Desktop, clone the fork (you made above) [learn-git-milestones](https://github.com/omundy/learn-git-milestones) ...
 	1. File > Clone Repository > Github.com and select it ...
-	1. Local Path: Click "Choose" and add a new folder on your computer. This will be the base folder for your work in this class (e.g. `dig245-critical-web-design`, `dig250-game-development` )
+	1. Local Path: Click "Choose" and add a new folder on your computer. This will be the base folder for your work in this class (e.g. `critical-web-design`, `game-development` )
 	1. Click "Clone" to make a local copy
 1. Open the repo in VS Code: Repository > Open in VS Code (see preferences to change your editor)
 1. ✏️ In VS Code, edit this README file and add your *second* favorite emoji to [completions](#completions).
@@ -156,8 +154,11 @@ You should be able to ...
 1. Click on the README file and then click on History to see the history of this file
 
 
-### Command line interface (CLI)
-You should have a basic familiarity with the command line to install Git. Some folks use the CLI as their default tool for editing and publishing source code, but VS Code makes it much easier.
+---
+
+### 2-2 Use Git on the Command line 
+
+You should have a basic familiarity with the command line interface (CLI) to install Git. Some folks use the CLI as their default tool for editing and publishing source code, but Github Desktop makes it much easier.
 
 1. If you haven't yet, complete the [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course)
 1. In Github Desktop, with the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repo you cloned above selected, click Repository > Open in Terminal ("Bash" in Windows?)
@@ -183,8 +184,9 @@ You've used most of these already through a GUI (e.g. `git status`, `git add`, `
 
 
 
-### Git in VS Code
-You should be able to ...
+---
+
+### 2-3 Git in VS Code
 
 1. In Github Desktop, open this repo [learn-git-milestones](https://github.com/omundy/learn-git-milestones) in VS Code: Repository > Open in VS Code
 1. ✏️ In VS Code, edit this README file and add your *third* favorite emoji to [completions](#completions).
@@ -202,32 +204,34 @@ You should be able to ...
 
 ## Part 3 – Create a new repository
 
-1. Create a repository from scratch
-  1. ✏️ In Github Desktop, create a new repository with the name: `my-awesome-project`
-  1. Make sure the repository is public *not private* 
-  1. Local Path: Click "Choose" and create a new folder `my-awesome-project` inside the `<your-class-name-here>` folder you made above
-  1. Click Create Repository
-  1. This should now be your class folder's directory structure.
+Create a new git repository from scratch
 
-  ```html
-  <your-class-name-here>
-    |-- my-awesome-project
-    |-- learn-git-milestones
-  ```
+1. ✏️ In Github Desktop, create a new repository with the name: `first-website`
+1. Make sure the repository is public *not private* 
+1. Local Path: Click "Choose" and create a new folder `first-website` inside the `<your-class-name-here>` folder you made above
+1. Click Create Repository
+1. This should now be your class folder's directory structure.
 
-  1. Open your new repository in VS Code (with Github Desktop or drag the `my-awesome-project` project folder onto the VS Code icon in your dock)
-  1. ✏️ Add a README file: `README.md`
-  1. ✏️ In the README write your name and the date
-  1. ✏️ Use some [Markdown tags](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-  1. ✏️ Commit your changes and add a link to this repo to [completions](#completions).
+```html
+<your-class-name-here>
+|-- first-website
+|-- learn-git-milestones
+```
+
+1. Open your new repository in VS Code (with Github Desktop or drag the `first-website` project folder onto the VS Code icon in your dock)
+1. ✏️ Add a README file: `README.md`
+1. ✏️ In the README write your name and the date
+1. ✏️ Use some [Markdown tags](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+1. ✏️ Commit your changes and add a link to this repo to [completions](#completions).
 
 
 
 
-## Part 4 – Create a Github.io page
-Create a github.io site for your repository ...
+## Part 4 – Publish a web site with Github Pages
 
-1. ✏️ Create a file called `index.html` in your new repo and add the following html
+[Github Pages](https://pages.github.com/) is a free and easy way to host a website from your repository. 
+
+1. ✏️ Create a file called `index.html` in your new repo and add the following code
 
 ```html
 <!DOCTYPE html>
@@ -244,13 +248,12 @@ Create a github.io site for your repository ...
 </html>
 ```
 
-1. Set up a [Github page](https://pages.github.com/) "project site" for your repo
-  1. On Github.com, go to your repo > Settings > Pages
-  1. Select the main branch source and click save
-  1. Do not use a theme. Start from scratch
-  1. Visit your project site at http://*username*.github.io/my-awesome-project
-  1. Update your project, push a new commit, and confirm your updates (note: [changes are not always instant](https://github.com/omundy/dig245-a1/deployments/activity_log?environment=github-pages))
-  1. ✏️ Paste this link to [completions](#completions).
+1. On Github.com, go to your repo > Settings > Pages
+1. Select the main branch source and click save
+1. Do not use a theme. Start from scratch
+1. Visit your project site at http://*username*.github.io/first-website
+1. Update your project, push a new commit, and confirm your updates (note: [deployments](https://github.com/omundy/learn-git-milestones/deployments/github-pages) sometimes take a bit)
+1. ✏️ Paste this link to [completions](#completions).
 
 
 
@@ -258,6 +261,7 @@ Create a github.io site for your repository ...
 
 
 ## Part 5 – Turn in this Assignment
+
 Now that we have basic Git commands out of the way use Git to create and turn in your assignment ...
 
 1. Complete all of the items on this README, making sure all the rows in the "Completed" column contain your information below.
@@ -267,11 +271,11 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 
 
 
-
+<!-- 
 ## Git Advanced
 
 That is all that is required for this milestone. See the `ADVANCED.md` file if you would like to continue learning Git.
-
+ -->
 
 
 
@@ -290,8 +294,8 @@ Item # | Description | Completed
 2d | Link to `commit #3 from CLI` |
 2e | 3rd Favorite emoji |
 2f | Link to `commit #4 from VS Code` |
-3a | Link to `my-awesome-project` github.com repo page |
-4a | Link to `my-awesome-project` github.io "project site" |
+3a | Link to `first-website` github.com repo page |
+4a | Link to `first-website` github.io "project site" |
 
 
 
