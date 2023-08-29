@@ -1,21 +1,14 @@
-
-<img width="400" src="assets/img/logo-git-github.png">
+<!-- 
+<img width="400" src="assets/img/logo-git-github.png"> -->
 
 # Git Milestones
-
-Below is a list of tasks. By mid-semester, everyone should...
-
-- Understand what the task is asking
-- Be able to do the task
-- Make it clear through your actions you understand each concept
-
 
 
 
 
 ## Instructions
 
-1. Review sections 1-4 (Introduction, CLI Tutorial, Install, Git Tutorial) of [Git & Github lecture](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p)
+1. Review sections 1-4 (Introduction, CLI Tutorial, Install, Git Tutorial) of [Git & Github](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p)
 1. Complete each task below, creating files and adding content inside the [Completions](#completions) table when prompted: ✏️
 1. After you finish, celebrate your Git proficiency! 🙌
 
@@ -34,12 +27,12 @@ Below is a list of tasks. By mid-semester, everyone should...
 
 ### 1-1 Markdown
 
-Markdown is a lightweight markup language for creating formatted text using a plain-text editor.
+Markdown is a lightweight markup language used to create rich text.
 
 - It has a [simple syntax](https://www.markdownguide.org/cheat-sheet/) similar to [HTML](https://en.wikipedia.org/wiki/Markdown#Example)
-- It is standard language for formatting README files (what you are currently viewing!)
-- Markdown files use the `.md` extension and can be edited with any (plain) text editor (e.g. VS Code).
-- Markdown can be previewed using the [Markdown Viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk/related?hl=en) browser extension. (hint: allow `file://` origins)
+- It is the standard language for formatting README files (what you are currently viewing!)
+- Files use the `.md` extension and can be edited with any plain text editor (e.g. VS Code).
+- Preview using the VS Code or the [Markdown Viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk/related?hl=en) 
 
 Markdown | HTML | Rendered Output
 --- | --- | ---
@@ -64,7 +57,7 @@ Create a Github account and make your first commit on Github.com
 
 1. [Create a Github account](https://github.com/join)
 1. Fork this [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repository (click the Fork button, top right).
-1. ✏️ Edit this `README.md` file (click the pencil icon on the Github.com page) and add your favorite emoji to the [Completions](#completions) table, in the **Completed** column in appropriate row in the [completions](#completions), below.
+1. ✏️ Edit this `README.md` file (click the pencil icon on the Github.com page) and add your *1st* favorite emoji to the [Completions](#completions) table, in the **Completed** column in appropriate row in the [completions](#completions), below.
 1. Commit changes to README.md to the `main` branch with the message `commit #1 from Github.com`.
 1. ✏️ Use [Markdown documentation](https://guides.github.com/features/mastering-markdown/) to add a link in [completions](#completions). The link text should be the same as the commit message, and the url should point to the Github.com page showing the above commit.
 1. ✏️ Tables can be a little tricky in Markdown. Find a good link explaining how to use markdown tables. Paste the link in the [Completions](#completions) table.
@@ -130,25 +123,34 @@ git config --list --show-origin
 
 ## Part 2 – Basic Git workflows
 
-You should be able to perform a basic Git workflow using Github.com, the command line, Github Desktop, and Git in a preferred text editor (e.g. VS Code). These four different interfaces will give you practice and help you understand Git better. You've already forked and made a commit on Github.com so let's move to Github Desktop ...
+Perform a basic Git workflow using Github.com, the command line, Github Desktop, and Git in a preferred text editor (e.g. VS Code). These four different interfaces will give you practice and help you understand Git better. You've already forked and made a commit on Github.com so let's move to Github Desktop ...
 
 
 ---
 
-### 2-1 In Github Desktop
+### 2-1 Using Github Desktop
 
-1. Install a [source-code editor](https://en.wikipedia.org/wiki/Source-code_editor) (e.g. [VS Code](https://code.visualstudio.com/)) on your machine
-	1. In VS Code, connect your Github account
+#### Setup
+
+1. Install a [source-code editor](https://en.wikipedia.org/wiki/Source-code_editor) (e.g. [VS Code](https://code.visualstudio.com/)) on your machine 
+1. In VS Code connect your Github account
 1. Install [Github Desktop](https://desktop.github.com/)
-	1. Connect your Github account in Github Desktop
-	1. In Github Desktop, clone the fork (you made above) [learn-git-milestones](https://github.com/omundy/learn-git-milestones) ...
-	1. File > Clone Repository > Github.com and select it ...
-	1. Local Path: Click "Choose" and add a new folder on your computer. This will be the base folder for your work in this class (e.g. `critical-web-design`, `game-development` )
-	1. Click "Clone" to make a local copy
+1. Connect your Github account in Github Desktop
+
+#### Clone the fork
+
+1. In Github Desktop, clone the fork (you made above) [learn-git-milestones](https://github.com/omundy/learn-git-milestones) ...
+1. File > Clone Repository > Github.com and select it ...
+1. Local Path: Click "Choose" and add a new folder on your computer. This will be the base folder for your work in this class (e.g. `critical-web-design`, `game-development` )
+1. Click "Clone" to make a local copy
+
+#### Open in VS COde
+
 1. Open the repo in VS Code: Repository > Open in VS Code (see preferences to change your editor)
-1. ✏️ In VS Code, edit this README file and add your *second* favorite emoji to [completions](#completions).
+1. ✏️ In VS Code, edit this README file and add your *2nd* favorite emoji to [completions](#completions).
 1. In Github Desktop, view/confirm your edits to the README file on the Changes tab
-1. ✏️ Commit your changes directly to the main branch with the message `commit #2 from Github Desktop`. Using VS Code, add a link to this commit on Github.com to [completions](#completions).
+1. ✏️ Commit your changes directly to the main branch with the message `commit #2 from Github Desktop`. 
+1. Find a link to the above commit on Github.com and use VS Code to add it to [completions](#completions). Commit your change.
 1. Click Push origin to push your new commit to remote repo
 1. Confirm the changes to the README file were pushed: Choose Repository > View on Github
 1. Click on the README file and then click on History to see the history of this file
@@ -160,22 +162,28 @@ You should be able to perform a basic Git workflow using Github.com, the command
 
 You should have a basic familiarity with the command line interface (CLI) to install Git. Some folks use the CLI as their default tool for editing and publishing source code, but Github Desktop makes it much easier.
 
+#### Setup
+
 1. If you haven't yet, complete the [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course)
 1. In Github Desktop, with the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repo you cloned above selected, click Repository > Open in Terminal ("Bash" in Windows?)
-1. Use the CLI to navigate directories
-  1. List files in this directory: `ls`
-  1. List files in this directory, including hidden: `ls -la`
-  1. Confirm the existence of the `.git` directory (where Git versions and config are stored)
-  1. View your current directory and copy the full path: `pwd`
-  1. Open this README file in VS Code and paste that path in [completions](#completions).
-1. Use Git on the CLI
-  1. [Confirm](https://docs.github.com/en/github/using-git/setting-your-username-in-git) your name and email is correct in the Git config
-  1. View the status of your repo: `git status`
-  1. View the changed files of your repo: `git diff`
-  1. Add all changed files to the staging area `git add .`
-  1. View the status of your repo `git status` to confirm it has been staged
-  1. ✏️ Commit your changes with the message `commit #3 from CLI`. Add a link to this commit to [completions](#completions).
-  1. Use `git push` to [push those changes to your remote repo](https://docs.github.com/en/github/using-git/pushing-commits-to-a-remote-repository)
+
+#### Use the CLI to navigate directories
+
+1. List files in this directory: `ls`
+1. List files in this directory, including hidden: `ls -la`
+1. Confirm the existence of the `.git` directory (where Git versions and config are stored)
+1. View your current directory and copy the full path: `pwd`
+1. Open this README file in VS Code and paste that path in [completions](#completions).
+
+#### Use Git on the CLI
+
+1. [Confirm](https://docs.github.com/en/github/using-git/setting-your-username-in-git) your name and email is correct in the Git config
+1. View the status of your repo: `git status`
+1. View the changed files of your repo: `git diff`
+1. Add all changed files to the staging area `git add .`
+1. View the status of your repo `git status` to confirm it has been staged
+1. ✏️ Commit your changes with the message `commit #3 from CLI`. Add a link to this commit to [completions](#completions).
+1. Use `git push` to [push those changes to your remote repo](https://docs.github.com/en/github/using-git/pushing-commits-to-a-remote-repository)
 
 
 
@@ -189,22 +197,21 @@ You've used most of these already through a GUI (e.g. `git status`, `git add`, `
 ### 2-3 Git in VS Code
 
 1. In Github Desktop, open this repo [learn-git-milestones](https://github.com/omundy/learn-git-milestones) in VS Code: Repository > Open in VS Code
-1. ✏️ In VS Code, edit this README file and add your *third* favorite emoji to [completions](#completions).
+1. ✏️ In VS Code, edit this README file and add your *3rd* favorite emoji to [completions](#completions).
 1. ✏️ Create a new file `hello.txt`, add some text and save it.
 1. Display the Git panel (click the small Git button at the bottom right).
-
-![editor-git-menu-vs-code.png](assets/img/editor-git-menu-vs-code.png)
-
 1. Select on your file(s) in Unstaged changes and confirm your changes match what you expect to see
 1. Double click on each file with changes to stage them
 1. ✏️ Commit your changes directly to the main branch with the message `commit #4 from VS Code`. Add a link to this commit to [completions](#completions).
 
 
+<img src="assets/img/editor-git-menu-vs-code.png" width="400">
+
 
 
 ## Part 3 – Create a new repository
 
-Create a new git repository from scratch
+### 3-1 Create a new git repository from scratch
 
 1. ✏️ In Github Desktop, create a new repository with the name: `first-website`
 1. Make sure the repository is public *not private* 
