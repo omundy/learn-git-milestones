@@ -232,8 +232,6 @@ You've used most of these already through a GUI (e.g. `git status`, `git add`, `
 
 ## 8 – Create a new repository
 
-### 3-1 Create a new git repository from scratch
-
 1. ✏️ In Github Desktop, create a new repository with the name: `first-website`
 1. Make sure the repository is public *not private* 
 1. Local Path: Click "Choose" and create a new folder `first-website` inside the `<your-class-name-here>` folder you made above
