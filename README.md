@@ -191,10 +191,11 @@ Some folks use the CLI as their default tool for editing and publishing source c
 
 ### Use the CLI to navigate directories
 
+
 1. List files in this directory: `ls`
 1. List files in this directory, including hidden: `ls -la`
 1. Confirm the existence of the `.git` directory (where Git versions and config are stored)
-1. View your current directory and copy the full path: `pwd`
+1. ✏️ View your current working directory and copy the full path: `pwd`
 1. Open this README file in VS Code and paste that path in [completions](#completions).
 
 ### Use Git on the CLI
@@ -310,18 +311,18 @@ That is all that is required for this milestone. See the `ADVANCED.md` file if y
 
 Item # | Description | Completed
 --- | --- | ---
-1a | 1st Favorite emoji | ADD_TEXT_TO_THIS_COLUMN
-1b | Link to `commit #1 from Github.com` |
-1c | Link to markdown tables docs |
-1d | What does `log` do? |
-2a | 2nd Favorite emoji |
-2b | Link to `commit #2 from Github Desktop` |
-2c | Full path to your working directory |
-2d | Link to `commit #3 from CLI` |
-2e | 3rd Favorite emoji |
-2f | Link to `commit #4 from VS Code` |
-3a | Link to `first-website` github.com repo page |
-4a | Link to `first-website` github.io "project site" |
+4a | 1st Favorite emoji | ADD_TEXT_TO_THIS_COLUMN
+4b | Link to `commit #1 from Github.com` |
+4c | Link to markdown tables docs |
+4d | What does `log` do? |
+5a | 2nd Favorite emoji |
+5b | Link to `commit #2 from Github Desktop` |
+6a | Full path to your working directory |
+6b | Link to `commit #3 from CLI` |
+7 | 3rd Favorite emoji |
+8 | Link to `commit #4 from VS Code` |
+9a | Link to `first-website` github.com repo page |
+9a | Link to `first-website` github.io "project site" |
 
 
 
