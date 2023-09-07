@@ -18,14 +18,19 @@ Complete each task below, creating files and adding content inside the [completi
 
 
 
-## 1 - Install Git
+## 1. Install Git
 
-⚠️ Complete this [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course) to prepare to install Git on your machine.
+⚠️ Complete the [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course) to prepare to install Git on your machine.
 <!-- https://gist.github.com/derhuerst/1b15ff4652a867391f03 -->
 
-**Windows** - Download and install Git from: [gitforwindows.org](https://gitforwindows.org/). This includes [Git BASH](https://www.atlassian.com/git/tutorials/git-bash).
+### Windows
 
-**Mac** - Install Git using Homebrew 
+Download and install Git from [gitforwindows.org](https://gitforwindows.org/). This includes [Git BASH](https://www.atlassian.com/git/tutorials/git-bash). The default settings should work fine.
+
+### Mac
+
+Install Git using Homebrew using these instructions:
+
 
 1. Copy and run this whole line to Install the [homebrew package manager](https://brew.sh/). If prompted to "Install Command Line Developer Tools?", choose **yes**. 
 
@@ -36,9 +41,8 @@ Complete each task below, creating files and adding content inside the [completi
 2. To confirm installation:
 
 ```bash
-brew doctor
+brew --version
 ```
-
 
 3. Then install git using homebrew:
 
@@ -46,7 +50,6 @@ brew doctor
 brew install git
 ```
 
-Verify Git is installed by typing `git` on the command line and pressing enter. You should see a help file with a list of possible commands.
 
 <!-- 1. Set your default shell to bash `chsh -s /bin/bash` - You'll be prompted to type a password. The command line doesn't give you feedback that you're typing. Just type your password and hit enter. Backspace a lot if you make a mistake. -->
 
@@ -57,39 +60,46 @@ Verify Git is installed by typing `git` on the command line and pressing enter. 
 
 
 
-## 2 - Configure Git
+## 2. Configure Git
 
-1. Check to see if Git is already configured?
+1. This will verify Git is installed by outputing the current version.
+
+```bash
+git --version
+# -> git version 2.38.1
+```
+
+2. Check to see if Git is already configured. If this returns `"No such file or directory"` or you want to update the file then continue to the next step.
 
 ```bash
 cat ~/.gitconfig
 ```
 
-2. Add your name (replace with ***your*** information, press return after each line)
+3. Add your name (replace with ***your*** information, press return after each line)
 
 ```bash
 git config --global user.name "Your Name"
 ```
 
-3. Add your email
+4. Add your email
 
 ```bash
 git config --global user.email youraddress@example.com
 ```
 
-4. Set the [default branch to main](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main)
+5. Set the [default branch to main](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main)
 
 ```bash
 git config --global init.defaultBranch main
 ```
 
-5. Set pull to merge ([not rebase](https://stackoverflow.com/a/36587353/441878))
+6. Set pull to merge ([not rebase](https://stackoverflow.com/a/36587353/441878))
 
 ```bash
 git config --global pull.rebase false
 ```
 
-6. Confirm your global settings worked
+7. Confirm your global settings worked
 
 ```bash
 cat ~/.gitconfig
@@ -103,7 +113,7 @@ git config --list --show-origin -->
 
 
 
-## 3 - Markdown Introduction
+## 3. Markdown Introduction
 
 Markdown is a lightweight markup language for creating rich text.
 
@@ -135,7 +145,7 @@ Other Markdown tools
 
 
 
-## 4 - Fork this repository
+## 4. Fork this repository
 
 Create a Github account and make your first commit on Github.com
 
@@ -152,7 +162,7 @@ Create a Github account and make your first commit on Github.com
 
 
 
-## 5 – Git Workflow > Github Desktop
+## 5. Git Workflow > Github Desktop
 
 Perform a basic Git workflow using Github Desktop. This is the first of four different interfaces to give you practice with Git. You've already forked and made a commit on Github.com so let's move to Github Desktop ...
 
@@ -180,7 +190,7 @@ Perform a basic Git workflow using Github Desktop. This is the first of four dif
 
 
 
-## 6 – Git Workflow > Command line 
+## 6. Git Workflow > Command line 
 
 Some folks use the CLI as their default tool for editing and publishing source code, but Github Desktop makes it much easier.
 
@@ -216,7 +226,7 @@ You've used most of these already through a GUI (e.g. `git status`, `git add`, `
 
 
 
-## 7 - Git Workflow > VS Code
+## 7. Git Workflow > VS Code
 
 1. From Github Desktop, you can open the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repo in VS Code using: Repository > Open in VS Code
 1. ✏️ In VS Code, edit this README file and add your *3rd* favorite emoji to [completions](#completions).
@@ -224,14 +234,14 @@ You've used most of these already through a GUI (e.g. `git status`, `git add`, `
 1. Display the Git panel (click the small Git button at the bottom right).
 1. Select on your file(s) in Unstaged changes and confirm your changes match what you expect to see
 1. Double click on each file with changes to stage them
-1. ✏️ Commit your changes directly to the main branch with the message `commit #4 from VS Code`. Add a link to this commit to [completions](#completions).
+1. ✏️ Commit your changes directly to the main branch with the message `commit #4 from VS Code`. Add a link to this commit to [completions](#completions). 
 
 
-<img src="assets/img/editor-git-menu-vs-code.png" width="400">
+<img src="assets/img/editor-git-menu-vs-code.png" width="400"> 
 
 
 
-## 8 – Create a new repository
+## 8. Create a new repository
 
 1. ✏️ In Github Desktop, create a new repository with the name: `first-website`
 1. Make sure the repository is public *not private* 
@@ -254,7 +264,7 @@ You've used most of these already through a GUI (e.g. `git status`, `git add`, `
 
 
 
-## 9 – Publish a web site with Github Pages
+## 9. Publish a web site with Github Pages
 
 [Github Pages](https://pages.github.com/) is a free and easy way to host a website from your repository. 
 
@@ -287,7 +297,7 @@ You've used most of these already through a GUI (e.g. `git status`, `git add`, `
 
 
 
-## 10 – Turn in this Assignment
+## 10. Turn in this Assignment
 
 Now that we have basic Git commands out of the way use Git to create and turn in your assignment ...
 
@@ -297,12 +307,6 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 1. Paste the github.io link into the appropriate Moodle forum
 
 
-
-<!-- 
-## Git Advanced
-
-That is all that is required for this milestone. See the `ADVANCED.md` file if you would like to continue learning Git.
- -->
 
 
 
@@ -332,11 +336,16 @@ Item # | Description | Completed
 
 Here are some popular tutorials/guides. You should **still look for other ones that you might like better**!
 
-- The class [Git & Github lectures](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p)
+- The Git & Github lectures found in the schedule
 - [Github Desktop Documentation](https://docs.github.com/en/desktop)
 - Github Cheatsheet [HTML](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) and [PDF](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 - [Github Learning Lab](https://lab.github.com/) which contains tutorials like [Introduction to Github](https://lab.github.com/githubtraining/introduction-to-github) and others
 - View forks of this repo http://gitpop2.herokuapp.com/omundy/learn-git-milestones
+
+
+## Git Advanced
+
+That is all that is required for this milestone. See the `ADVANCED.md` file if you would like to continue learning Git.
 
 
 ## Credits
