@@ -17,9 +17,9 @@ An introduction to Git and Github.
 
 
 
-site
 
-## PART 1 - Git Basics
+
+<h2 style="text-align:center">PART 1 - Git Basics</h2>
 
 Install, configure, and peform basic operations
 
