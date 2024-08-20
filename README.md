@@ -19,9 +19,11 @@ An introduction to Git and Github.
 
 
 
-<h2 style="text-align:center">PART 1 - Git Basics</h2>
+# PART 1 - Git Basics
 
 Install, configure, and peform basic operations
+
+
 
 ## 1. Install Git
 
@@ -304,32 +306,68 @@ You've used most of these already through a GUI (e.g. `git status`, `git add`, `
 
 
 
-## PART 2 - Git Collaboration
+# PART 2 - Git Collaboration
 
 Forking, branching, pull requests
 
 
 
-
-
-## Create a branch in Github Desktop
+## 1. Create a branch in Github Desktop
 
 1. Save all your work in VS Code and close your files (this is not required to switch branches, but is a good practice so you don't lose work!). There should be no changes in your repo.
-1. In Github Desktop, click Fetch and then Pull to make sure you are synced with the remote
-1. Click the Branch dropdown to see the other branches in this repo. You should see `main` (your current branch) and one other. Switch to the other branch.
-1. ✏️ Look in VS Code to see the contents of the other branch. Summarize what you see in the completions column.
-1. Switch back to the main branch
-where you can click New Branch
-1. Name the branch ``
+2. In Github Desktop, click Fetch and then Pull to make sure you are synced with the remote
+
+![branch btn](assets/img/github-desktop-branch-btn.png)
+
+3. Click the Branch dropdown (pictured above) to see the other branches in this repo. You should see `main` (your current branch) and one other. Switch to the other branch.
+4. ✏️ Look in VS Code to see the contents of the other branch. Summarize the contents of the `cool-new-feature` file in the completions column.
+
+
+
+## 2. Create a branch in Github Desktop
+
+1. Use Github Desktop to switch back to the main branch.
+1. Click Branch > New Branch... (or use the dropdown)
+1. Name the branch (using no spaces or special characters) using your name + `-changes` (e.g. `owen-changes`)
+1. Add a new file (a graphic or text file) with the same name to the repo.
+1. Commit your changes
+1. Publish your new branch and changes to the Github server
+1. Open your repo on https://github.com and find the branches page.
+1. ✏️ Click on your branch and paste the URL into the completions column.
+
+
+## 3. Create a pull request
+
+> *A pull request (PR) is the standard method to ask another project owner to merge commits from your fork or branch into their project. Since you own this repo you walk through the process on your own.*
+
+1. On your repo Github page, click Pull Request. 
+1. Click New pull request. 
+1. Compare changes between your `main` branch and your new branch. You should see at least one commit listed below, as well as any added or changed files.
+1. Click Create pull request. Then add any comments and click Create pull request again.
+1. On the next page, click Merge pull requests to merge the commits into your `main` branch.
+1. ✏️ Click Insights > Network to see the branch flowchart of your project. Paste the link into the completions below.
+
+
+![pr](assets/img/github-new-pr.png)
+
+
+
+## 4. Suggest changes to a partner's project using a PR
+
+1. Find a partner and discuss a small improvement to one of their class projects (design, code, functionality).
+1. Fork their repository and clone your fork to your computer.
+1. Create a new branch with your name + the name of the improvement.
+1. Make the improvement.
+1. Commit your work to your new branch in your fork.
+1. On on your fork on Github.com click Pull requests > New pull request. This will take you to their repo page where you can see a diff comparing your changes in your `fork:repo` to their base `fork:repo`. 
+1. ✏️ Create the pull requst as you did above. They will receive an email to accept the change. Copy the link to the pull request to the completions table.
 
 
 
 
 
 
-
-
-## 10. Turn in this Assignment
+## Turn in this Assignment
 
 Now that we have basic Git commands out of the way use Git to create and turn in your assignment ...
 
@@ -356,10 +394,10 @@ Row | Item | Description | Completed
 10 | 8 | Link to `commit #4 from VS Code` |
 11 | 9a | Link to `first-website` github.com repo page |
 12 | 9a | Link to `first-website` github.io "project site" |
-13 | 10a | The name of Owen's dev branch | 
+13 | 10a | What is in Owen's dev branch? | 
 14 | 10b | Link to your new branch on github.com | 
-15 | 10c | Link to your pull request github.com | 
-16 | 10d | Link to the commit you made on a partner's github.com repo | 
+15 | 10c | Link to your network graph | 
+16 | 10d | Link to the PR you made on a partner's github.com repo | 
 
 
 
