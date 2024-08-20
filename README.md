@@ -5,18 +5,23 @@
 
 An introduction to Git and Github.
 
+- [PART 1 - Git Basics](#part-1---git-basics) - Install, configure, and peform basic operations
+- [PART 2 - Git Collaboration](#part-2---git-collaboration) - Forking, branching, pull requests
 
 ## Instructions
 
-Complete each task below, creating files and adding content inside the [completions](#completions) table when prompted with a ✏️  - After you finish, celebrate your Git proficiency! 🙌
-
-- Follow the instructions. Review course content as needed.
-- Sometimes I share the command you need, but you may need to read the documentation.
-- This milestone is for multiple classes. Insert your own class name when prompted, for example: `critical-web-design`
-
+1. Complete each task below, creating files and adding content inside the [completions](#completions) table when prompted with a ✏️   
+1. Review course content as needed. Sometimes I share the command you need, but you may need to read the documentation.
+1. This milestone is for multiple classes. Insert your own class name when prompted, for example: `critical-web-design`
+1. After you finish, celebrate your Git proficiency! 🙌
 
 
 
+site
+
+## PART 1 - Git Basics
+
+Install, configure, and peform basic operations
 
 ## 1. Install Git
 
@@ -25,18 +30,21 @@ Complete each task below, creating files and adding content inside the [completi
 
 ### Windows
 
-Download and install Git from [gitforwindows.org](https://gitforwindows.org/). This includes [Git BASH](https://www.atlassian.com/git/tutorials/git-bash). The default settings should work fine.
+1. Download the installer at [gitforwindows.org](https://gitforwindows.org/). 
+1. Run the installer. Use the default settings but make sure to install [Git BASH](https://www.atlassian.com/git/tutorials/git-bash). 
+1. Proceed to "Configure Git"
 
 ### Mac
 
-Install Git using Homebrew using these instructions:
-
+Install Git with Homebrew using these instructions:
 
 1. Copy and run this whole line to Install the [homebrew package manager](https://brew.sh/). If prompted to "Install Command Line Developer Tools?", choose **yes**. 
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+<small>If you are prompted to enter a password the command line doesn't give you feedback that you're typing. Just type your password and hit enter. Press backspace several times if you make a mistake.</small>
 
 2. To confirm installation:
 
@@ -51,7 +59,7 @@ brew install git
 ```
 
 
-<!-- 1. Set your default shell to bash `chsh -s /bin/bash` - You'll be prompted to type a password. The command line doesn't give you feedback that you're typing. Just type your password and hit enter. Backspace a lot if you make a mistake. -->
+
 
 
 
@@ -69,7 +77,7 @@ git --version
 # -> git version 2.38.1
 ```
 
-2. Check to see if Git is already configured. If this returns `"No such file or directory"` or you want to update the file then continue to the next step.
+2. Check to see if Git is already configured. If the following returns `"No such file or directory"` then continue to the next step.
 
 ```bash
 cat ~/.gitconfig
@@ -104,11 +112,6 @@ git config --global pull.rebase false
 ```bash
 cat ~/.gitconfig
 ```
-
-<!-- reference https://stackoverflow.com/a/46986031/441878 -->
-<!-- # or show settings and location of each config file (system, global, local)
-git config --list --show-origin -->
-
 
 
 
@@ -152,11 +155,11 @@ Create a Github account and make your first commit on Github.com
 1. [Create a Github account](https://github.com/join)
 1. Fork this [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repository (click the Fork button, top right).
 1. ✏️ Edit this `README.md` file (click the pencil icon on the Github.com page) and add your *1st* favorite emoji to the [Completions](#completions) table, in the **Completed** column in appropriate row in the [completions](#completions), below.
-1. Commit changes to README.md to the `main` branch with the message `commit #1 from Github.com`.
+1. Commit changes to `README.md` to the `main` branch with the message `commit #1 from Github.com`.
 1. ✏️ Use [Markdown documentation](https://guides.github.com/features/mastering-markdown/) to add a link in [completions](#completions). The link text should be the same as the commit message, and the url should point to the Github.com page showing the above commit.
 1. ✏️ Tables can be a little tricky in Markdown. Find a good link explaining how to use markdown tables. Paste the link in the [Completions](#completions) table.
 1. View the commit history and confirm your edits
-1. ✏️ What does `log` do? Add your answer to [completions](#completions).
+1. ✏️ What does `git log` do? Add your answer to [completions](#completions).
 
 
 
@@ -169,7 +172,7 @@ Perform a basic Git workflow using Github Desktop. This is the first of four dif
 
 ### Setup
 
-1. Install [Github Desktop](https://desktop.github.com/)
+1. Install [Github Desktop](https://desktop.github.com/) on your computer
 1. Connect your Github account in Github Desktop
 1. In Github Desktop, clone the fork (you made above) [learn-git-milestones](https://github.com/omundy/learn-git-milestones) ...
 1. File > Clone Repository > Github.com and select it ...
@@ -178,7 +181,7 @@ Perform a basic Git workflow using Github Desktop. This is the first of four dif
 
 ### Open in VS COde
 
-1. Install [VS Code](https://code.visualstudio.com/)) and connect your Github account
+1. Install [VS Code](https://code.visualstudio.com/) and connect your Github account
 1. Open the repo in VS Code: Repository > Open in VS Code (see preferences to change your editor)
 1. ✏️ In VS Code, edit this README file and add your *2nd* favorite emoji to [completions](#completions).
 1. In Github Desktop, view/confirm your edits to the README file on the Changes tab
@@ -264,7 +267,7 @@ You've used most of these already through a GUI (e.g. `git status`, `git add`, `
 
 
 
-## 9. Publish a web site with Github Pages
+## 9. Publish a website with Github Pages
 
 [Github Pages](https://pages.github.com/) is a free and easy way to host a website from your repository. 
 
@@ -297,6 +300,35 @@ You've used most of these already through a GUI (e.g. `git status`, `git add`, `
 
 
 
+
+
+
+
+## PART 2 - Git Collaboration
+
+Forking, branching, pull requests
+
+
+
+
+
+## Create a branch in Github Desktop
+
+1. Save all your work in VS Code and close your files (this is not required to switch branches, but is a good practice so you don't lose work!). There should be no changes in your repo.
+1. In Github Desktop, click Fetch and then Pull to make sure you are synced with the remote
+1. Click the Branch dropdown to see the other branches in this repo. You should see `main` (your current branch) and one other. Switch to the other branch.
+1. ✏️ Look in VS Code to see the contents of the other branch. Summarize what you see in the completions column.
+1. Switch back to the main branch
+where you can click New Branch
+1. Name the branch ``
+
+
+
+
+
+
+
+
 ## 10. Turn in this Assignment
 
 Now that we have basic Git commands out of the way use Git to create and turn in your assignment ...
@@ -308,25 +340,26 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 
 
 
-
-
-
 ## Completions
 
-Item # | Description | Completed
---- | --- | ---
-4a | 1st Favorite emoji | ADD_TEXT_TO_THIS_COLUMN
-4b | Link to `commit #1 from Github.com` |
-4c | Link to markdown tables docs |
-4d | What does `log` do? |
-5a | 2nd Favorite emoji |
-5b | Link to `commit #2 from Github Desktop` |
-6a | Full path to your working directory |
-6b | Link to `commit #3 from CLI` |
-7 | 3rd Favorite emoji |
-8 | Link to `commit #4 from VS Code` |
-9a | Link to `first-website` github.com repo page |
-9a | Link to `first-website` github.io "project site" |
+Row | Item | Description | Completed
+--- | --- | --- | ---
+1 | 4a | 1st Favorite emoji | ADD_TEXT_HERE
+2 | 4b | Link to `commit #1 from Github.com` |
+3 | 4c | Link to markdown tables docs |
+4 | 4d | What does `log` do? |
+5 | 5a | 2nd Favorite emoji |
+6 | 5b | Link to `commit #2 from Github Desktop` |
+7 | 6a | Full path to your working directory |
+8 | 6b | Link to `commit #3 from CLI` |
+9 | 7 | 3rd Favorite emoji |
+10 | 8 | Link to `commit #4 from VS Code` |
+11 | 9a | Link to `first-website` github.com repo page |
+12 | 9a | Link to `first-website` github.io "project site" |
+13 | 10a | The name of Owen's dev branch | 
+14 | 10b | Link to your new branch on github.com | 
+15 | 10c | Link to your pull request github.com | 
+16 | 10d | Link to the commit you made on a partner's github.com repo | 
 
 
 
@@ -337,15 +370,16 @@ Item # | Description | Completed
 Here are some popular tutorials/guides. You should **still look for other ones that you might like better**!
 
 - The Git & Github lectures found in the schedule
-- [Github Desktop Documentation](https://docs.github.com/en/desktop)
-- Github Cheatsheet [HTML](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) and [PDF](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+- Simple Git commands [cheatsheet](commands.md)
+- [Github Desktop Documentation](https://docs.github.com/en/desktop) and [cheatsheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) ([PDF](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf) format)
 - [Github Learning Lab](https://lab.github.com/) which contains tutorials like [Introduction to Github](https://lab.github.com/githubtraining/introduction-to-github) and others
 - View forks of this repo http://gitpop2.herokuapp.com/omundy/learn-git-milestones
 
 
+
 ## Git Advanced
 
-That is all that is required for this milestone. See the `ADVANCED.md` file if you would like to continue learning Git.
+That is all that is required for this milestone. See the `advanced.md` file if you would like to continue learning Git.
 
 
 ## Credits
