@@ -382,12 +382,12 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 
 Row | Item | Description | Completed
 --- | --- | --- | ---
-1 | 4a | 1st Favorite emoji | ![bang bang emoji](https://images.emojiterra.com/twitter/512px/203c.png)
+1 | 4a | 1st Favorite emoji | ![bang bang emoji!](https://images.emojiterra.com/twitter/512px/203c.png)
 2 | 4b | Link to `commit #1 from Github.com` | [commit #1 from Github.com](https://github.com/phanderson01/learn-git-milestones/commit/96e5ae41be4fee254f4da28dc04fafabd8bb4066)
 3 | 4c | Link to markdown tables docs | [how to use markdown tables](https://github.com/omundy/learn-git-milestones/blob/main/reference-sheets/github-markdown-cheatsheet.pdf)
 4 | 4d | What does `log` do? | git log lets you view the history and search for specific changes
-5 | 5a | 2nd Favorite emoji | ![praying hands emoji](https://static.vecteezy.com/system/resources/previews/020/257/879/non_2x/prayer-hands-emoji-folded-hands-isolated-on-white-vector.jpg)
-6 | 5b | Link to `commit #2 from Github Desktop` |
+5 | 5a | 2nd Favorite emoji | ![praying hands emoji!](https://static.vecteezy.com/system/resources/previews/020/257/879/non_2x/prayer-hands-emoji-folded-hands-isolated-on-white-vector.jpg)
+6 | 5b | Link to `commit #2 from Github Desktop` | 
 7 | 6a | Full path to your working directory |
 8 | 6b | Link to `commit #3 from CLI` |
 9 | 7 | 3rd Favorite emoji |
