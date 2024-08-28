@@ -387,7 +387,7 @@ Row | Item | Description | Completed
 3 | 4c | Link to markdown tables docs | [how to use markdown tables](https://github.com/omundy/learn-git-milestones/blob/main/reference-sheets/github-markdown-cheatsheet.pdf)
 4 | 4d | What does `log` do? | git log lets you view the history and search for specific changes
 5 | 5a | 2nd Favorite emoji | ![praying hands emoji!](https://static.vecteezy.com/system/resources/previews/020/257/879/non_2x/prayer-hands-emoji-folded-hands-isolated-on-white-vector.jpg)
-6 | 5b | Link to `commit #2 from Github Desktop` | 
+6 | 5b | Link to `commit #2 from Github Desktop` | [commit #2 from Github Desktop](https://github.com/phanderson01/learn-git-milestones/commit/fcf805e6cbdfd5010d0437096a9f7c473fec3802) 
 7 | 6a | Full path to your working directory |
 8 | 6b | Link to `commit #3 from CLI` |
 9 | 7 | 3rd Favorite emoji |
