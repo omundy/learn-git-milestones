@@ -391,7 +391,7 @@ Row | Item | Description | Completed
 7 | 6a | Full path to your working directory | /Users/phoebeanderson/Documents/GitHub/learn-git-milestones
 8 | 6b | Link to `commit #3 from CLI` | [commit #3 from CLI](https://github.com/phanderson01/learn-git-milestones/commit/612f060c9e047fbcdf3eff6cba4e1b5b9f062f86)
 9 | 7 | 3rd Favorite emoji | [pensive emoji!](https://images.emojiterra.com/twitter/v13.1/512px/1f614.png)
-10 | 8 | Link to `commit #4 from VS Code` |
+10 | 8 | Link to `commit #4 from VS Code` | [commit #4 from VS Code](https://github.com/phanderson01/learn-git-milestones/commit/75e18a1612a1dceb1ea02840b4c52f393eb3f165)
 11 | 9a | Link to `first-website` github.com repo page |
 12 | 9a | Link to `first-website` github.io "project site" |
 13 | 10a | What is in Owen's dev branch? | 
