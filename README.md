@@ -389,7 +389,7 @@ Row | Item | Description | Completed
 5 | 5a | 2nd Favorite emoji |🤭
 6 | 5b | Link to `commit #2 from Github Desktop` | [commit #2 from Github Desktop](https://github.com/omundy/learn-git-milestones/commit/2783e8923600b0dee8f06938cc5b13c31dbb0dda)
 7 | 6a | Full path to your working directory | /Users/juliasiqueira/Critical Web Design /learn-git-milestones
-8 | 6b | Link to `commit #3 from CLI` |
+8 | 6b | Link to `commit #3 from CLI` | [commit #3 from CLI](https://github.com/omundy/learn-git-milestones/commit/4062a48345b3efb6ba83652974a5be3678e213bd)
 9 | 7 | 3rd Favorite emoji |
 10 | 8 | Link to `commit #4 from VS Code` |
 11 | 9a | Link to `first-website` github.com repo page |
