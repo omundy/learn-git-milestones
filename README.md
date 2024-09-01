@@ -392,9 +392,9 @@ Row | Item | Description | Completed
 8 | 6b | Link to `commit #3 from CLI` | [commit #3 from CLI](https://github.com/omundy/learn-git-milestones/commit/4062a48345b3efb6ba83652974a5be3678e213bd)
 9 | 7 | 3rd Favorite emoji | 🥱
 10 | 8 | Link to `commit #4 from VS Code` | [commit #4 from VS Code](https://github.com/omundy/learn-git-milestones/commit/17799dc3d7732a2667acfb9ac14ffc320bb46c8b)
-11 | 9a | Link to `first-website` github.com repo page | [first website page](https://siqjulia.github.io/first-website/)
-12 | 9a | Link to `first-website` github.io "project site" |
-13 | 10a | What is in Owen's dev branch? | 
+11 | 9a | Link to `first-website` github.com repo page | [first website repo page](https://siqjulia.github.io/first-website/)
+12 | 9a | Link to `first-website` github.io "project site" | [first website page](https://siqjulia.github.io/first-website/)
+13 | 10a | What is in Owen's dev branch? | I believe I just got rick-rolled. That really caught me off guard. 
 14 | 10b | Link to your new branch on github.com | 
 15 | 10c | Link to your network graph | 
 16 | 10d | Link to the PR you made on a partner's github.com repo | 
