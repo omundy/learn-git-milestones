@@ -386,7 +386,7 @@ Row | Item | Description | Completed
 2 | 4b | Link to `commit #1 from Github.com` | [commit #1 from github.com](https://github.com/siqjulia/learn-git-milestones/commit/4783a5b236e34dc6794838d55ec7f71ff05e5383)
 3 | 4c | Link to markdown tables docs | [link to markdown tables documentation](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
 4 | 4d | What does `log` do? | git log shows you a history of the commits you've made to a repository I think, but I'm not sure where to type it in to see the log?
-5 | 5a | 2nd Favorite emoji |
+5 | 5a | 2nd Favorite emoji |🤭
 6 | 5b | Link to `commit #2 from Github Desktop` |
 7 | 6a | Full path to your working directory |
 8 | 6b | Link to `commit #3 from CLI` |
