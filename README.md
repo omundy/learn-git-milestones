@@ -383,8 +383,8 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 Row | Item | Description | Completed
 --- | --- | --- | ---
 1 | 4a | 1st Favorite emoji | 😔
-2 | 4b | Link to `commit #1 from Github.com` |
-3 | 4c | Link to markdown tables docs |
+2 | 4b | Link to `commit #1 from Github.com` | [commit #1 from github.com](https://github.com/siqjulia/learn-git-milestones/commit/4783a5b236e34dc6794838d55ec7f71ff05e5383)
+3 | 4c | Link to markdown tables docs | [link to markdown tables documentation](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
 4 | 4d | What does `log` do? |
 5 | 5a | 2nd Favorite emoji |
 6 | 5b | Link to `commit #2 from Github Desktop` |
