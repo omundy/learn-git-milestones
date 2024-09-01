@@ -382,7 +382,7 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 
 Row | Item | Description | Completed
 --- | --- | --- | ---
-1 | 4a | 1st Favorite emoji | ADD_TEXT_HERE
+1 | 4a | 1st Favorite emoji | 😔
 2 | 4b | Link to `commit #1 from Github.com` |
 3 | 4c | Link to markdown tables docs |
 4 | 4d | What does `log` do? |
