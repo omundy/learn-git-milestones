@@ -391,7 +391,7 @@ Row | Item | Description | Completed
 7 | 6a | Full path to your working directory |/c/Users/harsh/OneDrive/Documents/GitHub/learn-git-milestones-Harsh 
 8 | 6b | Link to `commit #3 from CLI` | https://github.com/Hd-codewizard/learn-git-milestones-Harsh/commit/a447aaeef0e0ce1a896625bc27c65c11ff9cba8b
 9 | 7 | 3rd Favorite emoji |😎
-10 | 8 | Link to `commit #4 from VS Code` |
+10 | 8 | Link to `commit #4 from VS Code` |https://github.com/Hd-codewizard/learn-git-milestones-Harsh/commit/e29f4f4e46120055c282e64c3cfebfbf143fc994 
 11 | 9a | Link to `first-website` github.com repo page |
 12 | 9a | Link to `first-website` github.io "project site" |
 13 | 10a | What is in Owen's dev branch? | 
