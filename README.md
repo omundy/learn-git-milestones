@@ -389,7 +389,7 @@ Row | Item | Description | Completed
 5 | 5a | 2nd Favorite emoji | 😂 
 6 | 5b | Link to `commit #2 from Github Desktop` | https://github.com/Hd-codewizard/learn-git-milestones-Harsh/commit/a14c9fcdd3beca379ef92e925ec818587822ca88 
 7 | 6a | Full path to your working directory |/c/Users/harsh/OneDrive/Documents/GitHub/learn-git-milestones-Harsh 
-8 | 6b | Link to `commit #3 from CLI` |
+8 | 6b | Link to `commit #3 from CLI` | https://github.com/Hd-codewizard/learn-git-milestones-Harsh/commit/a447aaeef0e0ce1a896625bc27c65c11ff9cba8b
 9 | 7 | 3rd Favorite emoji |
 10 | 8 | Link to `commit #4 from VS Code` |
 11 | 9a | Link to `first-website` github.com repo page |
