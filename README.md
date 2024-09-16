@@ -385,7 +385,7 @@ Row | Item | Description | Completed
 1 | 4a | 1st Favorite emoji | :rocket:
 2 | 4b | Link to `commit #1 from Github.com` |[adding rocket emoji](url)
 3 | 4c | Link to markdown tables docs |https://www.codecademy.com/resources/docs/markdown/tables 
-4 | 4d | What does `log` do? |
+4 | 4d | What does `log` do? |Git log keeps the history of commits made 
 5 | 5a | 2nd Favorite emoji |
 6 | 5b | Link to `commit #2 from Github Desktop` |
 7 | 6a | Full path to your working directory |
