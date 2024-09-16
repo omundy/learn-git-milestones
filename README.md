@@ -383,7 +383,7 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 Row | Item | Description | Completed
 --- | --- | --- | ---
 1 | 4a | 1st Favorite emoji | :rocket:
-2 | 4b | Link to `commit #1 from Github.com` |[adding rocket emoji](url)
+2 | 4b | Link to `commit #1 from Github.com` |https://github.com/Hd-codewizard/learn-git-milestones-Harsh/commit/1cde994647bf897c5b6e25f0c970fc4779fecccc
 3 | 4c | Link to markdown tables docs |https://www.codecademy.com/resources/docs/markdown/tables 
 4 | 4d | What does `log` do? |Git log keeps the history of commits made 
 5 | 5a | 2nd Favorite emoji | 😂 
