@@ -393,7 +393,7 @@ Row | Item | Description | Completed
 9 | 7 | 3rd Favorite emoji |😎
 10 | 8 | Link to `commit #4 from VS Code` |https://github.com/Hd-codewizard/learn-git-milestones-Harsh/commit/e29f4f4e46120055c282e64c3cfebfbf143fc994 
 11 | 9a | Link to `first-website` github.com repo page | https://github.com/Hd-codewizard/first-website 
-12 | 9a | Link to `first-website` github.io "project site" |
+12 | 9a | Link to `first-website` github.io "project site" |https://hd-codewizard.github.io/first-website/ 
 13 | 10a | What is in Owen's dev branch? | 
 14 | 10b | Link to your new branch on github.com | 
 15 | 10c | Link to your network graph | 
