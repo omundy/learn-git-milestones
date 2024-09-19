@@ -405,7 +405,7 @@ Forking, branching, pull requests
 
 ## 12. Suggest changes to a partner's project using a PR
 
-1. Find a partner and discuss a small improvement to one of their class projects (design, code, functionality).
+1. Find a partner and discuss a small improvement to their `first-website` (or another) project (design, code, functionality).
 1. Fork their repository and clone your fork to your computer.
 1. Create a new branch with your name + the name of the improvement.
 1. Make the improvement.
