@@ -441,7 +441,7 @@ Row | Step | Description | Completed
 6 | 5-2 | Link to `commit #2 from Github Desktop` | [commit omundy#2 from Github Desktop](https://github.com/khainguyenn/learn-git-milestones/commit/e43d23fb4f80e7d63752300ffd1f9c8478666e1c)
 7 | 6-1 | Full path to your working directory |  /Users/nguyenduckhai/learn-git-milestones
 8 | 6-2 | Link to `commit #3 from CLI` | [commit omundy#3 from CLI](https://github.com/khainguyenn/learn-git-milestones/commit/bfb1e7499710245fe12c8bb0f635b970630c8582)
-9 | 7-1 | Link to `first-website` github.com repo page |
+9 | 7-1 | Link to `first-website` github.com repo page | [Link](https://github.com/khainguyenn/first-website)
 10 | 8-1 | Link to `first-website` github.io "project site" |
 12 | 9-1 | What is in Owen's dev branch? | 
 13 | 10-1 | Link to your new branch on github.com | 
