@@ -438,7 +438,7 @@ Row | Step | Description | Completed
 3 | 4-3 | Link to markdown tables docs | [Markdown Tables Documentation - Codecademy](https://www.codecademy.com/resources/docs/markdown/tables)
 4 | 4-4 | What does `log` do? | *git log shows the commit history of a Git repository, listing past commits with details like commit IDs, messages, authors, and dates.*
 5 | 5-1 | 2nd Favorite emoji | :smiley:
-6 | 5-2 | Link to `commit #2 from Github Desktop` |
+6 | 5-2 | Link to `commit #2 from Github Desktop` | [commit omundy#2 from Github Desktop](https://github.com/khainguyenn/learn-git-milestones/commit/e43d23fb4f80e7d63752300ffd1f9c8478666e1c)
 7 | 6-1 | Full path to your working directory |
 8 | 6-2 | Link to `commit #3 from CLI` |
 9 | 7-1 | Link to `first-website` github.com repo page |
