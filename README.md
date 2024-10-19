@@ -390,7 +390,7 @@ Row | Item | Description | Completed
 6 | 5b | Link to `commit #2 from Github Desktop` | [commit #2 from Github Desktop](https://github.com/phanderson01/learn-git-milestones/commit/fcf805e6cbdfd5010d0437096a9f7c473fec3802) 
 7 | 6a | Full path to your working directory | /Users/phoebeanderson/Documents/GitHub/game development pa/learn-git-milestones
 8 | 6b | Link to `commit #3 from CLI` | [commit #3 from CLI](https://github.com/phanderson01/learn-git-milestones/commit/612f060c9e047fbcdf3eff6cba4e1b5b9f062f86)
-9 | 7 | 3rd Favorite emoji | [pensive emoji!](https://images.emojiterra.com/twitter/v13.1/512px/1f614.png)
+9 | 7 | 3rd Favorite emoji | :pensive_face:
 10 | 8 | Link to `commit #4 from VS Code` | [commit #4 from VS Code](https://github.com/phanderson01/learn-git-milestones/commit/75e18a1612a1dceb1ea02840b4c52f393eb3f165)
 11 | 9a | Link to `first-website` github.com repo page | [first website](https://github.com/phanderson01/first-website)
 12 | 9a | Link to `first-website` github.io "project site" | [first website project site](https://github.com/phanderson01/first-website)
