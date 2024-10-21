@@ -384,10 +384,10 @@ Row | Item | Description | Completed
 --- | --- | --- | ---
 1 | 4a | 1st Favorite emoji | 😁
 2 | 4b | Link to [`commit #1 from Github.com`](https://github.com/Micah125/learn-git-milestones/commits/main/README.md) | Yes
-3 | 4c | Link to [markdown tables docs](https://www.codecademy.com/resources/docs/markdown/tables) | Yes
+3 | 4c | Link to [markdown tables docs](https://www.codecademy.com/resources/docs/markdown/tables) | [markdown tables docs](https://www.codecademy.com/resources/docs/markdown/tables)
 4 | 4d | What does `log` do? | This command in Git  displays a list of the commit history for the current branch or repository such as the commit hash, author , date and the commit message.
 5 | 5a | 2nd Favorite emoji | 🐔
-6 | 5b | Link to [`commit #2 from Github Desktop`](https://github.com/Micah125/learn-git-milestones/commits/main/README.md) |
+6 | 5b | Link to commit #2 from Github Desktop | https://github.com/omundy/learn-git-milestones/commit/58a092d7e041fb5e548b179a2f158fb57b0b2126
 7 | 6a | Full path to your working directory | /Users/micahlp/Documents/GitHub/learn-git-milestones
 8 | 6b | Link to `commit #3 from CLI` | https://github.com/omundy/learn-git-milestones/commit/c5a11bf6e134a013c8ef408c3da243ed13183a00
 9 | 7 | 3rd Favorite emoji |
