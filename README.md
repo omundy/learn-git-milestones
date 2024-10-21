@@ -388,7 +388,7 @@ Row | Item | Description | Completed
 4 | 4d | What does `log` do? | This command in Git  displays a list of the commit history for the current branch or repository such as the commit hash, author , date and the commit message.
 5 | 5a | 2nd Favorite emoji | 🐔
 6 | 5b | Link to [`commit #2 from Github Desktop`](https://github.com/Micah125/learn-git-milestones/commits/main/README.md) |
-7 | 6a | Full path to your working directory |
+7 | 6a | Full path to your working directory | /Users/micahlp/Documents/GitHub/learn-git-milestones
 8 | 6b | Link to `commit #3 from CLI` |
 9 | 7 | 3rd Favorite emoji |
 10 | 8 | Link to `commit #4 from VS Code` |
