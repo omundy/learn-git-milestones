@@ -389,7 +389,7 @@ Row | Item | Description | Completed
 5 | 5a | 2nd Favorite emoji | 🐔
 6 | 5b | Link to [`commit #2 from Github Desktop`](https://github.com/Micah125/learn-git-milestones/commits/main/README.md) |
 7 | 6a | Full path to your working directory | /Users/micahlp/Documents/GitHub/learn-git-milestones
-8 | 6b | Link to `commit #3 from CLI` |
+8 | 6b | Link to `commit #3 from CLI` | https://github.com/omundy/learn-git-milestones/commit/c5a11bf6e134a013c8ef408c3da243ed13183a00
 9 | 7 | 3rd Favorite emoji |
 10 | 8 | Link to `commit #4 from VS Code` |
 11 | 9a | Link to `first-website` github.com repo page |
