@@ -390,14 +390,12 @@ Row | Item | Description | Completed
 6 | 5b | Link to commit #2 from Github Desktop | https://github.com/omundy/learn-git-milestones/commit/58a092d7e041fb5e548b179a2f158fb57b0b2126
 7 | 6a | Full path to your working directory | /Users/micahlp/Documents/GitHub/learn-git-milestones
 8 | 6b | Link to `commit #3 from CLI` | https://github.com/omundy/learn-git-milestones/commit/c5a11bf6e134a013c8ef408c3da243ed13183a00
-9 | 7 | 3rd Favorite emoji |
-10 | 8 | Link to `commit #4 from VS Code` |
-11 | 9a | Link to `first-website` github.com repo page |
-12 | 9a | Link to `first-website` github.io "project site" |
-13 | 10a | What is in Owen's dev branch? | 
-14 | 10b | Link to your new branch on github.com | 
-15 | 10c | Link to your network graph | 
-16 | 10d | Link to the PR you made on a partner's github.com repo | 
+9 | 7-1| Link to `first-website` github.com repo page | https://github.com/Micah125/first-website
+10 | 8-1 | Link to `first-website` github.io "project site" |
+11 | 9-1 | What is in Owen's dev branch? | 
+12 | 10-1 | Link to your new branch on github.com | 
+13 | 11-1 | Link to your network graph | 
+14 | 12-1 | Link to the PR you made on a partner's github.com repo | 
 
 
 
