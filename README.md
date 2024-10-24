@@ -106,7 +106,7 @@ git config --global user.name "Your Name"
 git config --global user.email youraddress@example.com
 ```
 
-5. Set the [default branch to main](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main)
+5. Set the [default branch to main](https://www.zdnet.com/article/github-to-replace-master-with-alternative-term-to-avoid-slavery-references/)
 
 ```bash
 git config --global init.defaultBranch main
@@ -118,11 +118,38 @@ git config --global init.defaultBranch main
 git config --global pull.rebase false
 ```
 
-7. Confirm your global settings worked
+7. If you are on a Mac or Linux you will want to [convert line to `LF` endings](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
+
+```bash
+git config --global core.autocrlf input
+```
+
+Windows users should use the following for `CRLF` endings
+
+```bash
+git config --global core.autocrlf true
+```
+
+
+
+8. Confirm your global settings were saved
 
 ```bash
 cat ~/.gitconfig
 ```
+
+
+<details>
+<summary>Other Git configuration tips</summary>
+
+- [View settings and location of other config files](https://stackoverflow.com/a/46986031/441878) (system, global, local)
+```bash
+git config --list --show-origin
+```
+
+
+</details>
+
 
 
 
