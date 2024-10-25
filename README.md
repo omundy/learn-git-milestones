@@ -118,7 +118,7 @@ git config --global init.defaultBranch main
 git config --global pull.rebase false
 ```
 
-7. If you are on a Mac or Linux you will want to [convert line to `LF` endings](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
+7. If you are on a Mac or Linux you will want to [convert line to `LF` endings](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration) ([more about line endings](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings))
 
 ```bash
 git config --global core.autocrlf input
