@@ -350,7 +350,7 @@ Row | Step | Description | Completed
 9 | 7-1 | [Link to `first-website` github.com repo page](https://github.com/jodyhe04/first-website) |
 10 | 8-1 | [Link to `first-website` github.io "project site"](https://jodyhe04.github.io/first-website/) |
 12 | 9-1 | It’s a readme.md file | 
-13 | 10-1 | Link to your new branch on github.com | 
+13 | 10-1 | [Link to your new branch on github.com](https://github.com/jodyhe04/learn-git-milestones/tree/jody-changes) | 
 14 | 11-1 | Link to your network graph | 
 15 | 12-1 | Link to the PR you made on a partner's github.com repo | 
 
