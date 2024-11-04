@@ -341,9 +341,8 @@ Row | Step | Description | Completed
 --- | --- | --- | ---
 1 | 4-1 | 1st Favorite emoji | 💎
 2 | 4-2 | [Initial commit](https://github.com/jodyhe04/learn-git-milestones/commit/df566a55dd137a7fd91ffd97d02edca52325a33) |
-
-3 | 4-3 | Link to markdown tables docs |
-4 | 4-4 | What does `log` do? |
+3 | 4-3 | https://www.codecademy.com/resources/docs/markdown/tables |
+4 | 4-4 | check commit history and commit id |
 5 | 5-1 | 2nd Favorite emoji |
 6 | 5-2 | Link to `commit #2 from Github Desktop` |
 7 | 6-1 | Full path to your working directory |
