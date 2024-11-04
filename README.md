@@ -339,19 +339,19 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 
 Row | Step | Description | Completed
 --- | --- | --- | ---
-1 | 4-1 | 1st Favorite emoji | ADD_TEXT_HERE
-2 | 4-2 | Link to `commit #1 from Github.com` |
-3 | 4-3 | Link to markdown tables docs |
-4 | 4-4 | What does `log` do? |
-5 | 5-1 | 2nd Favorite emoji |
-6 | 5-2 | Link to `commit #2 from Github Desktop` |
-7 | 6-1 | Full path to your working directory |
-8 | 6-2 | Link to `commit #3 from CLI` |
-9 | 7-1 | Link to `first-website` github.com repo page |
-10 | 8-1 | Link to `first-website` github.io "project site" |
-12 | 9-1 | What is in Owen's dev branch? | 
-13 | 10-1 | Link to your new branch on github.com | 
-14 | 11-1 | Link to your network graph | 
+1 | 4-1 | 1st Favorite emoji | 💎
+2 | 4-2 | [Initial commit](https://github.com/jodyhe04/learn-git-milestones/commit/df566a55dd137a7fd91ffd97d02edca52325a33) |
+3 | 4-3 | https://www.codecademy.com/resources/docs/markdown/tables |
+4 | 4-4 | check commit history and commit id |
+5 | 5-1 | 2nd Favorite emoji | ❤
+6 | 5-2 | https://github.com/jodyhe04/learn-git-milestones/commit/457051dfbc0b58b483a202674235b2b1241bdaa5 |
+7 | 6-1 | /d/DIG250 |
+8 | 6-2 | https://github.com/jodyhe04/learn-git-milestones/commit/9a4dfb75a18d1b24a9ccb0a272a5b71b4638fb4e |
+9 | 7-1 | [Link to `first-website` github.com repo page](https://github.com/jodyhe04/first-website) |
+10 | 8-1 | [Link to `first-website` github.io "project site"](https://jodyhe04.github.io/first-website/) |
+12 | 9-1 | It’s a readme.md file | 
+13 | 10-1 | [Link to your new branch on github.com](https://github.com/jodyhe04/learn-git-milestones/tree/jody-changes) | 
+14 | 11-1 | [Link to your network graph](https://github.com/omundy/learn-git-milestones/network) | 
 15 | 12-1 | Link to the PR you made on a partner's github.com repo | 
 
 
