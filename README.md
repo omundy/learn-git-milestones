@@ -349,7 +349,7 @@ Row | Step | Description | Completed
 8 | 6-2 | https://github.com/jodyhe04/learn-git-milestones/commit/9a4dfb75a18d1b24a9ccb0a272a5b71b4638fb4e |
 9 | 7-1 | [Link to `first-website` github.com repo page](https://github.com/jodyhe04/first-website) |
 10 | 8-1 | [Link to `first-website` github.io "project site"](https://jodyhe04.github.io/first-website/) |
-12 | 9-1 | What is in Owen's dev branch? | 
+12 | 9-1 | It’s a readme.md file | 
 13 | 10-1 | Link to your new branch on github.com | 
 14 | 11-1 | Link to your network graph | 
 15 | 12-1 | Link to the PR you made on a partner's github.com repo | 
