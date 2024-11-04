@@ -344,7 +344,7 @@ Row | Step | Description | Completed
 3 | 4-3 | https://www.codecademy.com/resources/docs/markdown/tables |
 4 | 4-4 | check commit history and commit id |
 5 | 5-1 | 2nd Favorite emoji | ❤
-6 | 5-2 | Link to `commit #2 from Github Desktop` |
+6 | 5-2 | https://github.com/jodyhe04/learn-git-milestones/commit/457051dfbc0b58b483a202674235b2b1241bdaa5 |
 7 | 6-1 | Full path to your working directory |
 8 | 6-2 | Link to `commit #3 from CLI` |
 9 | 7-1 | Link to `first-website` github.com repo page |
