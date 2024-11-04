@@ -345,10 +345,17 @@ Row | Step | Description | Completed
 4 | 4-4 | check commit history and commit id |
 5 | 5-1 | 2nd Favorite emoji | ❤
 <<<<<<< HEAD
+<<<<<<< HEAD
 6 | 5-2 | Link to `commit #2 from Github Desktop` |
 =======
 6 | 5-2 | https://github.com/jodyhe04/learn-git-milestones/commit/457051dfbc0b58b483a202674235b2b1241bdaa5 |
 >>>>>>> df7d7ea48fff62ba8570810f6de73c3ea696ddd6
+=======
+6 | 5-2 | https://github.com/jodyhe04/learn-git-milestones/commit/457051dfbc0b58b483a202674235b2b1241bdaa5 |
+=======
+6 | 5-2 | Link to `commit #2 from Github Desktop` |
+>>>>>>> 7bb76d8 (commit #3 from CLI)
+>>>>>>> 4e0b91a (commit #3 from CLI)
 7 | 6-1 | Full path to your working directory |
 8 | 6-2 | Link to `commit #3 from CLI` |
 9 | 7-1 | Link to `first-website` github.com repo page |
