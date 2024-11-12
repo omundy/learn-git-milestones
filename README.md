@@ -31,9 +31,7 @@ Follow [these instructions](./install-configure.md)
 
 
 
-
-
-## 3. Markdown Introduction
+## 2. Markdown Introduction
 
 Markdown is a lightweight markup language for creating rich text.
 
@@ -68,7 +66,7 @@ Markdown | HTML | Rendered Output
 
 
 
-## 4. Fork this repository
+## 3. Fork this repository
 
 Now that you know markdown, create a Github account and make your first commit on Github.com
 
@@ -85,7 +83,7 @@ Now that you know markdown, create a Github account and make your first commit o
 
 
 
-## 5. Git Workflow > Github Desktop
+## 4. Git Workflow > Github Desktop
 
 With Git installed on your computer you can perform a basic Git workflow using Github Desktop. This is the first of a few different interfaces to give you practice with Git. You've already forked and made a commit on Github.com so let's move to Github Desktop ...
 
@@ -118,7 +116,7 @@ In Github Desktop, clone the fork of this repository that you made above...
 
 
 
-## 6. Git Workflow > Command line 
+## 5. Git Workflow > Command line 
 
 Some folks use the CLI as their default tool for editing and publishing source code, but Github Desktop makes it much easier.
 
@@ -170,7 +168,7 @@ You've used most of these already through a GUI (e.g. `git status`, `git add`, `
 
 
 
-## 7. Create a website with Git
+## 6. Create a website with Git
 
 
 ### Create a new repository in Github Desktop
@@ -242,7 +240,7 @@ A `.gitignore` file will prevent git from adding unwanted files to your reposito
 
 
 
-## 8. Publish a website with Github Pages
+## 7. Publish a website with Github Pages
 
 Now that your files are on Github you can use [Github Pages](https://pages.github.com/), a free and easy way to host a website from your repository. 
 
@@ -269,7 +267,7 @@ Forking, branching, pull requests
 
 
 
-## 9. Create a branch in Github Desktop
+## 8. Create a branch in Github Desktop
 
 1. Save all your work in VS Code and close your files (this is not required to switch branches, but is a good practice so you don't lose work!). There should be no changes in your repo.
 2. In Github Desktop, click Fetch and then Pull to make sure you are synced with the remote
@@ -281,7 +279,7 @@ Forking, branching, pull requests
 
 
 
-## 10. Create a branch in Github Desktop
+## 9. Create a branch in Github Desktop
 
 1. Use Github Desktop to switch back to the main branch.
 1. Click Branch > New Branch... (or use the dropdown)
@@ -293,7 +291,7 @@ Forking, branching, pull requests
 1. ✏️ Click on your branch and paste the URL into the [completions [10-1]](#completions) column.
 
 
-## 11. Create a pull request
+## 10. Create a pull request
 
 > *A pull request (PR) is the standard method to ask another project owner to merge commits from your fork or branch into their project. Since you own this repo you walk through the process on your own.*
 
@@ -309,7 +307,7 @@ Forking, branching, pull requests
 
 
 
-## 12. Suggest changes to a partner's project using a PR
+## 11. Suggest changes to a partner's project using a PR
 
 1. Find a partner and discuss a small improvement to their `first-website` (or another) project (design, code, functionality).
 1. Fork their repository and clone your fork to your computer.
@@ -339,20 +337,20 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 
 Row | Step | Description | Completed
 --- | --- | --- | ---
-1 | 4-1 | 1st Favorite emoji | ADD_TEXT_HERE
-2 | 4-2 | Link to `commit #1 from Github.com` |
-3 | 4-3 | Link to markdown tables docs |
-4 | 4-4 | What does `log` do? |
-5 | 5-1 | 2nd Favorite emoji |
-6 | 5-2 | Link to `commit #2 from Github Desktop` |
-7 | 6-1 | Full path to your working directory |
-8 | 6-2 | Link to `commit #3 from CLI` |
-9 | 7-1 | Link to `first-website` github.com repo page |
-10 | 8-1 | Link to `first-website` github.io "project site" |
-12 | 9-1 | What is in Owen's dev branch? | 
-13 | 10-1 | Link to your new branch on github.com | 
-14 | 11-1 | Link to your network graph | 
-15 | 12-1 | Link to the PR you made on a partner's github.com repo | 
+1 | 3-1 | 1st Favorite emoji | ADD_TEXT_HERE
+2 | 3-2 | Link to `commit #1 from Github.com` |
+3 | 3-3 | Link to markdown tables docs |
+4 | 3-4 | What does `log` do? |
+5 | 4-1 | 2nd Favorite emoji |
+6 | 4-2 | Link to `commit #2 from Github Desktop` |
+7 | 7-1 | Full path to your working directory |
+8 | 7-2 | Link to `commit #3 from CLI` |
+9 | 8-1 | Link to `first-website` github.com repo page |
+10 | 7-1 | Link to `first-website` github.io "project site" |
+12 | 8-1 | What is in Owen's dev branch? | 
+13 | 9-1 | Link to your new branch on github.com | 
+14 | 10-1 | Link to your network graph | 
+15 | 11-1 | Link to the PR you made on a partner's github.com repo | 
 
 
 

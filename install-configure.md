@@ -15,7 +15,8 @@ Use the below instructions to install and configure Git on your computer.
 
 ## Install Git on Mac
 
-Use <a href="https://brew.sh/" target="_blank">Homebrew</a>, a software package management system that simplifies the installation of software on macOS, to install Git, then proceed to [Configure Git](#configure-git).
+<a href="https://brew.sh/" target="_blank">Homebrew</a> is a software package management system that simplifies the installation of software on macOS
+
 
 
 1. Copy and run this whole line to Install Homebrew. 
@@ -26,11 +27,10 @@ Use <a href="https://brew.sh/" target="_blank">Homebrew</a>, a software package 
 
 > If offered to "Install Command Line Developer Tools", choose <code>yes</code>, then continue. The Terminal won't show characters while typing passwords. Backspace several times if you make a mistake.
 
-2. Confirm that Homebrew was installed. It will print the current version.
+2. Confirm that Homebrew was installed. It will print the current version (e.g. `Homebrew 4.4.3...`)
 
 ```bash
 brew --version
-# -> Homebrew 4.4.3-7-g841117a
 ```
 
 3. Then install git using Homebrew 
@@ -38,6 +38,8 @@ brew --version
 ```bash
 brew install git
 ```
+
+4. Proceed to [Configure Git](#configure-git)
 
 
 
@@ -166,4 +168,4 @@ cat ~/.gitconfig
 
 - [First-Time Git Setup](https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup) 
 - [Installing Git – the easy way](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
-
+- [Merging vs. rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
