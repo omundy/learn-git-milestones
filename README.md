@@ -344,9 +344,9 @@ Row | Step | Description | Completed
 5 | 4-1 | 2nd Favorite emoji | 💕
 6 | 4-2 | Link to `commit #2 from Github Desktop` | [commit #2 from Github.com](https://github.com/Winne-inne/learn-git-milestones/commit/be3889190467fca981318db101a3357f0ba00766)
 7 | 7-1 | Full path to your working directory | C:\Users\1ajea\OneDrive\Documents\CriticalWeb\learn-git-milestones
-8 | 7-2 | Link to `commit #3 from CLI` |
-9 | 8-1 | Link to `first-website` github.com repo page |
-10 | 7-1 | Link to `first-website` github.io "project site" |
+8 | 7-2 | Link to `commit #3 from CLI` | [commit #3 from CLI](https://github.com/Winne-inne/learn-git-milestones/commit/a56502bfdfe04abd69dbcb46c8b2efb37b8f382b)
+9 | 8-1 | Link to `first-website` github.com repo page | [Repo](https://github.com/Winne-inne/first-website)
+10 | 7-1 | Link to `first-website` github.io "project site" | [Site](https://winne-inne.github.io/first-website/)
 12 | 8-1 | What is in Owen's dev branch? | 
 13 | 9-1 | Link to your new branch on github.com | 
 14 | 10-1 | Link to your network graph | 
