@@ -343,7 +343,7 @@ Row | Step | Description | Completed
 4 | 3-4 | What does `log` do? | It shows all the commits of the repository
 5 | 4-1 | 2nd Favorite emoji | 💕
 6 | 4-2 | Link to `commit #2 from Github Desktop` | [commit #2 from Github.com](https://github.com/Winne-inne/learn-git-milestones/commit/be3889190467fca981318db101a3357f0ba00766)
-7 | 7-1 | Full path to your working directory |
+7 | 7-1 | Full path to your working directory | C:\Users\1ajea\OneDrive\Documents\CriticalWeb\learn-git-milestones
 8 | 7-2 | Link to `commit #3 from CLI` |
 9 | 8-1 | Link to `first-website` github.com repo page |
 10 | 7-1 | Link to `first-website` github.io "project site" |
