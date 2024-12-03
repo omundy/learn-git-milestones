@@ -338,7 +338,7 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 Row | Step | Description | Completed
 --- | --- | --- | ---
 1 | 3-1 | 1st Favorite emoji | 😒
-2 | 3-2 | Link to `commit #1 from Github.com` | [commit #1 from Github.com](https://github.com/Winne-inne/learn-git-milestones)
+2 | 3-2 | Link to `commit #1 from Github.com` | [commit #1 from Github.com](https://github.com/Winne-inne/learn-git-milestones/commit/1d01ed70930a8a1d1b4ee7de59832b4cc4a47d2f)
 3 | 3-3 | Link to markdown tables docs | [Good Markdown Turorial] (https://htmlmarkdown.com/syntax/markdown-tables/)
 4 | 3-4 | What does `log` do? | It shows all the commits of the repository
 5 | 4-1 | 2nd Favorite emoji | 💕
