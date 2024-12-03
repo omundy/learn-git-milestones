@@ -341,7 +341,7 @@ Row | Step | Description | Completed
 2 | 3-2 | Link to `commit #1 from Github.com` | [commit #1 from Github.com]([https://pages.github.com/](https://github.com/Winne-inne/learn-git-milestones))
 3 | 3-3 | Link to markdown tables docs | [Good Markdown Turorial] (https://htmlmarkdown.com/syntax/markdown-tables/)
 4 | 3-4 | What does `log` do? | It shows all the commits of the repository
-5 | 4-1 | 2nd Favorite emoji |
+5 | 4-1 | 2nd Favorite emoji | 💕
 6 | 4-2 | Link to `commit #2 from Github Desktop` |
 7 | 7-1 | Full path to your working directory |
 8 | 7-2 | Link to `commit #3 from CLI` |
