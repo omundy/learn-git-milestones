@@ -347,7 +347,7 @@ Row | Step | Description | Completed
 8 | 7-2 | Link to `commit #3 from CLI` | [commit #3 from CLI](https://github.com/Winne-inne/learn-git-milestones/commit/a56502bfdfe04abd69dbcb46c8b2efb37b8f382b)
 9 | 8-1 | Link to `first-website` github.com repo page | [Repo](https://github.com/Winne-inne/first-website)
 10 | 7-1 | Link to `first-website` github.io "project site" | [Site](https://winne-inne.github.io/first-website/)
-12 | 8-1 | What is in Owen's dev branch? | 
+12 | 8-1 | What is in Owen's dev branch? | Well, I got Rick-Rolled
 13 | 9-1 | Link to your new branch on github.com | 
 14 | 10-1 | Link to your network graph | 
 15 | 11-1 | Link to the PR you made on a partner's github.com repo | 
