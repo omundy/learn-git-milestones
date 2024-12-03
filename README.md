@@ -348,7 +348,7 @@ Row | Step | Description | Completed
 9 | 8-1 | Link to `first-website` github.com repo page | [Repo](https://github.com/Winne-inne/first-website)
 10 | 7-1 | Link to `first-website` github.io "project site" | [Site](https://winne-inne.github.io/first-website/)
 12 | 8-1 | What is in Owen's dev branch? | Well, I got Rick-Rolled
-13 | 9-1 | Link to your new branch on github.com | 
+13 | 9-1 | Link to your new branch on github.com | https://github.com/Winne-inne/learn-git-milestones/tree/whitney-changes
 14 | 10-1 | Link to your network graph | 
 15 | 11-1 | Link to the PR you made on a partner's github.com repo | 
 
