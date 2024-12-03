@@ -337,7 +337,7 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 
 Row | Step | Description | Completed
 --- | --- | --- | ---
-1 | 3-1 | 1st Favorite emoji | ADD_TEXT_HERE
+1 | 3-1 | 1st Favorite emoji | 😒✋
 2 | 3-2 | Link to `commit #1 from Github.com` |
 3 | 3-3 | Link to markdown tables docs |
 4 | 3-4 | What does `log` do? |
