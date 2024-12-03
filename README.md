@@ -337,19 +337,19 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 
 Row | Step | Description | Completed
 --- | --- | --- | ---
-1 | 3-1 | 1st Favorite emoji | ADD_TEXT_HERE
-2 | 3-2 | Link to `commit #1 from Github.com` |
-3 | 3-3 | Link to markdown tables docs |
-4 | 3-4 | What does `log` do? |
-5 | 4-1 | 2nd Favorite emoji |
-6 | 4-2 | Link to `commit #2 from Github Desktop` |
-7 | 7-1 | Full path to your working directory |
-8 | 7-2 | Link to `commit #3 from CLI` |
-9 | 8-1 | Link to `first-website` github.com repo page |
-10 | 7-1 | Link to `first-website` github.io "project site" |
-12 | 8-1 | What is in Owen's dev branch? | 
-13 | 9-1 | Link to your new branch on github.com | 
-14 | 10-1 | Link to your network graph | 
+1 | 3-1 | 1st Favorite emoji | 😒
+2 | 3-2 | Link to `commit #1 from Github.com` | [commit #1 from Github.com](https://github.com/Winne-inne/learn-git-milestones/commit/1d01ed70930a8a1d1b4ee7de59832b4cc4a47d2f)
+3 | 3-3 | Link to markdown tables docs | [Good Markdown Turorial] (https://htmlmarkdown.com/syntax/markdown-tables/)
+4 | 3-4 | What does `log` do? | It shows all the commits of the repository
+5 | 4-1 | 2nd Favorite emoji | 💕
+6 | 4-2 | Link to `commit #2 from Github Desktop` | [commit #2 from Github.com](https://github.com/Winne-inne/learn-git-milestones/commit/be3889190467fca981318db101a3357f0ba00766)
+7 | 7-1 | Full path to your working directory | C:\Users\1ajea\OneDrive\Documents\CriticalWeb\learn-git-milestones
+8 | 7-2 | Link to `commit #3 from CLI` | [commit #3 from CLI](https://github.com/Winne-inne/learn-git-milestones/commit/a56502bfdfe04abd69dbcb46c8b2efb37b8f382b)
+9 | 8-1 | Link to `first-website` github.com repo page | [Repo](https://github.com/Winne-inne/first-website)
+10 | 7-1 | Link to `first-website` github.io "project site" | [Site](https://winne-inne.github.io/first-website/)
+12 | 8-1 | What is in Owen's dev branch? | Well, I got Rick-Rolled
+13 | 9-1 | Link to your new branch on github.com | [new branch](https://github.com/Winne-inne/learn-git-milestones/tree/whitney-changes)
+14 | 10-1 | Link to your network graph | [graph](https://github.com/Winne-inne/learn-git-milestones/network)
 15 | 11-1 | Link to the PR you made on a partner's github.com repo | 
 
 
