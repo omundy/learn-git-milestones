@@ -270,7 +270,7 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 
 
 
-## Completions (pt.1)
+## Completions
 
 Row | Step | Description | Completed
 --- | --- | --- | ---
@@ -294,6 +294,13 @@ Row | Step | Description | Completed
 # PART 2 - Git Collaboration
 
 Forking, branching, pull requests
+
+
+<details>
+<summary>Steps 8-11</summary>
+
+
+
 
 
 
@@ -363,6 +370,7 @@ Row | Step | Description | Completed
 14 | 11-1 | Link to the PR you made on a partner's github.com repo | 
 
 
+</details>
 
 
 
