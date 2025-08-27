@@ -40,13 +40,13 @@ Markdown is a lightweight markup language for creating rich text.
 - Files use the `.md` extension and can be edited with any plain text editor (e.g. VS Code).
 - Preview using the VS Code or the [Markdown Viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk/related?hl=en) browser extension 
 
-Markdown | HTML | Rendered Output
+Markdown | Output | HTML of output
 --- | --- | ---
-`[link](https://davidson.edu)` | `<a href="https://davidson.edu">link</a>` | [link](https://davidson.edu)
-`**bold text**` | `<b>bold text</b>` | **bold text**
-`*italicized text*` | `<i>italicized text</i>` | *italicized text*
-<code>\`code`</code> | `<code>code</code>` | `code`
-`![text](assets/img/icon.png)` | `<img alt="text" src="assets/img/icon.png">` | ![text](assets/img/icon.png)
+`[link](https://davidson.edu)` | [link](https://davidson.edu) | `<a href="https://davidson.edu">link</a>`
+`**bold text**` | **bold text** | `<b>bold text</b>`
+`*italicized text*` | *italicized text* | `<i>italicized text</i>`
+<code>\`code`</code> | `code` | `<code>code</code>`
+`![text](assets/img/icon.png)` | ![text](assets/img/icon.png) | `<img alt="text" src="assets/img/icon.png">`
 
 🎉 Now you know basic Markdown! Continue with following instructions to learn Git, editing this `.md` file in the process. Use the [github markdown cheatsheet](reference-sheets/github-markdown-cheatsheet.pdf) to check your syntax.
 
@@ -72,12 +72,12 @@ Now that you know markdown, create a Github account and make your first commit o
 
 1. [Create a Github account](https://github.com/join)
 1. Fork this [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repository (click the Fork button, top right).
-1. ✏️ Edit this `README.md` file (click the pencil icon on the Github.com page) and add your *1st* favorite emoji to the **Completed** column in appropriate row in the [completions [4-1]](#completions) section, below.
+1. ✏️ Edit this `README.md` file (click the pencil icon on the Github.com page) and add your *1st* favorite emoji to the **Completed** column in appropriate row in the [completions [3-1]](#completions) section, below.
 1. Commit your changes to this file to the `main` branch with the message `commit #1 from Github.com`.
-1. ✏️ Use [Markdown documentation](https://guides.github.com/features/mastering-markdown/) to add a link in [completions [4-2]](#completions). The link text should be the same as the commit message, and the url should point to the Github.com page showing the above commit.
-1. ✏️ Tables can be a little tricky in Markdown. Use a search engine to find a good link explaining how to use markdown tables and paste it in the [completions [4-3]](#completions) table.
+1. ✏️ Use [Markdown documentation](https://guides.github.com/features/mastering-markdown/) to add a link in [completions [3-2]](#completions). The link text should be the same as the commit message, and the url should point to the Github.com page showing the above commit.
+1. ✏️ Tables can be a little tricky in Markdown. Use a search engine to find a good link explaining how to use markdown tables and paste it in the [completions [3-3]](#completions) table.
 1. View the commit history and confirm your edits
-1. ✏️ What does `git log` do? Add your answer to [completions [4-4]](#completions).
+1. ✏️ What does `git log` do? Add your answer to [completions [3-4]](#completions).
 
 
 
@@ -105,13 +105,13 @@ In Github Desktop, clone the fork of this repository that you made above...
 
 1. Install [VS Code](https://code.visualstudio.com/) on your computer
 1. In Github Desktop, open the repo in VS Code: Repository > Open in VS Code (see preferences to change your editor)
-1. ✏️ In VS Code, edit this README file and add your *2nd* favorite emoji to [completions [5-1]](#completions) and save the file.
+1. ✏️ In VS Code, edit this README file and add your *2nd* favorite emoji to [completions [4-1]](#completions) and save the file.
 1. In Github Desktop, view/confirm your edits to the README file on the Changes tab
 1. Commit your changes directly to the main branch with the message `commit #2 from Github Desktop`. 
 1. Click Push origin to push your new commit to the remote repo
 1. Choose Repository > View on Github.
 1. Click on the README file and then click History to see the history of this file
-1. Click on the above commit (`#2`) and copy the URL. Use VS Code to add it to [completions [5-2]](#completions) . Commit your change in Github Desktop.
+1. Click on the above commit (`#2`) and copy the URL. Use VS Code to add it to [completions [4-2]](#completions) . Commit your change in Github Desktop.
 
 
 
@@ -131,7 +131,7 @@ Some folks use the CLI as their default tool for editing and publishing source c
 1. List files in this directory, including hidden: `ls -la`
 1. Confirm the existence of the `.git` directory (where Git versions and config are stored)
 1. View your current working directory and copy the full path: `pwd`
-1. ✏️ Open this README file in VS Code and paste that path in [completions [6-1]](#completions).
+1. ✏️ Open this README file in VS Code and paste that path in [completions [5-1]](#completions).
 
 
 ### Use Git on the CLI
@@ -141,7 +141,7 @@ Some folks use the CLI as their default tool for editing and publishing source c
 1. View the changed files of your repo: `git diff`
 1. Add all changed files to the staging area `git add .`
 1. View the status of your repo `git status` to confirm it has been staged
-1. ✏️ Commit your changes with the message `commit #3 from CLI`. Add a link to this commit to [completions [6-2]](#completions).
+1. ✏️ Commit your changes with the message `commit #3 from CLI`. Add a link to this commit to [completions [5-2]](#completions).
 1. Use `git push` to [push those changes to your remote repo](https://docs.github.com/en/github/using-git/pushing-commits-to-a-remote-repository)
 
 
@@ -235,7 +235,7 @@ A `.gitignore` file will prevent git from adding unwanted files to your reposito
 1. Make sure the repository is public *not private* 
 1. Click Publish Repository
 1. Choose Repository > View on Github
-1. ✏️ Add a link to this repo on Github to [completions [7-1]](#completions).
+1. ✏️ Add a link to this repo on Github to [completions [6-1]](#completions).
 
 
 
@@ -250,7 +250,7 @@ Now that your files are on Github you can use [Github Pages](https://pages.githu
 1. Do not use a theme. Start from scratch
 1. Wait about 60 seconds and refresh the page. You will see a link at the top that says "Your site is live at..." with a URL that looks like `http://*username*.github.io/first-website`
 1. Update your index.html page with VS Code, push a new commit with Github Desktop, and confirm your updates are live. You can see the status of your deployments from the link on your main repo page.
-1. ✏️ Paste a link to the ***live*** (github.io) website in [completions [8-1]](#completions).
+1. ✏️ Paste a link to the ***live*** (github.io) website in [completions [7-1]](#completions).
 
 
 
@@ -275,7 +275,7 @@ Forking, branching, pull requests
 ![branch btn](assets/img/github-desktop-branch-btn.png)
 
 3. Click the Branch dropdown (pictured above) to see the other branches in this repo. You should see `main` (your current branch) and one other. Switch to the other branch.
-4. ✏️ Look in VS Code to see the contents of the other branch. Summarize the contents of the `cool-new-feature` file in the [completions [9-1]](#completions) column.
+4. ✏️ Look in VS Code to see the contents of the other branch. Summarize the contents of the `cool-new-feature` file in the [completions [8-1]](#completions) column.
 
 
 
@@ -288,7 +288,7 @@ Forking, branching, pull requests
 1. Commit your changes
 1. Publish your new branch and changes to the Github server
 1. Open your repo on https://github.com and find the branches page.
-1. ✏️ Click on your branch and paste the URL into the [completions [10-1]](#completions) column.
+1. ✏️ Click on your branch and paste the URL into the [completions [9-1]](#completions) column.
 
 
 ## 10. Create a pull request
@@ -300,7 +300,7 @@ Forking, branching, pull requests
 1. Compare changes between your `main` branch and your new branch. You should see at least one commit listed below, as well as any added or changed files.
 1. Click Create pull request. Then add any comments and click Create pull request again.
 1. On the next page, click Merge pull requests to merge the commits into your `main` branch.
-1. ✏️ Click Insights > Network to see the branch flowchart of your project. Paste the link into the [completions [11-1]](#completions) below.
+1. ✏️ Click Insights > Network to see the branch flowchart of your project. Paste the link into the [completions [10-1]](#completions) below.
 
 
 ![pr](assets/img/github-new-pr.png)
@@ -315,7 +315,7 @@ Forking, branching, pull requests
 1. Make the improvement.
 1. Commit your work to your new branch in your fork.
 1. On on your fork on Github.com click Pull requests > New pull request. This will take you to their repo page where you can see a diff comparing your changes in your `fork:repo` to their base `fork:repo`. 
-1. ✏️ Create the pull requst as you did above. They will receive an email to accept the change. Copy the link to the pull request to the [completions [12-1]](#completions) table.
+1. ✏️ Create the pull requst as you did above. They will receive an email to accept the change. Copy the link to the pull request to the [completions [11-1]](#completions) table.
 
 
 
@@ -333,7 +333,7 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 
 
 
-## Completions
+## Completions (pt.1)
 
 Row | Step | Description | Completed
 --- | --- | --- | ---
@@ -343,14 +343,19 @@ Row | Step | Description | Completed
 4 | 3-4 | What does `log` do? |
 5 | 4-1 | 2nd Favorite emoji |
 6 | 4-2 | Link to `commit #2 from Github Desktop` |
-7 | 7-1 | Full path to your working directory |
-8 | 7-2 | Link to `commit #3 from CLI` |
-9 | 8-1 | Link to `first-website` github.com repo page |
+7 | 5-1 | Full path to your working directory |
+8 | 5-2 | Link to `commit #3 from CLI` |
+9 | 6-1 | Link to `first-website` github.com repo page |
 10 | 7-1 | Link to `first-website` github.io "project site" |
-12 | 8-1 | What is in Owen's dev branch? | 
-13 | 9-1 | Link to your new branch on github.com | 
-14 | 10-1 | Link to your network graph | 
-15 | 11-1 | Link to the PR you made on a partner's github.com repo | 
+
+## Completions (pt.2)
+
+Row | Step | Description | Completed
+--- | --- | --- | ---
+11 | 8-1 | What is in Owen's dev branch? | 
+12 | 9-1 | Link to your new branch on github.com | 
+13 | 10-1 | Link to your network graph | 
+14 | 11-1 | Link to the PR you made on a partner's github.com repo | 
 
 
 
@@ -367,10 +372,11 @@ Here are some popular tutorials/guides. You should **still look for other ones t
 - View forks of this repo http://gitpop2.herokuapp.com/omundy/learn-git-milestones
 
 
-
+<!-- 
 ## Git Advanced
 
-That is all that is required for this milestone. See the `advanced.md` file if you would like to continue learning Git.
+That is all that is required for this milestone. See the `advanced.md` file if you would like to continue learning Git. 
+-->
 
 
 ## Credits
