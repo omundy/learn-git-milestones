@@ -283,7 +283,7 @@ Row | Step | Description | Completed
 7 | 5-1 | Full path to your working directory | /Users/apple/Documents/GitHub/learn-git-milestones
 8 | 5-2 | Link to `commit #3 from CLI` | [commit #3 from CLI](https://github.com/anushrimodi/learn-git-milestones/commit/c82dbb92ddcfdfd224d5a67dfd2491ecf5cf4f4e)
 9 | 6-1 | Link to `first-website` github.com repo page | [first-website](https://github.com/anushrimodi/first-website)
-10 | 7-1 | Link to `first-website` github.io "project site" |
+10 | 7-1 | Link to `first-website` github.io "project site" | [Anushri's First Website](https://anushrimodi.github.io/first-website/)
 
 
 
