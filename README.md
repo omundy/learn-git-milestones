@@ -280,7 +280,7 @@ Row | Step | Description | Completed
 4 | 3-4 | What does `log` do? | It shows the history of commits in our repository. For each commit, it also displays the commit ID, author, and date.
 5 | 4-1 | 2nd Favorite emoji | ❤️
 6 | 4-2 | Link to `commit #2 from Github Desktop` | [commit #2 from Github.com](https://github.com/anushrimodi/learn-git-milestones/commit/f18a59de10a9dd01b43c28094fcb19e7c9e10fe3)
-7 | 5-1 | Full path to your working directory |
+7 | 5-1 | Full path to your working directory | /Users/apple/Documents/GitHub/learn-git-milestones
 8 | 5-2 | Link to `commit #3 from CLI` |
 9 | 6-1 | Link to `first-website` github.com repo page |
 10 | 7-1 | Link to `first-website` github.io "project site" |
