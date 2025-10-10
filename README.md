@@ -278,7 +278,7 @@ Row | Step | Description | Completed
 2 | 3-2 | Link to `commit #1 from Github.com` |[link to first commit](https://github.com/srijit316/learn-git-milestones/commit/786db8005d3c52eb188b7e367879321696b9079e)
 3 | 3-3 | Link to markdown tables docs | [link](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
 4 | 3-4 | What does `log` do? | `log` displays the history of commits in the repository it is run within. It also seems to show the unique id assigned to each commit in the repo
-5 | 4-1 | 2nd Favorite emoji |
+5 | 4-1 | 2nd Favorite emoji | 😭
 6 | 4-2 | Link to `commit #2 from Github Desktop` |
 7 | 5-1 | Full path to your working directory |
 8 | 5-2 | Link to `commit #3 from CLI` |
