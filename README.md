@@ -282,7 +282,7 @@ Row | Step | Description | Completed
 6 | 4-2 | Link to `commit #2 from Github Desktop` |[link to 2nd commit](https://github.com/srijit316/learn-git-milestones/commit/28b1a4c62a5c0acf524be69f117f8a3930bf4202)
 7 | 5-1 | Full path to your working directory | /Users/srbanerjee/Downloads/DIG250/learn-git-milestones/README.md
 8 | 5-2 | Link to `commit #3 from CLI` | https://github.com/srijit316/learn-git-milestones/commit/a1cab0d3fdf76ac2ba977305df5cc004c9413028
-9 | 6-1 | Link to `first-website` github.com repo page |
+9 | 6-1 | Link to `first-website` github.com repo page | https://github.com/srijit316/first-website
 10 | 7-1 | Link to `first-website` github.io "project site" |
 
 
