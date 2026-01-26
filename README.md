@@ -283,7 +283,7 @@ Row | Step | Description | Completed
 7 | 5-1 | Full path to your working directory | /Users/mariafajardo/Desktop/rad-software/learn-git-milestones
 8 | 5-2 | Link to `commit #3 from CLI` |
 9 | 6-1 | Link to `first-website` github.com repo page | https://github.com/mafajardo23/second-website
-10 | 7-1 | Link to `first-website` github.io "project site" |
+10 | 7-1 | Link to `first-website` github.io "project site" | https://mafajardo23.github.io/second-website/
 
 
 
