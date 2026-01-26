@@ -280,7 +280,7 @@ Row | Step | Description | Completed
 4 | 3-4 | What does `log` do? | Git log helps you look at the history of commits in your repo. It will list all commits (newest first)
 5 | 4-1 | 2nd Favorite emoji | 🩷
 6 | 4-2 | Link to `commit #2 from Github Desktop` | [commit #2 from Github Desktop](3098b44175fd315985587b91e5db4858da5feeff)
-7 | 5-1 | Full path to your working directory |
+7 | 5-1 | Full path to your working directory | /Users/mariafajardo/Desktop/rad-software/learn-git-milestones
 8 | 5-2 | Link to `commit #3 from CLI` |
 9 | 6-1 | Link to `first-website` github.com repo page |
 10 | 7-1 | Link to `first-website` github.io "project site" |
