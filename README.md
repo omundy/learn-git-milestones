@@ -275,15 +275,16 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 Row | Step | Description | Completed
 --- | --- | --- | ---
 1 | 3-1 | 1st Favorite emoji | 🥯
-2 | 3-2 | Link to  |[commit #1 from Github.com](5093f89537fddd8b134fd08e95611a204be7cbcd)
+2 | 3-2 | Link to  |[commit #1 from Github.com](https://github.com/omundy/learn-git-milestones/commit/5093f89537fddd8b134fd08e95611a204be7cbcd)
 3 | 3-3 | Link to markdown tables docs | [This is a link to help with markdown docs](https://www.markdownguide.org/extended-syntax/)
 4 | 3-4 | What does `log` do? | Git log helps you look at the history of commits in your repo. It will list all commits (newest first)
 5 | 4-1 | 2nd Favorite emoji | 🇨🇴
-6 | 4-2 | Link to `commit #2 from Github Desktop` | [commit #2 from Github Desktop](3098b44175fd315985587b91e5db4858da5feeff)
+6 | 4-2 | Link to `commit #2 from Github Desktop` | [commit #2 from Github Desktop](https://github.com/omundy/learn-git-milestones/commit/3098b44175fd315985587b91e5db4858da5feeff)
 7 | 5-1 | Full path to your working directory | /Users/mariafajardo/Desktop/rad-software/learn-git-milestones
-8 | 5-2 | Link to `commit #3 from CLI` |
+8 | 5-2 | Link to `commit #3 from CLI` |  [commit #3 from Github Desktop](https://github.com/omundy/learn-git-milestones/commit/a1fa578b76136220094aa37d7eb7ed7d2af45303)
 9 | 6-1 | Link to `first-website` github.com repo page | https://github.com/mafajardo23/second-website
 10 | 7-1 | Link to `first-website` github.io "project site" | https://mafajardo23.github.io/second-website/
+
 
 
 
