@@ -293,9 +293,9 @@ Forking, branching, pull requests
 
 ## Completions (pt.2)
 
-| Row | Step | Description                                            | Completed |
-| --- | ---- | ------------------------------------------------------ | --------- |
-| 11  | 8-1  | What is in Owen's dev branch?                          |
+| Row | Step | Description                                            | Completed                             |
+| --- | ---- | ------------------------------------------------------ | ------------------------------------- |
+| 11  | 8-1  | What is in Owen's dev branch?                          | Never gonna give you up (Rick Astair) |
 | 12  | 9-1  | Link to your new branch on github.com                  |
 | 13  | 10-1 | Link to your network graph                             |
 | 14  | 11-1 | Link to the PR you made on a partner's github.com repo |
